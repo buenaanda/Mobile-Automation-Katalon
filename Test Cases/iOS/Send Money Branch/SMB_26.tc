@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can proceed in Sender's Information screen with complete informations</description>
+   <name>SMB_26</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f68c6d80-acf6-4bdb-ac85-6679560363cc</testCaseGuid>
+</TestCaseEntity>

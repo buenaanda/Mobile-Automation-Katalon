@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can tap Login button with valid credentials</description>
+   <name>LOG_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d79bbc1-d54a-403c-8723-de71385708cf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can select Occupation</description>
+   <name>SMB_21_22</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc8b84c3-6f3c-4986-ac9e-b6fd563e51ce</testCaseGuid>
+</TestCaseEntity>

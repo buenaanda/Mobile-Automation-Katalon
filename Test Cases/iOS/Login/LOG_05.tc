@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can enter valid OTP</description>
+   <name>LOG_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>105c8b47-738d-44f2-ab86-f625e38a0f0b</testCaseGuid>
+   <variable>
+      <defaultValue>'Allen Crisostomo'</defaultValue>
+      <description></description>
+      <id>4bda9c21-fe6d-4e2b-9391-4d60b0a1e78e</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>

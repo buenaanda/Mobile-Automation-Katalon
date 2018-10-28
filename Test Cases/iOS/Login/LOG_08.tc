@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User cannot login using invalid password</description>
+   <name>LOG_08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3054954-461c-4ae5-a878-c86e7869b5b2</testCaseGuid>
+</TestCaseEntity>

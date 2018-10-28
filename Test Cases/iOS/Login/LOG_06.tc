@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User cannot login using invalid username</description>
+   <name>LOG_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4fea3f85-1bbf-4fc0-a785-aa3bf5f10370</testCaseGuid>
+</TestCaseEntity>

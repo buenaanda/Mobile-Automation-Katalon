@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can proceed using valid details in each required fields</description>
+   <name>SMB_03_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b37660f-15ff-48be-afbe-a85805106ecc</testCaseGuid>
+</TestCaseEntity>

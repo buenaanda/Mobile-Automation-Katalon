@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can enter its Employer's Name</description>
+   <name>SMB_24</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8ca8d5e-6573-416e-a6be-734220e5f61c</testCaseGuid>
+</TestCaseEntity>

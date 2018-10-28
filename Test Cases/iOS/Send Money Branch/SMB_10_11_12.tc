@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can select receiver's Current Country</description>
+   <name>SMB_10_11_12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8ce0972-2f48-41d0-9355-a077d5b6dea3</testCaseGuid>
+</TestCaseEntity>

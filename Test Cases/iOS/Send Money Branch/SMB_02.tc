@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can tap Personal Information button</description>
+   <name>SMB_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f32ceea5-c1ea-4823-863c-dfef7f599505</testCaseGuid>
+</TestCaseEntity>

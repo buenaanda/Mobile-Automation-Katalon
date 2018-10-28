@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can select Source of Funds</description>
+   <name>SMB_23</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67be4f9c-97f3-4658-8f17-ecf0d4983520</testCaseGuid>
+</TestCaseEntity>

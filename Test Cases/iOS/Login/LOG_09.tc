@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User cannot login using &lt;blank> password</description>
+   <name>LOG_09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54eb3fcc-9ce7-45e4-9b06-c661b7e2c79d</testCaseGuid>
+</TestCaseEntity>

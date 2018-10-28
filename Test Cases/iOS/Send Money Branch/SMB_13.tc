@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can enter postal code in Postal field (required)</description>
+   <name>SMB_13</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>629ee7f1-a70a-43ed-804d-b1ee32b1ea72</testCaseGuid>
+</TestCaseEntity>

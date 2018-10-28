@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can tap Recipient Address screen</description>
+   <name>SMB_09</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>475b1607-6481-4697-a146-1abdf28b6907</testCaseGuid>
+</TestCaseEntity>

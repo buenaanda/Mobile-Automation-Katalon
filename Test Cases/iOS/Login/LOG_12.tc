@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can see the Succeeding Login screen</description>
+   <name>LOG_12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34a7a2b2-4e85-4c38-a7e6-189864f80424</testCaseGuid>
+   <variable>
+      <defaultValue>'Allen Pogi Crisostomo'</defaultValue>
+      <description></description>
+      <id>00ea34f6-abd6-4ef8-b44b-d4d9cc4f2048</id>
+      <masked>false</masked>
+      <name>accountNameFull</name>
+   </variable>
+</TestCaseEntity>

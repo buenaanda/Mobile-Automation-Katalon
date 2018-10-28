@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User cannot proceed with incomplete informations</description>
+   <name>SMB_25</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98a4f9f8-3dea-4ad0-bcba-6c9d5356a02e</testCaseGuid>
+</TestCaseEntity>
