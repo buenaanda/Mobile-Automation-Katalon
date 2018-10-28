@@ -3,13 +3,11 @@ package iOS
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import org.junit.After
-import org.openqa.selenium.Keys
-
-import java.awt.RenderingHints.Key
-
+import org.openqa.selenium.JavascriptExecutor
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.exception.StepFailedException
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.mobile.keyword.builtin.HideKeyboardKeyword
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
@@ -79,6 +77,7 @@ public class send_money_screen {
 	@Keyword
 	def enterUnitHouseNumberBuildingStreet(String unitHouseNumberBuildingStreet) {
 		setText(findTestObject("iOS/Send Money screen/UnitHouse NumberBuildingStreet field"), unitHouseNumberBuildingStreet)
+		Mobile.hideKeyboard()
 	}
 
 	@Keyword
@@ -113,8 +112,14 @@ public class send_money_screen {
 
 	@Keyword
 	def enterAmount(String amount) {
+		while(Mobile.getAttribute(findTestObject('iOS/Send Money screen/Amount field'), 'visible', 5) == 'false') {
+			JavascriptExecutor js = (JavascriptExecutor) driver
+			HashMap<String, String> scrollObject = new HashMap<String, String>()
+			scrollObject.put("direction", "down")
+			js.executeScript("mobile: scroll", scrollObject)
+		}	
 		setText(findTestObject('iOS/Send Money screen/Amount field'), amount)
-		driver.getKeyboard().sendKeys(Keys.ENTER)
+		//TO DO
 	}
 
 	@Keyword
@@ -133,15 +138,14 @@ public class send_money_screen {
 
 	def setText(TestObject to, String text) {
 		Mobile.setText(to, text, 5, FailureHandling.STOP_ON_FAILURE)
-		Mobile.hideKeyboard()
 	}
 
 	def select(TestObject to, String value) {
 		tap(to)
-		driver.getKeyboard().sendKeys(value)
+		setText(findTestObject('iOS/Send Money screen/Search here field'), value)
 		tap(findTestObject('iOS/Send Money screen/Search here first result', [('label') : value]))
 	}
-	
+
 	def waitForElementPresent(TestObject to) {
 		Mobile.waitForElementPresent(to, 30)
 	}

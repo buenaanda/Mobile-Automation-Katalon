@@ -2,6 +2,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+
 import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(RunConfiguration.projectDir + GlobalVariable.appPath, false)
@@ -38,24 +39,23 @@ Mobile.startApplication(RunConfiguration.projectDir + GlobalVariable.appPath, fa
 //
 //CustomKeywords.'iOS.send_money_screen.enterPhoneNumber'('021234567')
 
-///
-Mobile.delay(50)
+//CustomKeywords.'iOS.send_money_screen.tapSave'()
+//
+//CustomKeywords.'iOS.send_money_screen.tapCurrentAddress'()
+//
+//CustomKeywords.'iOS.send_money_screen.selectCountry'('India')
+//
+//CustomKeywords.'iOS.send_money_screen.enterPostal'('1442')
+//
+//CustomKeywords.'iOS.send_money_screen.enterUnitHouseNumberBuildingStreet'('503 Tindalo St.')
+//
+//CustomKeywords.'iOS.send_money_screen.selectDestinationCountry'('India')
+
+//CustomKeywords.'iOS.send_money_screen.tapSave'()
 
 ///
-
-CustomKeywords.'iOS.send_money_screen.tapSave'()
-
-CustomKeywords.'iOS.send_money_screen.tapCurrentAddress'()
-
-CustomKeywords.'iOS.send_money_screen.selectCountry'('India')
-
-CustomKeywords.'iOS.send_money_screen.enterPostal'('1442')
-
-CustomKeywords.'iOS.send_money_screen.enterUnitHouseNumberBuildingStreet'('503 Tindalo St.')
-
-CustomKeywords.'iOS.send_money_screen.selectDestinationCountry'('India')
-
-CustomKeywords.'iOS.send_money_screen.tapSave'()
+Mobile.delay(20)
+///
 
 CustomKeywords.'iOS.send_money_screen.enterAmount'('500')
 
