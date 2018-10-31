@@ -117,7 +117,7 @@ public class send_money_screen {
 			HashMap<String, String> scrollObject = new HashMap<String, String>()
 			scrollObject.put("direction", "down")
 			js.executeScript("mobile: scroll", scrollObject)
-		}	
+		}
 		setText(findTestObject('iOS/Send Money screen/Amount field'), amount)
 		//TO DO
 	}
