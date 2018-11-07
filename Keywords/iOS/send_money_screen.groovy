@@ -13,7 +13,7 @@ import global.scroll_to_element
 import global.object
 
 public class send_money_screen {
-	
+
 	private String testObjectPath = 'iOS/Send Money screen/'
 
 	@Keyword
@@ -120,7 +120,7 @@ public class send_money_screen {
 	def tapCurrency() {
 		tap(findTestObject(testObjectPath + 'Currency button'))
 	}
-	
+
 	@Keyword
 	def selectCurrency(String currency) {
 		waitForElementVisible(findTestObject(testObjectPath + 'Select Currency Done button'))
@@ -143,7 +143,7 @@ public class send_money_screen {
 	def tapOK() {
 		tap(findTestObject(testObjectPath + 'OK button'))
 	}
-	
+
 	@Keyword
 	def tapNext() {
 		tap(findTestObject(testObjectPath + 'Next button'))
@@ -160,19 +160,19 @@ public class send_money_screen {
 	def select(TestObject to, String value) {
 		(new object()).select(to, value)
 	}
-	
+
 	def waitForLoaderNotVisible() {
 		(new wait_for_element()).loaderNotVisible()
 	}
-	
+
 	def waitForElementVisible(TestObject to) {
 		(new wait_for_element()).visible(to)
 	}
-	
+
 	def scrollToELementDown(TestObject to) {
 		(new scroll_to_element()).down(to)
 	}
-	
+
 	def selectPickerWheelValue(String value) {
 		(new object()).selectPickerWheelValue(value)
 	}

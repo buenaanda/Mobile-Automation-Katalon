@@ -14,23 +14,23 @@ import io.appium.java_client.MobileElement
 import internal.GlobalVariable
 
 public class object {
-	
+
 	AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 
 	def tap(TestObject to) {
 		Mobile.tap(to, 5, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	def setText(TestObject to, String text) {
 		Mobile.setText(to, text, 5, FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	def select(TestObject to, String value) {
 		tap(to)
 		setText(findTestObject('iOS/Global/Search here field'), value)
 		tap(findTestObject('iOS/Global/Search here first result', [('label') : value]))
 	}
-	
+
 	def selectPickerWheelValue(String value) {
 		MobileElement wheels = driver.findElementByClassName("XCUIElementTypePickerWheel")
 		wheels.sendKeys(value)

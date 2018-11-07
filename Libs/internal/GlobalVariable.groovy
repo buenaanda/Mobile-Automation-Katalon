@@ -48,10 +48,25 @@ public class GlobalVariable {
      */
     public static Object appPath
      
+    /**
+     * <p></p>
+     */
+    public static Object randomFirstName
+     
+    /**
+     * <p></p>
+     */
+    public static Object randomLastName
+     
+    /**
+     * <p></p>
+     */
+    public static Object randomMobileNumber
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['username' : 'allen_15', 'password' : 'Hello!23', 'otp' : '111111', 'invalidUsernamePasswordError' : 'username and password did not match in our records.', 'invalidOTPError' : 'Wrong OTP Code', 'inactiveError' : 'It seems that your been inactive for a while. Please do login again.', 'appPath' : '/Data Files/PeraHub_v3.0.0-Dev.app'])
+        allVariables.put('default', ['username' : 'allen_15', 'password' : 'Hello!23', 'otp' : '111111', 'invalidUsernamePasswordError' : 'username and password did not match in our records.', 'invalidOTPError' : 'Wrong OTP Code', 'inactiveError' : 'It seems that your been inactive for a while. Please do login again.', 'appPath' : '/Data Files/PeraHub_v3.0.0-Dev.app', 'randomFirstName' : '', 'randomLastName' : '', 'randomMobileNumber' : ''])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -63,6 +78,9 @@ public class GlobalVariable {
         invalidOTPError = selectedVariables['invalidOTPError']
         inactiveError = selectedVariables['inactiveError']
         appPath = selectedVariables['appPath']
+        randomFirstName = selectedVariables['randomFirstName']
+        randomLastName = selectedVariables['randomLastName']
+        randomMobileNumber = selectedVariables['randomMobileNumber']
         
     }
 }

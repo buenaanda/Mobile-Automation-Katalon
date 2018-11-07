@@ -141,7 +141,7 @@
       <guid>d8729e39-bdec-436b-b606-9fe290b94daf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/iOS/Send Money Branch/SMB_03_04</testCaseId>
+      <testCaseId>Test Cases/iOS/Send Money Branch/SMB_03</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>83b49c3e-717e-414c-8fa4-1c3dab163414</guid>
@@ -363,7 +363,7 @@
       <guid>a819bcf7-694b-49d4-94d5-74a1d02c8b57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/iOS/Send Money Branch/SMB_03_04</testCaseId>
+      <testCaseId>Test Cases/iOS/Send Money Branch/SMB_03</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c2827dc8-d0dd-41b1-b553-b6959ca41b2a</guid>

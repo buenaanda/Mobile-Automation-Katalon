@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Send Money Branch Test Suite,,,2018-11-07 23:40:46,2018-11-07 23:43:09,2m - 22.705s,ERROR
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_03_04,,User can proceed using valid details in each required fields,2018-11-07 23:40:47,2018-11-07 23:42:58,2m - 11.033s,PASSED
+startApplication,,,2018-11-07 23:40:47,2018-11-07 23:41:53,1m - 6.541s,PASSED
+delay,,,2018-11-07 23:41:53,2018-11-07 23:42:23,30.025s,PASSED
+Statement - firstName = new global.random_data().firstName(),,,2018-11-07 23:42:23,2018-11-07 23:42:24,0.376s,PASSED
+Statement - lastName = new global.random_data().lastName(),,,2018-11-07 23:42:24,2018-11-07 23:42:24,0.202s,PASSED
+Statement - mobileNumber = new global.random_data().mobileNumber(),,,2018-11-07 23:42:24,2018-11-07 23:42:24,0.124s,PASSED
+"Statement - receiverName = firstName + ""  "" + lastName",,,2018-11-07 23:42:24,2018-11-07 23:42:24,0.001s,PASSED
+iOS.send_money_screen.enterFirstName,,,2018-11-07 23:42:24,2018-11-07 23:42:30,5.909s,PASSED
+iOS.send_money_screen.enterLastName,,,2018-11-07 23:42:30,2018-11-07 23:42:36,6.234s,PASSED
+iOS.send_money_screen.enterMobileNumber,,,2018-11-07 23:42:36,2018-11-07 23:42:42,6.208s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-07 23:42:42,2018-11-07 23:42:47,4.862s,PASSED
+global.verify_element.text,,,2018-11-07 23:42:47,2018-11-07 23:42:53,5.802s,PASSED
+global.verify_element.text,,,2018-11-07 23:42:53,2018-11-07 23:42:58,4.435s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_04,,,2018-11-07 23:42:58,2018-11-07 23:43:09,11.305s,ERROR
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-07 23:42:58,2018-11-07 23:43:02,4.645s,PASSED
+"Statement - First_name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Send Money screen/Generic field, [value:internal.GlobalVariable.firstName])",,,2018-11-07 23:43:02,2018-11-07 23:43:02,0.004s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-07 23:43:02,2018-11-07 23:43:09,6.549s,PASSED
+"Statement - Last_name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Send Money screen/Generic field, [value:lastName])",,,2018-11-07 23:43:09,2018-11-07 23:43:09,0.002s,PASSED

@@ -1,0 +1,1009 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 50778
+[Appium]   chromeDriverPort: 50779
+[Appium]   tmpDir: /var/folders/cw/2__wmwwx43d5pwv37mcslbm80000gn/T//Katalon/Appium/Temp1541603589266
+[Appium]   webkitDebugProxyPort: 50776
+[Appium] Appium REST http interface listener started on 0.0.0.0:50778
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 21 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775},"capabilities":{"desiredCapabilities":{"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/devicecon
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775},null,{"desiredCapabilities":{"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLo...
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1541603591930 (23:13:11 GMT+0800 (PST))
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","platformVersion","realDeviceLogger","waitForAppScript","wdaLocalPort"]. Falling back to JSONWP protocol.
+[Appium] Creating new XCUITestDriver (v2.84.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app
+[Appium]   automationName: XCUITest
+[Appium]   deviceId: 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2
+[Appium]   deviceName: iPhone 6s
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: IOS
+[Appium]   platformName: iOS
+[Appium]   platformVersion: 11.4
+[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
+[Appium]   waitForAppScript: true;
+[Appium]   wdaLocalPort: 50775
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"/Users/appleramos/K...
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[debug] [XCUITest] Current user: 'appleramos'
+[debug] [XCUITest] Xcode version set to '9.4.1' (tools v10.0.0.0.1.1535735448)
+[debug] [XCUITest] iOS SDK Version set to '11.4'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1541603592132 (23:13:12 GMT+0800 (PST))
+[iOSSim] Constructing iOS simulator for Xcode version 9.4.1 with udid '6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2'
+[XCUITest] Determining device to run tests on: udid: '6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2', real device: false
+[BaseDriver] Using local app '/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app'
+[debug] [BaseDriver] Event 'appConfigured' logged at 1541603592425 (23:13:12 GMT+0800 (PST))
+[debug] [XCUITest] Checking whether app '/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app' is actually present on file system
+[debug] [XCUITest] App is present
+[debug] [iOS] Getting bundle ID from app '/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app': 'com.whitecloak.PeraHub'
+[debug] [BaseDriver] Event 'resetStarted' logged at 1541603592430 (23:13:12 GMT+0800 (PST))
+[debug] [XCUITest] Reset: noReset is on. Leaving simulator as is
+[debug] [BaseDriver] Event 'resetComplete' logged at 1541603592431 (23:13:12 GMT+0800 (PST))
+[debug] [XCUITest] Starting log capture for iOS Simulator with udid '6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2', using 'xcrun simctl spawn 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 log stream --style compact'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1541603592872 (23:13:12 GMT+0800 (PST))
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] Matched 1 Simulator cache item for cleanup: /Users/appleramos/Library/Developer/CoreSimulator/Devices/6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2/data/Library/Caches/com.apple.mobile.installd.staging
+[debug] [iOSSim] Setting preferences of 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Setting common Simulator preferences to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Updated 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 Simulator preferences at '/Users/appleramos/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2":{"ConnectHardwareKeyboard":false}},"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] The count of running Simulator UI client instances is 1
+[iOSSim] Both Simulator with UDID 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 and the UI client are currently running
+[debug] [BaseDriver] Event 'simStarted' logged at 1541603658341 (23:14:18 GMT+0800 (PST))
+[debug] [XCUITest] Verifying application platform
+[debug] [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+[debug] [XCUITest] App 'com.whitecloak.PeraHub' is already installed. No need to reinstall.
+[debug] [BaseDriver] Event 'appInstalled' logged at 1541603658556 (23:14:18 GMT+0800 (PST))
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 50775 have been found
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [XCUITest] WDA is not listening at 'http://localhost:50775/'
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1541603658645 (23:14:18 GMT+0800 (PST))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/carthage/0.18.1/etc/bash_completion.d/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2, iproxy 50775, 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2.*XCTRunner' for the device 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2...
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 50775' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Using Xcode 9.4.1, so fixing WDA codebase
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 IPHONEOS_DEPLOYMENT_TARGET=11.4' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[debug] [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
+[debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [XCUITest] Log file for xcodebuild test: /var/folders/cw/2__wmwwx43d5pwv37mcslbm80000gn/T/com.apple.dt.XCTest/IDETestRunSession-8134FD66-EA39-47A4-9137-71EEE4F00151/WebDriverAgentRunner-2B7B306D-0E37-4A69-9882-3871D8ED265E/Session-WebDriverAgentRunner-2018-11-07_231421-wc5m6X.log
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50775/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.4\",\n      \"sdkVersion\" : \"11.3\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.4\",\n      \"ip\" : \"172.20.10.2\"\n    },\n    \"build\" : {\n      \"time\" : \"Oct 27 2018 17:23:49\"\n    }\n  },\n  \"sessionId\" : \"4C4391F5-0C62-4B87-8CF6-38B2F8671270\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] WebDriverAgent running on ip '172.20.10.2'
+[debug] [XCUITest] WebDriverAgent successfully started after 6967ms
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1541603665865 (23:14:25 GMT+0800 (PST))
+[debug] [XCUITest] Sending createSession command to WDA
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:50775/session] with body: {"desiredCapabilities":{"bundleId":"com.whitecloak.PeraHub","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","capabilities":{"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub"}},"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1541603668929 (23:14:28 GMT+0800 (PST))
+[debug] [BaseDriver] Event 'wdaStarted' logged at 1541603668929 (23:14:28 GMT+0800 (PST))
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [BaseDriver] Event 'orientationSet' logged at 1541603668930 (23:14:28 GMT+0800 (PST))
+[Appium] New XCUITestDriver session created successfully, session e00b3ede-77f4-4323-a0a3-44bc1d9dae3a added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1541603668935 (23:14:28 GMT+0800 (PST))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"IOS","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2"}
+[HTTP] <-- POST /wd/hub/session 200 77008 ms - 800
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getStatus() with args: []
+[debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 19 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/timeouts
+[HTTP] {"type":"implicit","ms":30000}
+[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/timeouts 400 14 ms - 4300
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getWindowSize() with args: ["current","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getWindowSize'
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size 200 111 ms - 98
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements
+[HTTP] {"using":"xpath","value":"//XCUIElementTypeTextField[@value = 'First name*']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeTextField[@value = 'First name*']","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/elements] with body: {"using":"xpath","value":"//XCUIElementTypeTextField[@value = 'First name*']"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"94000000-0000-0000-E70D-000000000000"}],"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"94000000-0000-0000-E70D-000000000000"}]
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements 200 1103 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 782 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 527 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 534 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 489 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/94000000-0000-0000-E70D-000000000000/location
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getLocation() with args: ["94000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getLocation'
+[debug] [JSONWP Proxy] Proxying [GET /element/94000000-0000-0000-E70D-000000000000/rect] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/94000000-0000-0000-E70D-000000000000/rect] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"y\" : 113,\n    \"x\" : 36,\n    \"width\" : 303,\n    \"height\" : 18\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":36,"y":113}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/94000000-0000-0000-E70D-000000000000/location 200 75 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/94000000-0000-0000-E70D-000000000000/clear
+[HTTP] {"id":"94000000-0000-0000-E70D-000000000000"}
+[debug] [W3C] Calling AppiumDriver.clear() with args: ["94000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'clear'
+[debug] [JSONWP Proxy] Proxying [POST /element/94000000-0000-0000-E70D-000000000000/clear] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/94000000-0000-0000-E70D-000000000000/clear] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"status\" : 0,\n  \"id\" : \"94000000-0000-0000-E70D-000000000000\",\n  \"value\" : \"\",\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\"\n}"
+[debug] [MJSONWP] Responding to client with driver.clear() result: null
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/94000000-0000-0000-E70D-000000000000/clear 200 67 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/94000000-0000-0000-E70D-000000000000/value
+[HTTP] {"id":"94000000-0000-0000-E70D-000000000000","value":["Sigmund"]}
+[debug] [W3C] Calling AppiumDriver.setValue() with args: [["Sigmund"],"94000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'setValue'
+[debug] [JSONWP Proxy] Proxying [POST /element/94000000-0000-0000-E70D-000000000000/value] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/94000000-0000-0000-E70D-000000000000/value] with body: {"value":["S","i","g","m","u","n","d"]}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":"Error Domain=com.facebook.WebDriverAgent Code=1 \"Keyboard is not present\" UserInfo={NSLocalizedDescription=Keyboard is not present}","sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":13}
+[debug] [JSONWP Proxy] Proxying [GET /element/94000000-0000-0000-E70D-000000000000/attribute/type] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/94000000-0000-0000-E70D-000000000000/attribute/type] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"XCUIElementTypeTextField\",\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Cannot type in the text field because of Error: An unknown server-side error occurred while processing the command..
+[XCUITest] Trying to apply a workaround...
+[debug] [BaseDriver] Set implicit wait to 0ms
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element] with body: {"using":"class name","value":"XCUIElementTypeKeyboard"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"26000000-0000-0000-E70D-000000000000"},"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [XCUITest] Keyboard found. Continuing with text input.
+[debug] [BaseDriver] Set implicit wait to 0ms
+[debug] [JSONWP Proxy] Proxying [POST /element/94000000-0000-0000-E70D-000000000000/value] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/94000000-0000-0000-E70D-000000000000/value] with body: {"value":["S","i","g","m","u","n","d"]}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"94000000-0000-0000-E70D-000000000000","value":"","sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B"}
+[debug] [MJSONWP] Responding to client with driver.setValue() result: null
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/94000000-0000-0000-E70D-000000000000/value 200 6872 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getWindowSize() with args: ["current","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getWindowSize'
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size 200 100 ms - 98
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements
+[HTTP] {"using":"xpath","value":"//XCUIElementTypeTextField[@value = 'Last name*']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeTextField[@value = 'Last name*']","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/elements] with body: {"using":"xpath","value":"//XCUIElementTypeTextField[@value = 'Last name*']"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"96000000-0000-0000-E70D-000000000000"}],"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"96000000-0000-0000-E70D-000000000000"}]
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements 200 2060 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 679 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 636 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 624 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 662 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/96000000-0000-0000-E70D-000000000000/location
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getLocation() with args: ["96000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getLocation'
+[debug] [JSONWP Proxy] Proxying [GET /element/96000000-0000-0000-E70D-000000000000/rect] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/96000000-0000-0000-E70D-000000000000/rect] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"y\" : 221,\n    \"x\" : 36,\n    \"width\" : 303,\n    \"height\" : 18\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":36,"y":221}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/96000000-0000-0000-E70D-000000000000/location 200 109 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/96000000-0000-0000-E70D-000000000000/clear
+[HTTP] {"id":"96000000-0000-0000-E70D-000000000000"}
+[debug] [W3C] Calling AppiumDriver.clear() with args: ["96000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'clear'
+[debug] [JSONWP Proxy] Proxying [POST /element/96000000-0000-0000-E70D-000000000000/clear] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/96000000-0000-0000-E70D-000000000000/clear] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"status\" : 0,\n  \"id\" : \"96000000-0000-0000-E70D-000000000000\",\n  \"value\" : \"\",\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\"\n}"
+[debug] [MJSONWP] Responding to client with driver.clear() result: null
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/96000000-0000-0000-E70D-000000000000/clear 200 117 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/96000000-0000-0000-E70D-000000000000/value
+[HTTP] {"id":"96000000-0000-0000-E70D-000000000000","value":["Kertzmann"]}
+[debug] [W3C] Calling AppiumDriver.setValue() with args: [["Kertzmann"],"96000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'setValue'
+[debug] [JSONWP Proxy] Proxying [POST /element/96000000-0000-0000-E70D-000000000000/value] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/96000000-0000-0000-E70D-000000000000/value] with body: {"value":["K","e","r","t","z","m","a","n","n"]}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"96000000-0000-0000-E70D-000000000000","value":"","sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B"}
+[debug] [MJSONWP] Responding to client with driver.setValue() result: null
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/96000000-0000-0000-E70D-000000000000/value 200 1105 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getWindowSize() with args: ["current","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getWindowSize'
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size 200 92 ms - 98
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements
+[HTTP] {"using":"xpath","value":"//XCUIElementTypeTextField[@value = 'Mobile number*']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeTextField[@value = 'Mobile number*']","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/elements] with body: {"using":"xpath","value":"//XCUIElementTypeTextField[@value = 'Mobile number*']"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"9D000000-0000-0000-E70D-000000000000"}],"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"9D000000-0000-0000-E70D-000000000000"}]
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements 200 2014 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 661 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 699 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 707 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 702 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/9D000000-0000-0000-E70D-000000000000/location
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getLocation() with args: ["9D000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getLocation'
+[debug] [JSONWP Proxy] Proxying [GET /element/9D000000-0000-0000-E70D-000000000000/rect] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/9D000000-0000-0000-E70D-000000000000/rect] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"y\" : 275,\n    \"x\" : 36,\n    \"width\" : 303,\n    \"height\" : 18\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":36,"y":275}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/9D000000-0000-0000-E70D-000000000000/location 200 145 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/9D000000-0000-0000-E70D-000000000000/clear
+[HTTP] {"id":"9D000000-0000-0000-E70D-000000000000"}
+[debug] [W3C] Calling AppiumDriver.clear() with args: ["9D000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'clear'
+[debug] [JSONWP Proxy] Proxying [POST /element/9D000000-0000-0000-E70D-000000000000/clear] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/9D000000-0000-0000-E70D-000000000000/clear] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"status\" : 0,\n  \"id\" : \"9D000000-0000-0000-E70D-000000000000\",\n  \"value\" : \"\",\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\"\n}"
+[debug] [MJSONWP] Responding to client with driver.clear() result: null
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/9D000000-0000-0000-E70D-000000000000/clear 200 122 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/9D000000-0000-0000-E70D-000000000000/value
+[HTTP] {"id":"9D000000-0000-0000-E70D-000000000000","value":["09271819134"]}
+[debug] [W3C] Calling AppiumDriver.setValue() with args: [["09271819134"],"9D000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'setValue'
+[debug] [JSONWP Proxy] Proxying [POST /element/9D000000-0000-0000-E70D-000000000000/value] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/9D000000-0000-0000-E70D-000000000000/value] with body: {"value":["0","9","2","7","1","8","1","9","1","3","4"]}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"9D000000-0000-0000-E70D-000000000000","value":"","sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B"}
+[debug] [MJSONWP] Responding to client with driver.setValue() result: null
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/9D000000-0000-0000-E70D-000000000000/value 200 1179 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getWindowSize() with args: ["current","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getWindowSize'
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size 200 101 ms - 98
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements
+[HTTP] {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Save' and @name = 'Save']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeButton[@label = 'Save' and @name = 'Save']","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/elements] with body: {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Save' and @name = 'Save']"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"74000000-0000-0000-E70D-000000000000"}],"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"74000000-0000-0000-E70D-000000000000"}]
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements 200 1880 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 613 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 622 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 606 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 623 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/74000000-0000-0000-E70D-000000000000/location
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getLocation() with args: ["74000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getLocation'
+[debug] [JSONWP Proxy] Proxying [GET /element/74000000-0000-0000-E70D-000000000000/rect] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/74000000-0000-0000-E70D-000000000000/rect] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"y\" : 20,\n    \"x\" : 309,\n    \"width\" : 50,\n    \"height\" : 64\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":309,"y":20}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/74000000-0000-0000-E70D-000000000000/location 200 106 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"74000000-0000-0000-E70D-000000000000","x":1,"y":1}}]}
+[debug] [W3C] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"74000000-0000-0000-E70D-000000000000","x":1,"y":1}}],"e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'performTouch'
+[debug] [XCUITest] Received the following touch action: tap(options={"element":"74000000-0000-0000-E70D-000000000000","x":1,"y":1})
+[debug] [JSONWP Proxy] Proxying [POST /wda/touch/perform] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/touch/perform] with body: {"actions":[{"action":"tap","options":{"element":"74000000-0000-0000-E70D-000000000000","x":1,"y":1}}]}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.performTouch() result: {}
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/touch/perform 200 274 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getWindowSize() with args: ["current","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getWindowSize'
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size 200 142 ms - 98
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements
+[HTTP] {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Sigmund  Kertzmann']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeStaticText[@label = 'Sigmund  Kertzmann']","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/elements] with body: {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Sigmund  Kertzmann']"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"5E010000-0000-0000-E70D-000000000000"}],"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5E010000-0000-0000-E70D-000000000000"}]
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements 200 3135 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 617 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 603 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 641 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 619 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/5E010000-0000-0000-E70D-000000000000/location
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getLocation() with args: ["5E010000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getLocation'
+[debug] [JSONWP Proxy] Proxying [GET /element/5E010000-0000-0000-E70D-000000000000/rect] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/5E010000-0000-0000-E70D-000000000000/rect] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"y\" : 236,\n    \"x\" : 120,\n    \"width\" : 205,\n    \"height\" : 17\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":120,"y":236}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/5E010000-0000-0000-E70D-000000000000/location 200 99 ms - 89
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/5E010000-0000-0000-E70D-000000000000/text
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/5E010000-0000-0000-E70D-000000000000/text] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/5E010000-0000-0000-E70D-000000000000/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"Sigmund  Kertzmann\",\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 238E50FA-28FC-4AF6-B85D-A9A1D16FC21B with e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/5E010000-0000-0000-E70D-000000000000/text 200 95 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getWindowSize() with args: ["current","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getWindowSize'
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size 200 78 ms - 98
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements
+[HTTP] {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = '09271819134']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeStaticText[@label = '09271819134']","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/elements] with body: {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = '09271819134']"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"61010000-0000-0000-E70D-000000000000"}],"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"61010000-0000-0000-E70D-000000000000"}]
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements 200 1760 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 647 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 608 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 623 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 627 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/61010000-0000-0000-E70D-000000000000/location
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getLocation() with args: ["61010000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getLocation'
+[debug] [JSONWP Proxy] Proxying [GET /element/61010000-0000-0000-E70D-000000000000/rect] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/61010000-0000-0000-E70D-000000000000/rect] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"y\" : 286,\n    \"x\" : 120,\n    \"width\" : 225,\n    \"height\" : 17\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":120,"y":286}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/61010000-0000-0000-E70D-000000000000/location 200 96 ms - 89
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/61010000-0000-0000-E70D-000000000000/text
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/61010000-0000-0000-E70D-000000000000/text] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/61010000-0000-0000-E70D-000000000000/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"09271819134\",\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[JSONWP Proxy] Replacing sessionId 238E50FA-28FC-4AF6-B85D-A9A1D16FC21B with e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/61010000-0000-0000-E70D-000000000000/text 200 94 ms - 85
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getWindowSize() with args: ["current","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getWindowSize'
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"width":375,"height":667}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/window/current/size 200 74 ms - 98
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements
+[HTTP] {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Personal Information' and @name = 'Personal Information']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//XCUIElementTypeStaticText[@label = 'Personal Information' and @name = 'Personal Information']","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/elements] with body: {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Personal Information' and @name = 'Personal Information']"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":[{"ELEMENT":"66000000-0000-0000-E70D-000000000000"}],"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"66000000-0000-0000-E70D-000000000000"}]
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/elements 200 1765 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 623 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 636 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 613 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"PeraHub\",\n      \"sdkVersion\" : \"11.4\",\n      \"CFBundleIdentifier\" : \"com.whitecloak.PeraHub\"\n    }\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 20\n    },\n    \"scale\" : 2\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /window/size] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/window/size] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"width\" : 375,\n    \"height\" : 667\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50775,"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub","pixelRatio":2,"statBarHeight":20,"viewportRect":{"left":0,"top":40,"width":750,"height":1294}}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a 200 613 ms - 824
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/66000000-0000-0000-E70D-000000000000/location
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getLocation() with args: ["66000000-0000-0000-E70D-000000000000","e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'getLocation'
+[debug] [JSONWP Proxy] Proxying [GET /element/66000000-0000-0000-E70D-000000000000/rect] to [GET http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/element/66000000-0000-0000-E70D-000000000000/rect] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"y\" : 198,\n    \"x\" : 40,\n    \"width\" : 262,\n    \"height\" : 18\n  },\n  \"sessionId\" : \"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B\",\n  \"status\" : 0\n}"
+[debug] [MJSONWP] Responding to client with driver.getLocation() result: {"x":40,"y":198}
+[HTTP] <-- GET /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/element/66000000-0000-0000-E70D-000000000000/location 200 101 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"66000000-0000-0000-E70D-000000000000","x":1,"y":1}}]}
+[debug] [W3C] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"66000000-0000-0000-E70D-000000000000","x":1,"y":1}}],"e00b3ede-77f4-4323-a0a3-44bc1d9dae3a"]
+[debug] [XCUITest] Executing command 'performTouch'
+[debug] [XCUITest] Received the following touch action: tap(options={"element":"66000000-0000-0000-E70D-000000000000","x":1,"y":1})
+[debug] [JSONWP Proxy] Proxying [POST /wda/touch/perform] to [POST http://localhost:50775/session/238E50FA-28FC-4AF6-B85D-A9A1D16FC21B/wda/touch/perform] with body: {"actions":[{"action":"tap","options":{"element":"66000000-0000-0000-E70D-000000000000","x":1,"y":1}}]}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{},"sessionId":"238E50FA-28FC-4AF6-B85D-A9A1D16FC21B","status":0}
+[debug] [MJSONWP] Responding to client with driver.performTouch() result: {}
+[HTTP] <-- POST /wd/hub/session/e00b3ede-77f4-4323-a0a3-44bc1d9dae3a/touch/perform 200 271 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getStatus() with args: []
+[debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50897},"capabilities":{"desiredCapabilities":{"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/devicecon
+[debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50897},null,{"desiredCapabilities":{"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"IOS","platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLo...
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1541603743446 (23:15:43 GMT+0800 (PST))
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","platformVersion","realDeviceLogger","waitForAppScript","wdaLocalPort"]. Falling back to JSONWP protocol.
+[Appium] Creating new XCUITestDriver (v2.84.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app
+[Appium]   automationName: XCUITest
+[Appium]   deviceId: 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2
+[Appium]   deviceName: iPhone 6s
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: IOS
+[Appium]   platformName: iOS
+[Appium]   platformVersion: 11.4
+[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
+[Appium]   waitForAppScript: true;
+[Appium]   wdaLocalPort: 50897
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"/Users/appleramos/K...
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: ea9b5ece-f06c-43e8-b4ab-2d40d22ad7b8
+[debug] [XCUITest] Current user: 'appleramos'
+[debug] [XCUITest] Xcode version set to '9.4.1' (tools v10.0.0.0.1.1535735448)
+[debug] [XCUITest] iOS SDK Version set to '11.4'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1541603743542 (23:15:43 GMT+0800 (PST))
+[iOSSim] Constructing iOS simulator for Xcode version 9.4.1 with udid '6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2'
+[XCUITest] Determining device to run tests on: udid: '6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2', real device: false
+[BaseDriver] Using local app '/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app'
+[debug] [BaseDriver] Event 'appConfigured' logged at 1541603743907 (23:15:43 GMT+0800 (PST))
+[debug] [XCUITest] Checking whether app '/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app' is actually present on file system
+[debug] [XCUITest] App is present
+[debug] [iOS] Getting bundle ID from app '/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app': 'com.whitecloak.PeraHub'
+[debug] [BaseDriver] Event 'resetStarted' logged at 1541603743908 (23:15:43 GMT+0800 (PST))
+[debug] [XCUITest] Reset: noReset is on. Leaving simulator as is
+[debug] [BaseDriver] Event 'resetComplete' logged at 1541603743909 (23:15:43 GMT+0800 (PST))
+[debug] [XCUITest] Starting log capture for iOS Simulator with udid '6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2', using 'xcrun simctl spawn 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 log stream --style compact'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1541603744356 (23:15:44 GMT+0800 (PST))
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] Matched 1 Simulator cache item for cleanup: /Users/appleramos/Library/Developer/CoreSimulator/Devices/6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2/data/Library/Caches/com.apple.mobile.installd.staging
+[debug] [iOSSim] Setting preferences of 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Setting common Simulator preferences to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Updated 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 Simulator preferences at '/Users/appleramos/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2":{"ConnectHardwareKeyboard":false}},"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] The count of running Simulator UI client instances is 1
+[iOSSim] Both Simulator with UDID 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 and the UI client are currently running
+[debug] [BaseDriver] Event 'simStarted' logged at 1541603788418 (23:16:28 GMT+0800 (PST))
+[debug] [XCUITest] Verifying application platform
+[debug] [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+[debug] [XCUITest] App 'com.whitecloak.PeraHub' is already installed. No need to reinstall.
+[debug] [BaseDriver] Event 'appInstalled' logged at 1541603788614 (23:16:28 GMT+0800 (PST))
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 50897 have been found
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [XCUITest] WDA is not listening at 'http://localhost:50897/'
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1541603788685 (23:16:28 GMT+0800 (PST))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/carthage/0.18.1/etc/bash_completion.d/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2, iproxy 50897, 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2.*XCTRunner' for the device 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2...
+[XCUITest] xcodebuild exited with code 'null' and signal 'SIGINT'
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 50897' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif 6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Using Xcode 9.4.1, so fixing WDA codebase
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2 IPHONEOS_DEPLOYMENT_TARGET=11.4' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[debug] [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
+[debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [XCUITest] Log file for xcodebuild test: /var/folders/cw/2__wmwwx43d5pwv37mcslbm80000gn/T/com.apple.dt.XCTest/IDETestRunSession-5BEABE10-EB48-483A-BE93-B59BCE726105/WebDriverAgentRunner-F35BD631-DAEE-4892-B187-8EA3FF97190B/Session-WebDriverAgentRunner-2018-11-07_231631-GMdio7.log
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50897/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.4\",\n      \"sdkVersion\" : \"11.3\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.4\",\n      \"ip\" : \"172.20.10.2\"\n    },\n    \"build\" : {\n      \"time\" : \"Oct 27 2018 17:23:49\"\n    }\n  },\n  \"sessionId\" : \"3CFE3016-62A0-4604-9F8F-4CBA244F5BAE\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] WebDriverAgent running on ip '172.20.10.2'
+[debug] [XCUITest] WebDriverAgent successfully started after 6428ms
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1541603795334 (23:16:35 GMT+0800 (PST))
+[debug] [XCUITest] Sending createSession command to WDA
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:50897/session] with body: {"desiredCapabilities":{"bundleId":"com.whitecloak.PeraHub","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"5490743F-672E-4112-B282-0B22CD33D826","capabilities":{"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub"}},"sessionId":"5490743F-672E-4112-B282-0B22CD33D826","status":0}
+[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1541603798215 (23:16:38 GMT+0800 (PST))
+[debug] [BaseDriver] Event 'wdaStarted' logged at 1541603798215 (23:16:38 GMT+0800 (PST))
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [BaseDriver] Event 'orientationSet' logged at 1541603798215 (23:16:38 GMT+0800 (PST))
+[Appium] New XCUITestDriver session created successfully, session ea9b5ece-f06c-43e8-b4ab-2d40d22ad7b8 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1541603798217 (23:16:38 GMT+0800 (PST))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"IOS","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"app":"/Users/appleramos/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.0.0-Dev.app","automationName":"XCUITest","deviceId":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2","deviceName":"iPhone 6s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","platformVersion":"11.4","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","waitForAppScript":"true;","wdaLocalPort":50897,"udid":"6F7DCE54-74B5-4E0E-80AC-ADE98ACB10E2"}
+[HTTP] <-- POST /wd/hub/session 200 54773 ms - 800
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getStatus() with args: []
+[debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 21 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/ea9b5ece-f06c-43e8-b4ab-2d40d22ad7b8/timeouts
+[HTTP] {"type":"implicit","ms":30000}
+[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/ea9b5ece-f06c-43e8-b4ab-2d40d22ad7b8/timeouts 400 2 ms - 4300
+[HTTP] 
+[XCUITest] xcodebuild exited with code 'null' and signal 'SIGINT'
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [iOSLog] Stopping iOS log capture
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session e00b3ede-77f4-4323-a0a3-44bc1d9dae3a from our master session list
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [iOSLog] Stopping iOS log capture
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session ea9b5ece-f06c-43e8-b4ab-2d40d22ad7b8 from our master session list

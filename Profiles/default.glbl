@@ -39,4 +39,19 @@
       <initValue>'/Data Files/PeraHub_v3.0.0-Dev.app'</initValue>
       <name>appPath</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomFirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomLastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomMobileNumber</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
