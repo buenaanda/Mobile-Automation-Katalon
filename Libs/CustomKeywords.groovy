@@ -170,12 +170,30 @@ def static "iOS.send_money_screen.enterAmount"(
         	amount)
 }
 
+def static "iOS.send_money_screen.tapCurrency"() {
+    (new iOS.send_money_screen()).tapCurrency()
+}
+
+def static "iOS.send_money_screen.selectCurrency"(
+    	String currency	) {
+    (new iOS.send_money_screen()).selectCurrency(
+        	currency)
+}
+
 def static "iOS.send_money_screen.tapSave"() {
     (new iOS.send_money_screen()).tapSave()
 }
 
 def static "iOS.send_money_screen.tapClose"() {
     (new iOS.send_money_screen()).tapClose()
+}
+
+def static "iOS.send_money_screen.tapOK"() {
+    (new iOS.send_money_screen()).tapOK()
+}
+
+def static "iOS.send_money_screen.tapNext"() {
+    (new iOS.send_money_screen()).tapNext()
 }
 
 def static "iOS.transfer_money_screen.tapSendMoney"() {
@@ -198,6 +216,12 @@ def static "global.wait_for_element.visible"(
 
 def static "global.wait_for_element.loaderNotVisible"() {
     (new global.wait_for_element()).loaderNotVisible()
+}
+
+def static "global.scroll_to_element.down"(
+    	TestObject to	) {
+    (new global.scroll_to_element()).down(
+        	to)
 }
 
 def static "iOS.login_screen.enterUsername"(

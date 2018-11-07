@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Send Money Branch Test Suite,,,2018-11-07 18:16:55,2018-11-07 18:19:48,2m - 53.046s,FAILED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_01,,User can select Send Money via App button,2018-11-07 18:16:55,2018-11-07 18:18:54,1m - 58.429s,PASSED
+startApplication,,,2018-11-07 18:16:55,2018-11-07 18:18:04,1m - 8.710s,PASSED
+iOS.initial_screen.tapLogin,,,2018-11-07 18:18:04,2018-11-07 18:18:07,2.888s,PASSED
+iOS.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-07 18:18:07,2018-11-07 18:18:12,5.085s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-07 18:18:12,2018-11-07 18:18:17,5.089s,PASSED
+iOS.login_screen.tapLogin,,Tap Login button,2018-11-07 18:18:17,2018-11-07 18:18:24,7.202s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-07 18:18:24,2018-11-07 18:18:28,3.342s,PASSED
+iOS.navigation_menu.tapTransferMoney,,,2018-11-07 18:18:28,2018-11-07 18:18:36,8.174s,PASSED
+iOS.transfer_money_screen.tapSendMoney,,,2018-11-07 18:18:36,2018-11-07 18:18:40,4.333s,PASSED
+iOS.transfer_money_screen.tapBranchTransaction,,,2018-11-07 18:18:40,2018-11-07 18:18:48,7.373s,PASSED
+global.verify_element.exist,,,2018-11-07 18:18:48,2018-11-07 18:18:54,6.029s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_07,,User can close the Personal Information screen,2018-11-07 18:18:54,2018-11-07 18:19:13,19.475s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-07 18:18:54,2018-11-07 18:18:58,4.022s,PASSED
+iOS.send_money_screen.tapClose,,,2018-11-07 18:18:58,2018-11-07 18:19:01,3.796s,PASSED
+global.verify_element.notExist,,,2018-11-07 18:19:01,2018-11-07 18:19:07,5.608s,PASSED
+global.verify_element.notExist,,,2018-11-07 18:19:07,2018-11-07 18:19:13,5.986s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_02,,User can tap Personal Information button,2018-11-07 18:19:13,2018-11-07 18:19:38,25.036s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,Tap Personal Information button,2018-11-07 18:19:13,2018-11-07 18:19:17,3.929s,PASSED
+global.verify_element.exist,,,2018-11-07 18:19:17,2018-11-07 18:19:21,3.492s,PASSED
+global.verify_element.exist,,,2018-11-07 18:19:21,2018-11-07 18:19:24,2.977s,PASSED
+global.verify_element.exist,,,2018-11-07 18:19:24,2018-11-07 18:19:26,2.949s,PASSED
+global.verify_element.exist,,,2018-11-07 18:19:26,2018-11-07 18:19:29,2.865s,PASSED
+global.verify_element.exist,,,2018-11-07 18:19:29,2018-11-07 18:19:32,2.899s,PASSED
+global.verify_element.exist,,,2018-11-07 18:19:32,2018-11-07 18:19:35,2.900s,PASSED
+global.verify_element.exist,,,2018-11-07 18:19:35,2018-11-07 18:19:38,2.979s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_03,,User can proceed using valid details in each required fields,2018-11-07 18:19:38,2018-11-07 18:19:39,0.406s,PASSED
+Statement - firstName = new global.random_data().firstName(),,,2018-11-07 18:19:38,2018-11-07 18:19:39,0.337s,PASSED
+Statement - return firstName,,,2018-11-07 18:19:39,2018-11-07 18:19:39,0.000s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_04,,,2018-11-07 18:19:39,2018-11-07 18:19:48,9.284s,FAILED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-07 18:19:39,2018-11-07 18:19:42,3.192s,PASSED
+"Statement - firstName = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(iOS/Send Money Branch/SMB_03), [""firstName"":""""])",,,2018-11-07 18:19:42,2018-11-07 18:19:42,0.185s,PASSED
+"Statement - First_name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Send Money screen/Generic field, [value:firstName])",,,2018-11-07 18:19:42,2018-11-07 18:19:42,0.012s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-07 18:19:42,2018-11-07 18:19:48,5.761s,FAILED

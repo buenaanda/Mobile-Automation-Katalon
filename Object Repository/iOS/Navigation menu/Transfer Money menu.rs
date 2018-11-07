@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Transfer Money']</value>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Transfer']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>label</name>
       <type>Main</type>
-      <value>Transfer Money</value>
+      <value>Transfer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

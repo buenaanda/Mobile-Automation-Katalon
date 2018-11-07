@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Send Money Branch Test Suite,,,2018-11-07 17:44:36,2018-11-07 17:46:41,2m - 5.137s,FAILED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_01,,User can select Send Money via App button,2018-11-07 17:44:36,2018-11-07 17:46:11,1m - 35.401s,FAILED
+startApplication,,,2018-11-07 17:44:36,2018-11-07 17:45:17,41.132s,PASSED
+iOS.initial_screen.tapLogin,,,2018-11-07 17:45:17,2018-11-07 17:45:20,2.528s,PASSED
+iOS.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-07 17:45:20,2018-11-07 17:45:25,4.794s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-07 17:45:25,2018-11-07 17:45:29,4.880s,PASSED
+iOS.login_screen.tapLogin,,Tap Login button,2018-11-07 17:45:29,2018-11-07 17:45:37,7.082s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-07 17:45:37,2018-11-07 17:45:40,3.070s,PASSED
+iOS.navigation_menu.tapTransferMoney,,,2018-11-07 17:45:40,2018-11-07 17:46:11,31.661s,FAILED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_07,,User can close the Personal Information screen,2018-11-07 17:46:11,2018-11-07 17:46:18,6.277s,FAILED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-07 17:46:11,2018-11-07 17:46:18,6.191s,FAILED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_02,,User can tap Personal Information button,2018-11-07 17:46:18,2018-11-07 17:46:24,6.492s,FAILED
+iOS.send_money_screen.tapPersonalInformation,,Tap Personal Information button,2018-11-07 17:46:18,2018-11-07 17:46:24,6.430s,FAILED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_03,,User can proceed using valid details in each required fields,2018-11-07 17:46:24,2018-11-07 17:46:31,7.133s,FAILED
+Statement - firstName = new global.random_data().firstName(),,,2018-11-07 17:46:24,2018-11-07 17:46:24,0.382s,PASSED
+Statement - lastName = new global.random_data().lastName(),,,2018-11-07 17:46:24,2018-11-07 17:46:25,0.196s,PASSED
+Statement - mobileNumber = new global.random_data().mobileNumber(),,,2018-11-07 17:46:25,2018-11-07 17:46:25,0.126s,PASSED
+iOS.send_money_screen.enterFirstName,,,2018-11-07 17:46:25,2018-11-07 17:46:31,6.380s,FAILED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_04,,,2018-11-07 17:46:31,2018-11-07 17:46:41,9.510s,FAILED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-07 17:46:31,2018-11-07 17:46:41,9.367s,FAILED

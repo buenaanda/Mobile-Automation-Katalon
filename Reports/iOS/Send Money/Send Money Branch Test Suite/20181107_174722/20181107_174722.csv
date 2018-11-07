@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Send Money Branch Test Suite,,,2018-11-07 17:47:25,2018-11-07 17:50:58,3m - 33.830s,FAILED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_01,,User can select Send Money via App button,2018-11-07 17:47:25,2018-11-07 17:49:20,1m - 55.510s,PASSED
+startApplication,,,2018-11-07 17:47:25,2018-11-07 17:48:25,1m - 0.220s,PASSED
+iOS.initial_screen.tapLogin,,,2018-11-07 17:48:25,2018-11-07 17:48:28,2.700s,PASSED
+iOS.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-07 17:48:28,2018-11-07 17:48:33,4.893s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-07 17:48:33,2018-11-07 17:48:38,4.996s,PASSED
+iOS.login_screen.tapLogin,,Tap Login button,2018-11-07 17:48:38,2018-11-07 17:48:45,7.103s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-07 17:48:45,2018-11-07 17:48:48,3.216s,PASSED
+iOS.navigation_menu.tapTransferMoney,,,2018-11-07 17:48:48,2018-11-07 17:49:02,13.855s,PASSED
+iOS.transfer_money_screen.tapSendMoney,,,2018-11-07 17:49:02,2018-11-07 17:49:06,4.165s,PASSED
+iOS.transfer_money_screen.tapBranchTransaction,,,2018-11-07 17:49:06,2018-11-07 17:49:15,8.199s,PASSED
+global.verify_element.exist,,,2018-11-07 17:49:15,2018-11-07 17:49:20,5.915s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_07,,User can close the Personal Information screen,2018-11-07 17:49:20,2018-11-07 17:49:39,18.767s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-07 17:49:21,2018-11-07 17:49:24,3.713s,PASSED
+iOS.send_money_screen.tapClose,,,2018-11-07 17:49:24,2018-11-07 17:49:28,3.601s,PASSED
+global.verify_element.notExist,,,2018-11-07 17:49:28,2018-11-07 17:49:33,5.433s,PASSED
+global.verify_element.notExist,,,2018-11-07 17:49:33,2018-11-07 17:49:39,5.973s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_02,,User can tap Personal Information button,2018-11-07 17:49:39,2018-11-07 17:50:03,24.096s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,Tap Personal Information button,2018-11-07 17:49:39,2018-11-07 17:49:43,3.755s,PASSED
+global.verify_element.exist,,,2018-11-07 17:49:43,2018-11-07 17:49:47,3.564s,PASSED
+global.verify_element.exist,,,2018-11-07 17:49:47,2018-11-07 17:49:49,2.811s,PASSED
+global.verify_element.exist,,,2018-11-07 17:49:49,2018-11-07 17:49:52,2.728s,PASSED
+global.verify_element.exist,,,2018-11-07 17:49:52,2018-11-07 17:49:55,2.763s,PASSED
+global.verify_element.exist,,,2018-11-07 17:49:55,2018-11-07 17:49:58,2.852s,PASSED
+global.verify_element.exist,,,2018-11-07 17:49:58,2018-11-07 17:50:01,2.794s,PASSED
+global.verify_element.exist,,,2018-11-07 17:50:01,2018-11-07 17:50:03,2.782s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_03,,User can proceed using valid details in each required fields,2018-11-07 17:50:03,2018-11-07 17:50:54,50.911s,FAILED
+Statement - firstName = new global.random_data().firstName(),,,2018-11-07 17:50:03,2018-11-07 17:50:04,0.345s,PASSED
+Statement - lastName = new global.random_data().lastName(),,,2018-11-07 17:50:04,2018-11-07 17:50:04,0.147s,PASSED
+Statement - mobileNumber = new global.random_data().mobileNumber(),,,2018-11-07 17:50:04,2018-11-07 17:50:04,0.127s,PASSED
+iOS.send_money_screen.enterFirstName,,,2018-11-07 17:50:04,2018-11-07 17:50:09,4.570s,PASSED
+iOS.send_money_screen.enterLastName,,,2018-11-07 17:50:09,2018-11-07 17:50:14,5.343s,PASSED
+iOS.send_money_screen.enterMobileNumber,,,2018-11-07 17:50:14,2018-11-07 17:50:19,5.529s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-07 17:50:19,2018-11-07 17:50:24,4.145s,PASSED
+global.verify_element.text,,,2018-11-07 17:50:24,2018-11-07 17:50:54,30.619s,FAILED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_04,,,2018-11-07 17:50:54,2018-11-07 17:50:58,4.183s,ERROR
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-07 17:50:54,2018-11-07 17:50:58,4.043s,PASSED
+"Statement - firstName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(iOS/Send Money Branch/SMB_03), [""firstName"":firstName])",,,2018-11-07 17:50:58,2018-11-07 17:50:58,0.008s,PASSED
