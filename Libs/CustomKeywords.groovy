@@ -180,6 +180,18 @@ def static "iOS.send_money_screen.selectCurrency"(
         	currency)
 }
 
+def static "iOS.send_money_screen.enterPromoCode"(
+    	Object promoCode	) {
+    (new iOS.send_money_screen()).enterPromoCode(
+        	promoCode)
+}
+
+def static "iOS.send_money_screen.enterMessage"(
+    	Object message	) {
+    (new iOS.send_money_screen()).enterMessage(
+        	message)
+}
+
 def static "iOS.send_money_screen.tapSave"() {
     (new iOS.send_money_screen()).tapSave()
 }
@@ -194,6 +206,22 @@ def static "iOS.send_money_screen.tapOK"() {
 
 def static "iOS.send_money_screen.tapNext"() {
     (new iOS.send_money_screen()).tapNext()
+}
+
+def static "iOS.send_money_screen.tapBack"() {
+    (new iOS.send_money_screen()).tapBack()
+}
+
+def static "iOS.send_money_screen.checkTermsAndAgreement"() {
+    (new iOS.send_money_screen()).checkTermsAndAgreement()
+}
+
+def static "iOS.send_money_screen.tapCompleteBranchTransaction"() {
+    (new iOS.send_money_screen()).tapCompleteBranchTransaction()
+}
+
+def static "iOS.send_money_screen.tapViewDetails"() {
+    (new iOS.send_money_screen()).tapViewDetails()
 }
 
 def static "iOS.transfer_money_screen.tapSendMoney"() {

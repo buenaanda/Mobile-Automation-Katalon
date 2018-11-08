@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can tap Back button in Send Successful screen</description>
+   <name>SMB_38</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1b5acb1-d753-449e-8768-8a7d0f11d8a1</testCaseGuid>
+</TestCaseEntity>

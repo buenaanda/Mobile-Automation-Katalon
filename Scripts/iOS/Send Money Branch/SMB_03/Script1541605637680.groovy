@@ -31,6 +31,6 @@ CustomKeywords.'iOS.send_money_screen.enterMobileNumber'(mobileNumber)
 
 CustomKeywords.'iOS.send_money_screen.tapSave'()
 
-CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Send Money screen/Receiver name', [('label') : receiverName]), receiverName)
+CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : receiverName]), receiverName)
 
-CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Send Money screen/Receiver contact', [('label') : mobileNumber]), mobileNumber)
+CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : mobileNumber]), mobileNumber)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can proceed to Send Summary screen</description>
+   <name>SMB_37</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6097f81c-3b36-4c45-ba75-40ff73176108</testCaseGuid>
+</TestCaseEntity>

@@ -54,4 +54,49 @@
       <initValue>''</initValue>
       <name>randomMobileNumber</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomMiddleName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomPhoneNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomAmount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'iOS/Send Money screen/'</initValue>
+      <name>sendMoneyScreen_iOS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomSourceOfFunds</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PHP 500.00'</initValue>
+      <name>internationalServiceFee</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'9271819134'</initValue>
+      <name>mobileNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomSentence</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>50% off on service fee</description>
+      <initValue>'A0027'</initValue>
+      <name>promoCode1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

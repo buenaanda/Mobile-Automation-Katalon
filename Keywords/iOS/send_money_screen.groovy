@@ -128,6 +128,17 @@ public class send_money_screen {
 		tap(findTestObject(testObjectPath + 'Select Currency Done button'))
 		waitForLoaderNotVisible()
 	}
+	
+	@Keyword
+	def enterPromoCode(promoCode) {
+		setText(findTestObject(testObjectPath + 'Promo Code field'), promoCode)
+		tap(findTestObject(testObjectPath + 'Select Currency Done button'))
+	}
+	
+	@Keyword
+	def enterMessage(message) {
+		setText(findTestObject(testObjectPath + 'Message field'), message)
+	}
 
 	@Keyword
 	def tapSave() {
@@ -147,6 +158,29 @@ public class send_money_screen {
 	@Keyword
 	def tapNext() {
 		tap(findTestObject(testObjectPath + 'Next button'))
+		waitForLoaderNotVisible()
+	}
+
+	@Keyword
+	def tapBack() {
+		tap(findTestObject(testObjectPath + 'Back button'))
+	}
+
+	@Keyword
+	def checkTermsAndAgreement() {
+		scrollToELementDown(testObjectPath + 'Terms and Agreement checkbox')
+		tap(findTestObject(testObjectPath + 'Terms and Agreement checkbox'))
+	}
+
+	@Keyword
+	def tapCompleteBranchTransaction() {
+		tap(findTestObject(testObjectPath + 'Complete Branch Transaction button'))
+		waitForLoaderNotVisible()
+	}
+
+	@Keyword
+	def tapViewDetails() {
+		tap(findTestObject(testObjectPath + 'View Details button'))
 	}
 
 	def tap(TestObject to) {

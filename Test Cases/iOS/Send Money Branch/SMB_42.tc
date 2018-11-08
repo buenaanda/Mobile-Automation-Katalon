@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can tap View Details</description>
+   <name>SMB_42</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df6d2f96-b62a-430b-b5f9-699b05dc5750</testCaseGuid>
+</TestCaseEntity>

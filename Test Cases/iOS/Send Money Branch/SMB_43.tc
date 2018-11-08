@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can tap View Dashboard button</description>
+   <name>SMB_43</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e46eed1f-7a57-4148-b0f6-af917a3f5f35</testCaseGuid>
+</TestCaseEntity>

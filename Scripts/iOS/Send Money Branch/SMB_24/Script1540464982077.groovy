@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'iOS.send_money_screen.enterEmployerName'('White Cloak Inc.')
 
-TestObject Employer_Name_field = findTestObject('iOS/Send Money screen/Generic field', [('value') : 'White Cloak Inc.'])
+TestObject Employer_Name_field = findTestObject('iOS/Send Money screen/Global/Generic field', [('value') : 'White Cloak Inc.'])
 
 CustomKeywords.'global.verify_element.text'(Employer_Name_field, 'White Cloak Inc.')
 

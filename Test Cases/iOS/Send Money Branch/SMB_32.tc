@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can enter Promo Code (Optional)</description>
+   <name>SMB_32</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>babd7457-fe07-4bcb-b016-96f7597035b1</testCaseGuid>
+</TestCaseEntity>

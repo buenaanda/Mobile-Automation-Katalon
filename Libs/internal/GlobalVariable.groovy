@@ -63,10 +63,55 @@ public class GlobalVariable {
      */
     public static Object randomMobileNumber
      
+    /**
+     * <p></p>
+     */
+    public static Object randomMiddleName
+     
+    /**
+     * <p></p>
+     */
+    public static Object randomPhoneNumber
+     
+    /**
+     * <p></p>
+     */
+    public static Object randomAmount
+     
+    /**
+     * <p></p>
+     */
+    public static Object sendMoneyScreen_iOS
+     
+    /**
+     * <p></p>
+     */
+    public static Object randomSourceOfFunds
+     
+    /**
+     * <p></p>
+     */
+    public static Object internationalServiceFee
+     
+    /**
+     * <p></p>
+     */
+    public static Object mobileNumber
+     
+    /**
+     * <p></p>
+     */
+    public static Object randomSentence
+     
+    /**
+     * <p>Profile default : 50% off on service fee</p>
+     */
+    public static Object promoCode1
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['username' : 'allen_15', 'password' : 'Hello!23', 'otp' : '111111', 'invalidUsernamePasswordError' : 'username and password did not match in our records.', 'invalidOTPError' : 'Wrong OTP Code', 'inactiveError' : 'It seems that your been inactive for a while. Please do login again.', 'appPath' : '/Data Files/PeraHub_v3.0.0-Dev.app', 'randomFirstName' : '', 'randomLastName' : '', 'randomMobileNumber' : ''])
+        allVariables.put('default', ['username' : 'allen_15', 'password' : 'Hello!23', 'otp' : '111111', 'invalidUsernamePasswordError' : 'username and password did not match in our records.', 'invalidOTPError' : 'Wrong OTP Code', 'inactiveError' : 'It seems that your been inactive for a while. Please do login again.', 'appPath' : '/Data Files/PeraHub_v3.0.0-Dev.app', 'randomFirstName' : '', 'randomLastName' : '', 'randomMobileNumber' : '', 'randomMiddleName' : '', 'randomPhoneNumber' : '', 'randomAmount' : '', 'sendMoneyScreen_iOS' : 'iOS/Send Money screen/', 'randomSourceOfFunds' : '', 'internationalServiceFee' : 'PHP 500.00', 'mobileNumber' : '9271819134', 'randomSentence' : '', 'promoCode1' : 'A0027'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -81,6 +126,15 @@ public class GlobalVariable {
         randomFirstName = selectedVariables['randomFirstName']
         randomLastName = selectedVariables['randomLastName']
         randomMobileNumber = selectedVariables['randomMobileNumber']
+        randomMiddleName = selectedVariables['randomMiddleName']
+        randomPhoneNumber = selectedVariables['randomPhoneNumber']
+        randomAmount = selectedVariables['randomAmount']
+        sendMoneyScreen_iOS = selectedVariables['sendMoneyScreen_iOS']
+        randomSourceOfFunds = selectedVariables['randomSourceOfFunds']
+        internationalServiceFee = selectedVariables['internationalServiceFee']
+        mobileNumber = selectedVariables['mobileNumber']
+        randomSentence = selectedVariables['randomSentence']
+        promoCode1 = selectedVariables['promoCode1']
         
     }
 }

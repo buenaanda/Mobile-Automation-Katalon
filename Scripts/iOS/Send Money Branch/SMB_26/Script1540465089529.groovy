@@ -29,10 +29,10 @@ CustomKeywords.'iOS.send_money_screen.enterEmployerName'('White Cloak Inc.')
 
 CustomKeywords.'iOS.send_money_screen.tapSave'()
 
-CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Send Money screen/Occupation', [('label') : 'IT and Tech Professional, Entry Level']), 
+CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : 'IT and Tech Professional, Entry Level']), 
     'IT and Tech Professional,' + '\nEntry Level')
 
-CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Send Money screen/Source of Funds', [('label') : 'Salary/Income']), 
+CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Send Money screen/Sender Employment Information screen/Source of Funds', [('label') : 'Salary/Income']), 
     'Salary/Income')
 
 CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Send Money screen/Source of Employer Name', [('label') : 'White Cloak Inc.']), 

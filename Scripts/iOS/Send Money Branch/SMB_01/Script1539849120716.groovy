@@ -27,4 +27,3 @@ CustomKeywords.'iOS.transfer_money_screen.tapSendMoney'()
 CustomKeywords.'iOS.transfer_money_screen.tapBranchTransaction'()
 
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/Send Via Branch screen'))
-

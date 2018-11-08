@@ -20,7 +20,7 @@ public class wait_for_element {
 	@Keyword
 	def loaderNotVisible() {
 		try {
-			while (Mobile.getAttribute(findTestObject('iOS/Loader'), 'visible', 5) == 'true') {
+			while (Mobile.getAttribute(findTestObject('iOS/Global/Loader'), 'visible', 5) == 'true') {
 				Mobile.delay(1)
 			}
 		} catch(StepFailedException e) {

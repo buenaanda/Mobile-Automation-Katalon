@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>User can select Currency</description>
-   <name>SMB_28_29_33</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>de1be17e-ede7-4fea-87c0-4d030214d784</testCaseGuid>
-</TestCaseEntity>
