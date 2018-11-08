@@ -128,13 +128,13 @@ public class send_money_screen {
 		tap(findTestObject(testObjectPath + 'Select Currency Done button'))
 		waitForLoaderNotVisible()
 	}
-	
+
 	@Keyword
 	def enterPromoCode(promoCode) {
 		setText(findTestObject(testObjectPath + 'Promo Code field'), promoCode)
 		tap(findTestObject(testObjectPath + 'Select Currency Done button'))
 	}
-	
+
 	@Keyword
 	def enterMessage(message) {
 		setText(findTestObject(testObjectPath + 'Message field'), message)

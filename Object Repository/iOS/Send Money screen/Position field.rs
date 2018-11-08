@@ -3,7 +3,7 @@
    <description></description>
    <name>Position field</name>
    <tag></tag>
-   <elementGuidId>7b54339c-d77e-4af4-abae-15394fd9aa97</elementGuidId>
+   <elementGuidId>09df3378-79fd-4ba3-86c8-4400da1a100c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

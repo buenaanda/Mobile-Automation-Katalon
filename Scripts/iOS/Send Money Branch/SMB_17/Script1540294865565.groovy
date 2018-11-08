@@ -1,11 +1,17 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.TestObject
+
+TestObject Country_is_required_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Country is required'])
+TestObject Postal_is_required_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Postal is required'])
+TestObject Present_address_is_required_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Present address is required'])
+TestObject Destination_country_is_required_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Destination country is required'])
 
 CustomKeywords.'iOS.send_money_screen.tapSave'()
 
-CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : 'Country is required']), 'Country is required')
+CustomKeywords.'global.verify_element.exist'(Country_is_required_error)
 
-CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : 'Postal is required']), 'Postal is required')
+CustomKeywords.'global.verify_element.text'(Postal_is_required_error)
 
-CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : 'Present address is required']), 'Present address is required')
+CustomKeywords.'global.verify_element.text'(Present_address_is_required_error)
 
-CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : 'Destination country is required']), 'Destination country is required')
+CustomKeywords.'global.verify_element.text'(Destination_country_is_required_error)

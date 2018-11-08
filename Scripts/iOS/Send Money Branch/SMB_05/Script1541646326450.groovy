@@ -6,20 +6,16 @@ import internal.GlobalVariable
 
 
 String firstName = GlobalVariable.randomFirstName
-
 String middleName = GlobalVariable.randomMiddleName
-
 String lastName = GlobalVariable.randomLastName
-
 String mobileNumber = GlobalVariable.randomMobileNumber
-
 String phoneNumber = GlobalVariable.randomPhoneNumber
-
 String fullName = firstName +" "+ middleName +" "+ lastName
-
 String contact = mobileNumber +" "+ phoneNumber
-
 String firstNameLastName = firstName +"  "+ lastName
+
+TestObject Receiver_Name = findTestObject('iOS/Send Money screen/Generic text', [('label') : fullName])
+TestObject Receiver_Contact = findTestObject('iOS/Send Money screen/Generic text', [('label') : contact])
 
 CustomKeywords.'iOS.send_money_screen.enterFirstName'(firstName)
 
@@ -33,6 +29,6 @@ CustomKeywords.'iOS.send_money_screen.enterPhoneNumber'(phoneNumber)
 
 CustomKeywords.'iOS.send_money_screen.tapSave'()
 
-CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : fullName]), fullName)
+CustomKeywords.'global.verify_element.exist'(Receiver_Name)
 
-CustomKeywords.'global.verify_element.text'(findTestObject('null', [('label') : contact]), mobileNumber+"\n"+phoneNumber)
+CustomKeywords.'global.verify_element.exist'(Receiver_Contact)

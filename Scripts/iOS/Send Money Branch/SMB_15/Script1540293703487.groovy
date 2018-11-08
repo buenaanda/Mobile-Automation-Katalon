@@ -3,6 +3,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 
 CustomKeywords.'iOS.send_money_screen.selectDestinationCountry'('Mexico')
 
-TestObject Destination_Country_field = findTestObject('iOS/Send Money screen/Current Address screen/Destination Country field', [('value') : 'Mexico'])
+TestObject Destination_Country_field = findTestObject('iOS/Send Money screen/Destination Country field', [('value') : 'Mexico'])
 
 CustomKeywords.'global.verify_element.text'(findTestObject(Destination_Country_field), 'Mexico')

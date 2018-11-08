@@ -1,6 +1,8 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.testobject.TestObject
+
 import internal.GlobalVariable as GlobalVariable
 import global.random_data
 
@@ -17,6 +19,8 @@ String lastName = GlobalVariable.randomLastName
 String mobileNumber = GlobalVariable.randomMobileNumber
 String phoneNumber = GlobalVariable.randomPhoneNumber
 String sourceOfFunds = GlobalVariable.randomSourceOfFunds
+
+TestObject Enter_amount_first_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Please enter amount first'])
 
 Mobile.startApplication(RunConfiguration.projectDir + GlobalVariable.appPath, false)
 CustomKeywords.'iOS.initial_screen.tapLogin'()
@@ -55,13 +59,13 @@ CustomKeywords.'iOS.send_money_screen.tapSave'()
 
 CustomKeywords.'iOS.send_money_screen.tapCurrentAddress'()
  
-CustomKeywords.'iOS.send_money_screen.selectCountry'('India')
+CustomKeywords.'iOS.send_money_screen.selectCountry'('Vietnam')
  
 CustomKeywords.'iOS.send_money_screen.enterPostal'('1442')
  
 CustomKeywords.'iOS.send_money_screen.enterUnitHouseNumberBuildingStreet'('503 Tindalo St.')
  
-CustomKeywords.'iOS.send_money_screen.selectDestinationCountry'('India')
+CustomKeywords.'iOS.send_money_screen.selectDestinationCountry'('Vietnam')
  
 CustomKeywords.'iOS.send_money_screen.tapSave'()
 
@@ -77,6 +81,6 @@ CustomKeywords.'global.scroll_to_element.down'(findTestObject('iOS/Send Money sc
 
 CustomKeywords.'iOS.send_money_screen.tapCurrency'()
  
-CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Send Money screen/Error Message/Enter amount first'), 'Please enter amount first')
+CustomKeywords.'global.verify_element.exist'(Enter_amount_first_error)
  
 CustomKeywords.'iOS.send_money_screen.tapOK'()

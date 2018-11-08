@@ -27,6 +27,11 @@ public class verify_element {
 	def text(TestObject to, String text) {
 		Mobile.verifyElementText(to, text, FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@Keyword
+	def value(TestObject to, String text) {
+		Mobile.verifyElementText(to, text, FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@Keyword
 	def exist(TestObject to) {

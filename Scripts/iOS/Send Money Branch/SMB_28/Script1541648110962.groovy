@@ -1,7 +1,6 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import internal.GlobalVariable as GlobalVariable
 import global.random_data
 
@@ -13,7 +12,7 @@ CustomKeywords.'iOS.send_money_screen.enterAmount'(amount)
 
 CustomKeywords.'iOS.send_money_screen.tapCurrency'()
 
-CustomKeywords.'iOS.send_money_screen.selectCurrency'('INR')
+CustomKeywords.'iOS.send_money_screen.selectCurrency'('VND')
 
 Mobile.takeScreenshot()
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Current Address button</name>
+   <name>Back button</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>cae41da3-e979-4610-8dbd-6fdfc513a3e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @value = 'Current Address']</value>
+         <value>//*[@type = 'XCUIElementTypeButton' and @value = 'ic chevron left']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeStaticText</value>
+      <value>XCUIElementTypeButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Current Address</value>
+      <value>ic chevron left</value>
    </webElementProperties>
 </WebElementEntity>

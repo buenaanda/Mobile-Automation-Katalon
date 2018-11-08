@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Employer Name field</name>
+   <name>View Details button</name>
    <tag></tag>
-   <elementGuidId>39768c55-ee06-4310-824b-6f0115ae3895</elementGuidId>
+   <elementGuidId>7e4f73bb-0156-4930-9e74-fd3e6e907c19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeTextField' and @value = concat('Employer' , &quot;'&quot; , 's name*')]</value>
+         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'VIEW DETAILS']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeTextField</value>
+      <value>XCUIElementTypeButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>label</name>
       <type>Main</type>
-      <value>Employer's name*</value>
+      <value>VIEW DETAILS</value>
    </webElementProperties>
 </WebElementEntity>

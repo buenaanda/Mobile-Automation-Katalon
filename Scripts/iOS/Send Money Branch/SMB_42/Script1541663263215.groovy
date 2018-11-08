@@ -11,7 +11,7 @@ String serviceFee = GlobalVariable.internationalServiceFee
 
 CustomKeywords.'iOS.send_money_screen.tapViewDetails'()
 
-TestObject Sender_Mobile_Number_label = findTestObject('iOS/Send Money screen/Global/Generic text', [('label') : senderMobileNumber])
+TestObject Sender_Mobile_Number_label = findTestObject('iOS/Send Money screen/Generic text', [('label') : senderMobileNumber])
 
 CustomKeywords.'global.verify_element.exist'(findTestObject(Sender_Mobile_Number_label))
 

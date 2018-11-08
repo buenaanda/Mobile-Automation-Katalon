@@ -28,6 +28,14 @@ def static "global.verify_element.text"(
          , 	text)
 }
 
+def static "global.verify_element.value"(
+    	TestObject to	
+     , 	String text	) {
+    (new global.verify_element()).value(
+        	to
+         , 	text)
+}
+
 def static "global.verify_element.exist"(
     	TestObject to	) {
     (new global.verify_element()).exist(

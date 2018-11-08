@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Destination country</name>
+   <name>Postal field</name>
    <tag></tag>
-   <elementGuidId>d6962878-21ea-41ff-88f5-71d09ff09ffd</elementGuidId>
+   <elementGuidId>10eeadbb-9b80-4ccc-857b-b969fd14184c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = '${label}']</value>
+         <value>//*[@type = 'XCUIElementTypeTextField' and @value = 'Postal*']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeStaticText</value>
+      <value>XCUIElementTypeTextField</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>label</name>
+      <name>value</name>
       <type>Main</type>
-      <value>${label}</value>
+      <value>Postal*</value>
    </webElementProperties>
 </WebElementEntity>

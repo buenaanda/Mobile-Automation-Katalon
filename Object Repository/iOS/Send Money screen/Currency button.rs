@@ -3,15 +3,11 @@
    <description></description>
    <name>Currency button</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>dda47e34-23ae-4e53-b0e0-919cd0c54c10</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'XCUIElementTypeImage' and @name = 'ic_chevron_down']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@type='XCUIElementTypeOther']//[@type='XCUIElementTypeButton']//[@type='XCUIElementTypeStaticText']//[@type='XCUIElementTypeImage' and @name='ic_chevron_down']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -30,9 +26,4 @@
       <type>Main</type>
       <value>ic_chevron_down</value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <value>//*[@type='XCUIElementTypeOther']//[@type='XCUIElementTypeButton']//[@type='XCUIElementTypeStaticText']//[@type='XCUIElementTypeImage' and @name='ic_chevron_down']</value>
-   </webElementXpaths>
 </WebElementEntity>

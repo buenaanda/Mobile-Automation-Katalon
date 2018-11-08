@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Enter amount first</name>
+   <name>OK button</name>
    <tag></tag>
-   <elementGuidId>c9c7b97c-5aae-40e1-913e-5b4408412afc</elementGuidId>
+   <elementGuidId>e72ae435-baee-4959-80f0-953a9ef65596</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Please enter amount first']</value>
+         <value>//*[@type = 'XCUIElementTypeButton' and @label = 'OK']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeStaticText</value>
+      <value>XCUIElementTypeButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>label</name>
       <type>Main</type>
-      <value>Please enter amount first</value>
+      <value>OK</value>
    </webElementProperties>
 </WebElementEntity>

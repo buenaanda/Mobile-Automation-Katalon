@@ -3,7 +3,7 @@
    <description></description>
    <name>Message field</name>
    <tag></tag>
-   <elementGuidId>3c4e3556-f883-41ea-a6e6-58256dbd3f12</elementGuidId>
+   <elementGuidId>c1db0801-f847-4316-9bb4-0b0922268353</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
