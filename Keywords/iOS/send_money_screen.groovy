@@ -7,12 +7,17 @@ import org.openqa.selenium.JavascriptExecutor
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 
+import io.appium.java_client.AppiumDriver
 import global.wait_for_element
+import io.appium.java_client.MobileElement
 import global.scroll_to_element
 import global.object
 
 public class send_money_screen {
+
+	AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 
 	private String testObjectPath = 'iOS/Send Money screen/'
 
@@ -24,6 +29,7 @@ public class send_money_screen {
 	@Keyword
 	def enterField(TestObject to, String text) {
 		setText(to, text)
+		tap(findTestObject(testObjectPath + 'Toolbar Done button'))
 	}
 
 	@Keyword
@@ -33,27 +39,27 @@ public class send_money_screen {
 
 	@Keyword
 	def enterFirstName(String firstname) {
-		setText(findTestObject(testObjectPath + 'First name field'), firstname)
+		setText(findTestObject(testObjectPath + 'First Name field'), firstname)
 	}
 
 	@Keyword
 	def enterMiddleName(String middlename) {
-		setText(findTestObject(testObjectPath + 'Middle name field'), middlename)
+		setText(findTestObject(testObjectPath + 'Middle Name field'), middlename)
 	}
 
 	@Keyword
 	def enterLastName(String lastname) {
-		setText(findTestObject(testObjectPath + 'Last name field'), lastname)
+		setText(findTestObject(testObjectPath + 'Last Name field'), lastname)
 	}
 
 	@Keyword
 	def enterMobileNumber(String mobileNumber) {
-		setText(findTestObject(testObjectPath + 'Mobile number field'), mobileNumber)
+		setText(findTestObject(testObjectPath + 'Mobile Number field'), mobileNumber)
 	}
 
 	@Keyword
 	def enterPhoneNumber(String phoneNumber) {
-		setText(findTestObject(testObjectPath + 'Phone number field'), phoneNumber)
+		setText(findTestObject(testObjectPath + 'Phone Number field'), phoneNumber)
 	}
 
 	@Keyword
@@ -75,7 +81,7 @@ public class send_money_screen {
 	@Keyword
 	def enterUnitHouseNumberBuildingStreet(String unitHouseNumberBuildingStreet) {
 		setText(findTestObject(testObjectPath + 'UnitHouse NumberBuildingStreet field'), unitHouseNumberBuildingStreet)
-		Mobile.hideKeyboard()
+		tap(findTestObject(testObjectPath + 'Toolbar Done button'))
 	}
 
 	@Keyword
@@ -143,6 +149,7 @@ public class send_money_screen {
 	@Keyword
 	def tapSave() {
 		tap(findTestObject(testObjectPath + 'Save button'))
+		Mobile.delay(3)
 	}
 
 	@Keyword

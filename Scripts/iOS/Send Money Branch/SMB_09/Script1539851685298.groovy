@@ -8,7 +8,7 @@ CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money scre
 
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/DistrictCity field'))
 
-CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/Current Address screen/Postal field'))
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/Postal field'))
 
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/UnitHouse NumberBuildingStreet field'))
 

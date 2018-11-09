@@ -1,9 +1,10 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.testobject.TestObject
 import global.random_data
 import internal.GlobalVariable
 
+GlobalVariable.randomMiddleName = (new random_data()).middleName()
+GlobalVariable.randomPhoneNumber = (new random_data()).phoneNumber()
 
 String firstName = GlobalVariable.randomFirstName
 String middleName = GlobalVariable.randomMiddleName

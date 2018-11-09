@@ -10,8 +10,8 @@ CustomKeywords.'iOS.send_money_screen.tapSave'()
 
 CustomKeywords.'global.verify_element.exist'(Country_is_required_error)
 
-CustomKeywords.'global.verify_element.text'(Postal_is_required_error)
+CustomKeywords.'global.verify_element.exist'(Postal_is_required_error)
 
-CustomKeywords.'global.verify_element.text'(Present_address_is_required_error)
+CustomKeywords.'global.verify_element.exist'(Present_address_is_required_error)
 
-CustomKeywords.'global.verify_element.text'(Destination_country_is_required_error)
+CustomKeywords.'global.verify_element.exist'(Destination_country_is_required_error)

@@ -5,4 +5,4 @@ TestObject Country_dropdown = findTestObject('iOS/Send Money screen/Generic fiel
 
 CustomKeywords.'iOS.send_money_screen.tapCurrentAddress'()
 
-CustomKeywords.'global.verify_element.text'(Country_dropdown, 'Cambodia')
+CustomKeywords.'global.verify_element.text'(Country_dropdown, 'Vietnam')

@@ -7,7 +7,7 @@ public class random_data {
 	Faker faker = new Faker()
 
 	String middleName() {
-		return faker.name().name()
+		return faker.name().lastName()
 	}
 
 	String firstName() {
@@ -19,11 +19,15 @@ public class random_data {
 	}
 
 	String mobileNumber() {
-		return faker.phoneNumber().cellPhone()
+		String ranNum1 = faker.number().numberBetween(0, 99999)
+		String ranNum2 = faker.number().numberBetween(0, 9999999999)
+		return ranNum1+ranNum2
 	}
 
 	String phoneNumber() {
-		return faker.phoneNumber().phoneNumber()
+		String ranNum1 = faker.number().numberBetween(0, 99999)
+		String ranNum2 = faker.number().numberBetween(0, 9999999999)
+		return ranNum1+ranNum2
 	}
 
 	String postalCode() {

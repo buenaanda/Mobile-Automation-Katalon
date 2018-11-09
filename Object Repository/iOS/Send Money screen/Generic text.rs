@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @value = '${value}' and @label = '${label}']</value>
+         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = '${label}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,13 +18,6 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeStaticText</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>${value}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -8,7 +8,7 @@ CustomKeywords.'iOS.send_money_screen.tapPersonalInformation'()
 
 CustomKeywords.'iOS.send_money_screen.tapClose'()
 
-CustomKeywords.'global.verify_element.notExist'(findTestObject(Receiver_label))
+CustomKeywords.'global.verify_element.notExist'(Receiver_label)
 
-CustomKeywords.'global.verify_element.notExist'(findTestObject(Contact_label))
+CustomKeywords.'global.verify_element.notExist'(Contact_label)
 

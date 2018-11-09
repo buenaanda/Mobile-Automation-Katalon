@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search here first result</name>
+   <name>Destination ProvinceState required field</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>971c3e58-8bbb-416e-b779-4b647c4ba6e6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeStaticText' and @label = '${label}']</value>
+         <value>//*[@type = 'XCUIElementTypeTextField' and @value = 'Province/State*']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>XCUIElementTypeStaticText</value>
+      <value>XCUIElementTypeTextField</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>label</name>
+      <name>value</name>
       <type>Main</type>
-      <value>${label}</value>
+      <value>Province/State*</value>
    </webElementProperties>
 </WebElementEntity>
