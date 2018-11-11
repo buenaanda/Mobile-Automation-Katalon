@@ -110,31 +110,31 @@
    <testCaseLink>
       <guid>1ea7a98b-f6a8-40f8-884c-ffbdb0a32452</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Send Money Branch/SMB_14</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9f6030f5-7b91-4234-b896-01b5fff50402</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Send Money Branch/SMB_15</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dee37ac0-bd73-4678-b2ef-6dcf501d50e1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Send Money Branch/SMB_16</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>07a39195-4f72-41f7-b40f-854a7c932218</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Send Money Branch/SMB_20</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a991318e-d12c-46cb-a8f9-6d7dc1a45aba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Send Money Branch/SMB_25</testCaseId>
    </testCaseLink>
    <testCaseLink>

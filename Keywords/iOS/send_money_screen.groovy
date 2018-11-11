@@ -111,7 +111,8 @@ public class send_money_screen {
 
 	@Keyword
 	def enterEmployerName(String employerName) {
-		setText(findTestObject(testObjectPath + 'Employer Name field'), employerName)
+		MobileElement employerNameField = driver.findElementByXPath("//*[@type='XCUIElementTypeTextField' and @value='\"Employer's\" name*']")
+		employerNameField.sendKeys(employerName)
 	}
 
 	@Keyword

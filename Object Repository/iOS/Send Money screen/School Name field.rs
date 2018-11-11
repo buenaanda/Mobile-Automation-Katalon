@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Employer Name field</name>
+   <name>School Name field</name>
    <tag></tag>
-   <elementGuidId>245d988d-26e1-4469-b454-d4f93ac5603a</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@type='XCUIElementTypeTextField' and @value='\&quot;Employer's\&quot; name*']</value>
+         <value>//*[@type='XCUIElementTypeTextField' and @value='\&quot;School's\&quot; name*']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -29,6 +29,6 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <value>//*[@type='XCUIElementTypeTextField' and @value='Employer\'s name*']</value>
+      <value>//*[@type='XCUIElementTypeTextField' and @value='School\'s name*']</value>
    </webElementXpaths>
 </WebElementEntity>
