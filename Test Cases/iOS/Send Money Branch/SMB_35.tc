@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can see the discounted amount using promo code</description>
+   <name>SMB_35</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd08d7b9-2d19-43df-bee6-3611de70cc04</testCaseGuid>
+</TestCaseEntity>

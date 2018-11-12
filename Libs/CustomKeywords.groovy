@@ -172,6 +172,12 @@ def static "iOS.send_money_screen.enterEmployerName"(
         	employerName)
 }
 
+def static "iOS.send_money_screen.enterSchoolName"(
+    	String schoolName	) {
+    (new iOS.send_money_screen()).enterSchoolName(
+        	schoolName)
+}
+
 def static "iOS.send_money_screen.enterAmount"(
     	String amount	) {
     (new iOS.send_money_screen()).enterAmount(
@@ -230,6 +236,10 @@ def static "iOS.send_money_screen.tapCompleteBranchTransaction"() {
 
 def static "iOS.send_money_screen.tapViewDetails"() {
     (new iOS.send_money_screen()).tapViewDetails()
+}
+
+def static "iOS.send_money_screen.tapViewDashboard"() {
+    (new iOS.send_money_screen()).tapViewDashboard()
 }
 
 def static "iOS.transfer_money_screen.tapSendMoney"() {

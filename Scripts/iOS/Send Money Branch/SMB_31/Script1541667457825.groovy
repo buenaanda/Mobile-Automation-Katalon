@@ -21,6 +21,15 @@ String sourceOfFunds = GlobalVariable.randomSourceOfFunds
 String amount = GlobalVariable.randomAmount
 String message = GlobalVariable.randomSentence
 
+////
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import internal.GlobalVariable as GlobalVariable
+
+Mobile.startApplication(RunConfiguration.projectDir + GlobalVariable.appPath, false)
+Mobile.delay(20)
+////
+
 CustomKeywords.'iOS.navigation_menu.tapTransferMoney'()
 
 CustomKeywords.'iOS.transfer_money_screen.tapSendMoney'()
@@ -47,7 +56,7 @@ CustomKeywords.'iOS.send_money_screen.selectCountry'('Cambodia')
 
 CustomKeywords.'iOS.send_money_screen.enterPostal'('1442')
 
-CustomKeywords.'iOS.send_money_screen.enterUnitHouseNumberBuildingStreet'('503 Tindalo St.')
+CustomKeywords.'iOS.send_money_screen.enterUnitHouseNumberBuildingStreet'('503 Tindalo St')
 
 CustomKeywords.'iOS.send_money_screen.selectDestinationCountry'('Cambodia')
 

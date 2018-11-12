@@ -12,36 +12,36 @@ String lastName = GlobalVariable.randomLastName
 String mobileNumber = GlobalVariable.randomMobileNumber
 String phoneNumber = GlobalVariable.randomPhoneNumber
 String fullName = firstName +" "+ middleName +" "+ lastName
-String address = "503 Tindalo St, 1442, Cambodia"
-String country = "Cambodia"
+String address = "503 Tindalo St, 1442, Thailand"
+String country = "Thailand"
 String occupation = "Unemployed"
 String sourceOfFunds = GlobalVariable.randomSourceOfFunds
-String receiveAmount = "INR "+ GlobalVariable.randomAmount + ".00"
+String sendAmount = "PHP "+ GlobalVariable.randomAmount + ".00"
 String serviceFee = GlobalVariable.internationalServiceFee
 
 CustomKeywords.'iOS.send_money_screen.tapNext'()
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Receiver name', [('label') : fullName]), fullName)
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : fullName]))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Receiver contact', [('label') : '91' + mobileNumber +" "+ phoneNumber]), '91' + mobileNumber + "\n" + phoneNumber)
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : '66 ' + mobileNumber +" "+ phoneNumber]))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Destination country', [('label') : country]), country)
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : country]))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Occupation', [('label') : occupation]), occupation)
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : occupation]))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Source of Funds', [('label') : sourceOfFunds]), sourceOfFunds)
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : sourceOfFunds]))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Employer Name', [('label') : 'NONE']), 'NONE')
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : 'NONE']))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Receive Amount', [('label') : receiveAmount]), receiveAmount)
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : sendAmount]))
 
 CustomKeywords.'global.scroll_to_element.down'(findTestObject(sendMoneyObject + 'Terms and Agreement checkbox'))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Service Fee', [('label') : serviceFee]), serviceFee)
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : serviceFee]))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Message', [('label') : 'No message']), 'No message')
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : 'No message']))
 
-CustomKeywords.'global.verify_element.text'(findTestObject(sendMoneyObject + 'Message charge', [('label') : 'PHP 0.00']), 'PHP 0.00')
+CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Generic text', [('label') : 'PHP 0.00']))
 
 CustomKeywords.'global.verify_element.exist'(findTestObject(sendMoneyObject + 'Terms and Agreement button'))
 

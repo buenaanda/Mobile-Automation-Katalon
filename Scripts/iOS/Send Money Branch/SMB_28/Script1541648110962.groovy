@@ -10,11 +10,7 @@ String amount = GlobalVariable.randomAmount
 
 CustomKeywords.'iOS.send_money_screen.enterAmount'(amount)
 
-CustomKeywords.'iOS.send_money_screen.tapCurrency'()
-
-CustomKeywords.'iOS.send_money_screen.selectCurrency'('VND')
-
 Mobile.takeScreenshot()
 
-CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Send Money screen/Conversion currency', [('value') : 'PHP']), 'PHP')
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/Generic text', [('label') : 'PHP']))
 

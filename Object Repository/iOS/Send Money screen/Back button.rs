@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeButton' and @value = 'ic chevron left']</value>
+         <value>//*[@type = 'XCUIElementTypeButton' and @name = 'ic chevron left']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +22,7 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>name</name>
       <type>Main</type>
       <value>ic chevron left</value>
    </webElementProperties>

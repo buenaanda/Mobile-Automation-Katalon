@@ -25,21 +25,21 @@ public class verify_element {
 
 	@Keyword
 	def text(TestObject to, String text) {
-		Mobile.verifyElementText(to, text, FailureHandling.STOP_ON_FAILURE)
+		Mobile.verifyElementText(to, text, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 
 	@Keyword
 	def value(TestObject to, String text) {
-		Mobile.verifyElementText(to, text, FailureHandling.STOP_ON_FAILURE)
+		Mobile.verifyElementText(to, text, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 
 	@Keyword
 	def exist(TestObject to) {
-		Mobile.verifyElementExist(to, 5, FailureHandling.STOP_ON_FAILURE)
+		Mobile.verifyElementExist(to, 5, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 
 	@Keyword
 	def notExist(TestObject to) {
-		Mobile.verifyElementNotExist(to, 5, FailureHandling.STOP_ON_FAILURE)
+		Mobile.verifyElementNotExist(to, 5, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 }

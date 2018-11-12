@@ -111,8 +111,12 @@ public class send_money_screen {
 
 	@Keyword
 	def enterEmployerName(String employerName) {
-		MobileElement employerNameField = driver.findElementByXPath("//*[@type='XCUIElementTypeTextField' and @value='\"Employer's\" name*']")
-		employerNameField.sendKeys(employerName)
+		setText(findTestObject(testObjectPath + 'Employer Name field'), employerName)
+	}
+	
+	@Keyword
+	def enterSchoolName(String schoolName) {
+		setText(findTestObject(testObjectPath + 'School Name field'), schoolName)
 	}
 
 	@Keyword
@@ -139,12 +143,13 @@ public class send_money_screen {
 	@Keyword
 	def enterPromoCode(promoCode) {
 		setText(findTestObject(testObjectPath + 'Promo Code field'), promoCode)
-		tap(findTestObject(testObjectPath + 'Select Currency Done button'))
+		Mobile.hideKeyboard()
 	}
 
 	@Keyword
 	def enterMessage(message) {
 		setText(findTestObject(testObjectPath + 'Message field'), message)
+		Mobile.hideKeyboard()
 	}
 
 	@Keyword
@@ -176,7 +181,7 @@ public class send_money_screen {
 
 	@Keyword
 	def checkTermsAndAgreement() {
-		scrollToELementDown(testObjectPath + 'Terms and Agreement checkbox')
+		scrollToELementDown(findTestObject(testObjectPath + 'Terms and Agreement checkbox'))
 		tap(findTestObject(testObjectPath + 'Terms and Agreement checkbox'))
 	}
 
@@ -189,6 +194,11 @@ public class send_money_screen {
 	@Keyword
 	def tapViewDetails() {
 		tap(findTestObject(testObjectPath + 'View Details button'))
+	}
+	
+	@Keyword
+	def tapViewDashboard() {
+		tap(findTestObject(testObjectPath + 'View Dashboard button'))
 	}
 
 	def tap(TestObject to) {

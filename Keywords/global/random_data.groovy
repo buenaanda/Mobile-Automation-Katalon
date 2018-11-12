@@ -20,13 +20,13 @@ public class random_data {
 
 	String mobileNumber() {
 		String ranNum1 = faker.number().numberBetween(0, 99999)
-		String ranNum2 = faker.number().numberBetween(0, 9999999999)
+		String ranNum2 = faker.number().numberBetween(0, 9999999)
 		return ranNum1+ranNum2
 	}
 
 	String phoneNumber() {
 		String ranNum1 = faker.number().numberBetween(0, 99999)
-		String ranNum2 = faker.number().numberBetween(0, 9999999999)
+		String ranNum2 = faker.number().numberBetween(0, 9999999)
 		return ranNum1+ranNum2
 	}
 
@@ -35,12 +35,12 @@ public class random_data {
 	}
 
 	String amount() {
-		return faker.number().numberBetween(1, 99999)
+		return faker.number().numberBetween(1, 4000)
 	}
 
 	String sourceOfFunds() {
-		String sourceOfFundsList = [
-			"Borrowed Funds/Loans",
+		String[] sourceOfFundsList = [
+			"Borrowed Funds/Loan",
 			"Charitable Donations",
 			"Gift",
 			"Inheritance",
@@ -48,7 +48,8 @@ public class random_data {
 			"Salary/Income",
 			"Savings"
 		]
-		int ranNum = faker.number().numberBetween(0, sourceOfFundsList.length() - 1)
+		def arrayLength = sourceOfFundsList.length
+		int ranNum = faker.number().numberBetween(0, arrayLength - 1)
 		return sourceOfFundsList[ranNum]
 	}
 

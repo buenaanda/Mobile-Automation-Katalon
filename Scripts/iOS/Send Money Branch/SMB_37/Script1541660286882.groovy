@@ -12,15 +12,15 @@ TestObject Success_screen_message = findTestObject('iOS/Send Money screen/Generi
 
 CustomKeywords.'global.verify_element.exist'(Success_screen_message)
 
-TestObject Success_screen_message = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'To complete your transaction, please present your mobile number along with the required documents at a PERA HUB branch'])
+Success_screen_message = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'To complete your transaction, please present your mobile number along with the required documents at a PERA HUB branch'])
 
 CustomKeywords.'global.verify_element.exist'(Success_screen_message)
 
-TestObject Success_screen_message = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Present your mobile # to Pera Hub Branch'])
+Success_screen_message = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Present your mobile # to Pera Hub Branch'])
 
 CustomKeywords.'global.verify_element.exist'(Success_screen_message)
 
-TestObject Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : '639271819134'])
+TestObject Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : '639070405298'])
 
 CustomKeywords.'global.verify_element.exist'(Mobile_Number)
 

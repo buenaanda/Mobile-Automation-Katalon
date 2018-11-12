@@ -10,11 +10,11 @@
          <value>//*[@type='XCUIElementTypeTextField' and @value='\&quot;Employer's\&quot; name*']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'XCUIElementTypeTextField']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[@type = 'XCUIElementTypeTextField' and contains(@value, 'Employer')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,6 +25,13 @@
       <name>type</name>
       <type>Main</type>
       <value>XCUIElementTypeTextField</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Employer</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
