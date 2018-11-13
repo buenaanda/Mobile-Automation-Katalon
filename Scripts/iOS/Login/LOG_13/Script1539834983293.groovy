@@ -5,8 +5,6 @@ import internal.GlobalVariable as GlobalVariable
 'Enter valid password in Password text field'
 CustomKeywords.'iOS.login_screen.enterPassword'(GlobalVariable.password)
 
-Mobile.hideKeyboard()
-
 'Tap Login button'
 CustomKeywords.'iOS.login_screen.tapSignIn'()
 

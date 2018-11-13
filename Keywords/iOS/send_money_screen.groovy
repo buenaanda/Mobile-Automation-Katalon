@@ -113,7 +113,7 @@ public class send_money_screen {
 	def enterEmployerName(String employerName) {
 		setText(findTestObject(testObjectPath + 'Employer Name field'), employerName)
 	}
-	
+
 	@Keyword
 	def enterSchoolName(String schoolName) {
 		setText(findTestObject(testObjectPath + 'School Name field'), schoolName)
@@ -195,7 +195,7 @@ public class send_money_screen {
 	def tapViewDetails() {
 		tap(findTestObject(testObjectPath + 'View Details button'))
 	}
-	
+
 	@Keyword
 	def tapViewDashboard() {
 		tap(findTestObject(testObjectPath + 'View Dashboard button'))

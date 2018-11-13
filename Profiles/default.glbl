@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Data Files/PeraHub_v3.0.0-Dev.app'</initValue>
+      <initValue>'/Data Files/PeraHub_v3.2.0-Dev.app'</initValue>
       <name>appPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
