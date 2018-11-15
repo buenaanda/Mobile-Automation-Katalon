@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can nominate valid password</description>
+   <name>REG_11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a0001a0-05cd-4dc9-a4e2-ee8c8caaee15</testCaseGuid>
+</TestCaseEntity>

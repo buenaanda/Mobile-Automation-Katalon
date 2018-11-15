@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can select Use My Mobile Number option</description>
+   <name>REG_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c76fadf-f28b-4c56-8d87-9530f49eb643</testCaseGuid>
+</TestCaseEntity>

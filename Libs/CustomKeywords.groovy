@@ -62,6 +62,10 @@ def static "iOS.initial_screen.tapLogin"() {
     (new iOS.initial_screen()).tapLogin()
 }
 
+def static "iOS.initial_screen.tapRegister"() {
+    (new iOS.initial_screen()).tapRegister()
+}
+
 def static "iOS.navigation_menu.tapTransferMoney"() {
     (new iOS.navigation_menu()).tapTransferMoney()
 }
@@ -296,4 +300,76 @@ def static "iOS.login_screen.tapOK"() {
 
 def static "iOS.login_screen.tapLogout"() {
     (new iOS.login_screen()).tapLogout()
+}
+
+def static "iOS.registration_screen.tapUseMobileNumber"() {
+    (new iOS.registration_screen()).tapUseMobileNumber()
+}
+
+def static "iOS.registration_screen.tapCustomerNumber"() {
+    (new iOS.registration_screen()).tapCustomerNumber()
+}
+
+def static "iOS.registration_screen.tapPrivacyPolicy"() {
+    (new iOS.registration_screen()).tapPrivacyPolicy()
+}
+
+def static "iOS.registration_screen.tapTermsAndAgreement"() {
+    (new iOS.registration_screen()).tapTermsAndAgreement()
+}
+
+def static "iOS.registration_screen.checkTermsAndAgreement"() {
+    (new iOS.registration_screen()).checkTermsAndAgreement()
+}
+
+def static "iOS.registration_screen.enterMobileNumber"(
+    	String mobileNumber	) {
+    (new iOS.registration_screen()).enterMobileNumber(
+        	mobileNumber)
+}
+
+def static "iOS.registration_screen.tapNext"() {
+    (new iOS.registration_screen()).tapNext()
+}
+
+def static "iOS.registration_screen.tapOK"() {
+    (new iOS.registration_screen()).tapOK()
+}
+
+def static "iOS.registration_screen.enterUsername"(
+    	String username	) {
+    (new iOS.registration_screen()).enterUsername(
+        	username)
+}
+
+def static "iOS.registration_screen.enterPassword"(
+    	String password	) {
+    (new iOS.registration_screen()).enterPassword(
+        	password)
+}
+
+def static "iOS.registration_screen.tapSecurityDisclaimer"() {
+    (new iOS.registration_screen()).tapSecurityDisclaimer()
+}
+
+def static "iOS.registration_screen.tapClose"() {
+    (new iOS.registration_screen()).tapClose()
+}
+
+def static "iOS.registration_screen.enterFirstName"(
+    	String firstName	) {
+    (new iOS.registration_screen()).enterFirstName(
+        	firstName)
+}
+
+def static "iOS.registration_screen.enterMiddleName"(
+    	String middleName	) {
+    (new iOS.registration_screen()).enterMiddleName(
+        	middleName)
+}
+
+def static "iOS.registration_screen.enterLastName"(
+    	String lastName	) {
+    (new iOS.registration_screen()).enterLastName(
+        	lastName)
 }

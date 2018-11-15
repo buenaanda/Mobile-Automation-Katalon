@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can create its account using valid credentials</description>
+   <name>REG_13</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee916da3-22f9-4091-898c-c6c0439dee69</testCaseGuid>
+</TestCaseEntity>

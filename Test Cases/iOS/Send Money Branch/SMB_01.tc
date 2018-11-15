@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>User can select Send Money via App button</description>
+   <description>User can select Send Money via Branch button</description>
    <name>SMB_01</name>
    <tag></tag>
    <comment></comment>

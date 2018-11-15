@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can enter its last name</description>
+   <name>REG_17</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9af43ed-6595-495c-ad47-54c5be1922f4</testCaseGuid>
+</TestCaseEntity>

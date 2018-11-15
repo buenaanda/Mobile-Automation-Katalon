@@ -55,6 +55,7 @@ public class send_money_screen {
 	@Keyword
 	def enterMobileNumber(String mobileNumber) {
 		setText(findTestObject(testObjectPath + 'Mobile Number field'), mobileNumber)
+		hideKeypad()
 	}
 
 	@Keyword
@@ -76,6 +77,7 @@ public class send_money_screen {
 	@Keyword
 	def enterPostal(String postal) {
 		setText(findTestObject(testObjectPath + 'Postal field'), postal)
+		hideKeypad()
 	}
 
 	@Keyword
@@ -227,5 +229,9 @@ public class send_money_screen {
 
 	def selectPickerWheelValue(String value) {
 		(new object()).selectPickerWheelValue(value)
+	}
+
+	def hideKeypad() {
+		(new object()).hideKeypad()
 	}
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User cannot create its account using invalid password</description>
+   <name>REG_12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc0645c3-2783-4bbc-8de8-d083e93d3b8a</testCaseGuid>
+</TestCaseEntity>

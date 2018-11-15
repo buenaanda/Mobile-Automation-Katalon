@@ -99,4 +99,9 @@
       <initValue>'A0027'</initValue>
       <name>promoCode1</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>randomUsername</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

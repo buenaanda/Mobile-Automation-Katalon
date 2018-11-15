@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can enter its middle name</description>
+   <name>REG_16</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5cd6f6e-71d5-4eca-a5d2-0fb353fc9a32</testCaseGuid>
+</TestCaseEntity>

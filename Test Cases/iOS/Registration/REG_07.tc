@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can proceed to OTP screen</description>
+   <name>REG_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f81422c0-1f56-43f1-8ad1-457e7edbdbee</testCaseGuid>
+</TestCaseEntity>

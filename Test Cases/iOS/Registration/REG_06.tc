@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User cannot proceed using invalid mobile number</description>
+   <name>REG_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b31a1960-9f1f-4ec2-ac75-bc6b127145e1</testCaseGuid>
+</TestCaseEntity>

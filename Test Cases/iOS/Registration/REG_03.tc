@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can input 10 numeric characters in Mobile Number text field</description>
+   <name>REG_03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ebef6da-c018-4242-bdd2-1d7021a834ff</testCaseGuid>
+</TestCaseEntity>

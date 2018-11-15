@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User cannot input alpha - special characters in Mobile Number text field</description>
+   <name>REG_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>329dd9af-e7af-4bf1-a4a4-c9952e279ad6</testCaseGuid>
+   <variable>
+      <defaultValue>'!@#aBc:&lt;?'</defaultValue>
+      <description></description>
+      <id>ebf205f5-6aff-43ca-aa32-f390e0f5ba30</id>
+      <masked>false</masked>
+      <name>invalidMobileNumber</name>
+   </variable>
+</TestCaseEntity>

@@ -4,7 +4,7 @@
    <name>Send Money Branch</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-13T17:58:20</lastRun>
+   <lastRun>2018-11-15T17:31:26</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -204,16 +204,16 @@
       <testCaseId>Test Cases/iOS/Send Money Branch/SMB_37</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f3c75f95-ae20-4123-afdf-48f96e24400c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/iOS/Send Money Branch/SMB_43</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>256c5afe-3ea3-408f-a81e-593b3b1997c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/iOS/Send Money Branch/SMB_42</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f3c75f95-ae20-4123-afdf-48f96e24400c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Send Money Branch/SMB_43</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>08541f1c-0efb-4e22-a38b-79e068de7deb</guid>

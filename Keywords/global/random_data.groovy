@@ -20,13 +20,13 @@ public class random_data {
 
 	String mobileNumber() {
 		String ranNum1 = faker.number().numberBetween(0, 99999)
-		String ranNum2 = faker.number().numberBetween(0, 9999999)
+		String ranNum2 = faker.number().numberBetween(0, 999999)
 		return ranNum1+ranNum2
 	}
 
 	String phoneNumber() {
-		String ranNum1 = faker.number().numberBetween(0, 99999)
-		String ranNum2 = faker.number().numberBetween(0, 9999999)
+		String ranNum1 = faker.number().numberBetween(0, 9999)
+		String ranNum2 = faker.number().numberBetween(0, 9999)
 		return ranNum1+ranNum2
 	}
 
@@ -35,7 +35,7 @@ public class random_data {
 	}
 
 	String amount() {
-		return faker.number().numberBetween(1, 4000)
+		return faker.number().numberBetween(1, 2000)
 	}
 
 	String sourceOfFunds() {
@@ -55,5 +55,9 @@ public class random_data {
 
 	String message() {
 		return faker.lorem().sentence()
+	}
+	
+	String username() {
+		return faker.name().username()
 	}
 }
