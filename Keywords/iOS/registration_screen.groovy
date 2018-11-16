@@ -40,6 +40,7 @@ public class registration_screen {
 	@Keyword
 	def enterMobileNumber(String mobileNumber) {
 		setText(findTestObject('iOS/Registration screen/Mobile Number field'), mobileNumber)
+		hideKeypad()
 	}
 
 	@Keyword
@@ -62,27 +63,27 @@ public class registration_screen {
 	def enterPassword(String password) {
 		setText(findTestObject('iOS/Registration screen/Password field'), password)
 	}
-	
+
 	@Keyword
 	def tapSecurityDisclaimer() {
 		tap(findTestObject('iOS/Registration screen/Security Disclaimer button'))
 	}
-	
+
 	@Keyword
 	def tapClose() {
 		tap(findTestObject('iOS/Registration screen/Close button'))
 	}
-	
+
 	@Keyword
 	def enterFirstName(String firstName) {
 		setText(findTestObject('iOS/Registration screen/First Name field'), firstName)
 	}
-	
+
 	@Keyword
 	def enterMiddleName(String middleName) {
 		setText(findTestObject('iOS/Registration screen/Middle Name field'), middleName)
 	}
-	
+
 	@Keyword
 	def enterLastName(String lastName) {
 		setText(findTestObject('iOS/Registration screen/Middle Name field'), lastName)
@@ -114,5 +115,9 @@ public class registration_screen {
 
 	def selectPickerWheelValue(String value) {
 		(new object()).selectPickerWheelValue(value)
+	}
+	
+	def hideKeypad() {
+		(new object()).hideKeypad()
 	}
 }

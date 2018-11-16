@@ -7,8 +7,9 @@ String receiverName = GlobalVariable.randomFirstName +" "+ GlobalVariable.random
 String receiverMobileNumber = "66"+ GlobalVariable.randomMobileNumber
 String serviceFee = GlobalVariable.internationalServiceFee
 String sendAmount = GlobalVariable.randomAmount
+String senderMobileNumber = "63" + GlobalVariable.mobileNumber
 
-TestObject Sender_Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : "639070405298"])
+TestObject Sender_Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : senderMobileNumber])
 TestObject Sender_Name = findTestObject('iOS/Send Money screen/Generic text', [('label') : senderName])
 TestObject Sender_Country = findTestObject('iOS/Send Money screen/Generic text', [('label') : "Philippines"])
 TestObject Receiver_Name = findTestObject('iOS/Send Money screen/Generic text', [('label') : receiverName])
@@ -28,10 +29,10 @@ CustomKeywords.'global.verify_element.exist'(Sender_Country)
 
 CustomKeywords.'global.verify_element.exist'(Receiver_Name)
 
+CustomKeywords.'global.scroll_to_element.down'(Service_Fee)
+
 CustomKeywords.'global.verify_element.exist'(Service_Fee)
 
 CustomKeywords.'global.verify_element.exist'(Send_Amount)
-
-CustomKeywords.'global.verify_element.exist'(Service_Fee)
 
 CustomKeywords.'global.verify_element.exist'(Message_Charge)

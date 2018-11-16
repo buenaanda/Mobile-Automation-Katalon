@@ -189,6 +189,7 @@ public class send_money_screen {
 
 	@Keyword
 	def tapCompleteBranchTransaction() {
+		scrollToELementDown(findTestObject(testObjectPath + 'Complete Branch Transaction button'))
 		tap(findTestObject(testObjectPath + 'Complete Branch Transaction button'))
 		waitForLoaderNotVisible()
 	}

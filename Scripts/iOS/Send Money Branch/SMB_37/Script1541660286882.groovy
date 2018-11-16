@@ -1,6 +1,8 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.testobject.TestObject
+import internal.GlobalVariable
+
+String senderMobileNumber = "63" + GlobalVariable.mobileNumber
 
 CustomKeywords.'iOS.send_money_screen.tapNext'()
 
@@ -20,7 +22,7 @@ Success_screen_message = findTestObject('iOS/Send Money screen/Generic text', [(
 
 CustomKeywords.'global.verify_element.exist'(Success_screen_message)
 
-TestObject Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : '639070405298'])
+TestObject Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : senderMobileNumber])
 
 CustomKeywords.'global.verify_element.exist'(Mobile_Number)
 

@@ -4,13 +4,67 @@
    <name>PERA Hub Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-15T14:32:16</lastRun>
+   <lastRun>2018-11-16T18:16:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>15</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>5e61d775-b5af-4cba-91bb-10571e4cf581</testSuiteGuid>
+   <testCaseLink>
+      <guid>89b44284-0f92-4b64-b203-0c52e83a5274</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Registration/REG_01</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9b9e471-4d1b-4ef8-ba18-a51c1a384561</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Registration/REG_02</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6bbf3374-e17b-4a4a-a6ac-052784f7277e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Registration/REG_03</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>72be4cef-30a1-48f1-84af-aeda35bde3f2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Registration/REG_04</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ebf205f5-6aff-43ca-aa32-f390e0f5ba30</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19e0d75a-13dc-41ec-9b69-73e11c24f33c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Registration/REG_05</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9eb9231f-4315-4811-906b-6ebe453581bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Registration/REG_06</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>051dcde9-9439-4e81-a91c-e3ba68bac570</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Registration/REG_07</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9003e78d-9f18-4158-a60b-cc4ece6d5bd7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/iOS/Registration/REG_09</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>f5635402-77d2-4b41-8a41-528b446f3861</guid>
       <isReuseDriver>false</isReuseDriver>

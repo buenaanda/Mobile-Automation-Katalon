@@ -68,55 +68,55 @@
    <testCaseLink>
       <guid>deede6ac-a36a-49e1-b72c-6bbb092a75a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_08</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>886f96e1-d336-4681-b790-30f475de9fc5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_14</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a1dfb7c6-9ef7-470e-bc70-7000ebd6ba12</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_10</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1ff6c93c-85a7-4d07-a054-bccb358db1f8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_11</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>995d64b3-4dd4-4d48-ae1a-a5ef473b8165</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_12</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ecd1a596-b816-45aa-ac96-acd68233c0ce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_13</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f55305df-d32a-4179-b27b-b4ffb83ac8c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_15</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e1d3f395-4162-49af-9a91-a528d23363af</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_16</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4c61e53f-74f1-4864-9d1d-4fba9c352802</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/iOS/Registration/REG_17</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

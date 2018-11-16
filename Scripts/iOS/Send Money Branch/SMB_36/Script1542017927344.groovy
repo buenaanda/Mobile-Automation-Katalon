@@ -4,7 +4,8 @@ import internal.GlobalVariable as GlobalVariable
 
 TestObject Message = findTestObject('iOS/Send Money screen/Generic text', [('label') : GlobalVariable.randomSentence])
 TestObject Message_Charge = findTestObject('iOS/Send Money screen/Generic text', [('label') : "PHP 50.00"])
-TestObject Service_Charge = findTestObject('iOS/Send Money screen/Generic text', [('label') : "PHP 250.00"])
+TestObject Message_Charge_2 = findTestObject('iOS/Send Money screen/Generic text', [('label') : "50.00 PHP"])
+TestObject Service_Charge = findTestObject('iOS/Send Money screen/Generic text', [('label') : "250.00 PHP"])
 TestObject Personal_Message_label = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Personal Message'])
 
 CustomKeywords.'global.verify_element.exist'(Message)
@@ -21,6 +22,6 @@ CustomKeywords.'global.scroll_to_element.down'(Personal_Message_label)
 
 CustomKeywords.'global.verify_element.exist'(Message)
 
-CustomKeywords.'global.verify_element.exist'(Message_Charge)
+CustomKeywords.'global.verify_element.exist'(Message_Charge_2)
 
 CustomKeywords.'global.verify_element.exist'(Service_Charge)

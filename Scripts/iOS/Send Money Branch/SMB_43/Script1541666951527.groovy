@@ -3,6 +3,6 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 CustomKeywords.'iOS.send_money_screen.tapBack'()
 
-CustomKeywords.'OS.send_money_screen.tapViewDashboard'()
+CustomKeywords.'iOS.send_money_screen.tapViewDashboard'()
 
 CustomKeywords.'global.verify_element.exist'(findTestObject("iOS/Navigation menu/My Account menu"))
