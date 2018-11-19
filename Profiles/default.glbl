@@ -104,4 +104,9 @@
       <initValue>''</initValue>
       <name>randomUsername</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Data Files/base.apk'</initValue>
+      <name>androidAppPath</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

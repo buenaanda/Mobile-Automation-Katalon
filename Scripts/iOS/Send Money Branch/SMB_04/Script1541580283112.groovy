@@ -2,12 +2,12 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import internal.GlobalVariable as GlobalVariable
 
-TestObject First_name_field = findTestObject('iOS/Send Money screen/Generic field', [('value') : GlobalVariable.randomFirstName])
-TestObject Last_name_field = findTestObject('iOS/Send Money screen/Generic field', [('value') : GlobalVariable.randomLastName])
-TestObject Mobile_number_field = findTestObject('iOS/Send Money screen/Generic field', [('value') : GlobalVariable.randomMobileNumber])
-TestObject Firstname_is_required_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Firstname is required'])
-TestObject Lastname_is_required_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Lastname is required'])
-TestObject Mobile_number_is_required_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Mobile number is required'])
+TestObject First_name_field = findTestObject('iOS/Global/Generic field', [('value') : GlobalVariable.randomFirstName])
+TestObject Last_name_field = findTestObject('iOS/Global/Generic field', [('value') : GlobalVariable.randomLastName])
+TestObject Mobile_number_field = findTestObject('iOS/Global/Generic field', [('value') : GlobalVariable.randomMobileNumber])
+TestObject Firstname_is_required_error = findTestObject('iOS/Global/Generic text', [('label') : 'Firstname is required'])
+TestObject Lastname_is_required_error = findTestObject('iOS/Global/Generic text', [('label') : 'Lastname is required'])
+TestObject Mobile_number_is_required_error = findTestObject('iOS/Global/Generic text', [('label') : 'Mobile number is required'])
 
 CustomKeywords.'iOS.send_money_screen.tapPersonalInformation'()
 

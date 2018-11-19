@@ -1,8 +1,8 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.testobject.TestObject
 
-TestObject Receiver_label = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Receiver:'])
-TestObject Contact_label = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Contact:'])
+TestObject Receiver_label = findTestObject('iOS/Global/Generic text', [('label') : 'Receiver:'])
+TestObject Contact_label = findTestObject('iOS/Global/Generic text', [('label') : 'Contact:'])
 
 CustomKeywords.'iOS.send_money_screen.tapPersonalInformation'()
 

@@ -12,5 +12,5 @@ CustomKeywords.'iOS.send_money_screen.enterAmount'(amount)
 
 Mobile.takeScreenshot()
 
-CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/Generic text', [('label') : 'PHP']))
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Global/Generic text', [('label') : 'PHP']))
 

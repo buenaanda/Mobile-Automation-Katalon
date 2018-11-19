@@ -42,4 +42,24 @@ public class verify_element {
 	def notExist(TestObject to) {
 		Mobile.verifyElementNotExist(to, 5, FailureHandling.CONTINUE_ON_FAILURE)
 	}
+
+	@Keyword
+	def clickable(TestObject to) {
+		String attribute = Mobile.getAttribute(to, 'clickable', 10)
+		Mobile.verifyEqual(attribute, 'true')
+	}
+
+	@Keyword
+	def notClickable(TestObject to) {
+		String attribute = Mobile.getAttribute(to, 'clickable', 10)
+		Mobile.verifyEqual(attribute, 'false')
+	}
+
+	@Keyword
+	def toastMessageExist(String text) {
+		String xpath = String.format("//android.widget.Toast[@text='%s']", text)
+		TestObject to = findTestObject('android/Global/Toast message')
+		to.findProperty('xpath').setValue(xpath)
+		Mobile.verifyElementExist(findTestObject(to), 5)
+	}
 }

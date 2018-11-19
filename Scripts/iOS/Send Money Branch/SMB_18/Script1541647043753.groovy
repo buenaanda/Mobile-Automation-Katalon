@@ -1,8 +1,8 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 
-TestObject Receiver_Current_Address = findTestObject('iOS/Send Money screen/Generic text', [('label') : '503 Tindalo, 1442, Cambodia'])
-TestObject Destination_Country = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Cambodia'])
+TestObject Receiver_Current_Address = findTestObject('iOS/Global/Generic text', [('label') : '503 Tindalo, 1442, Cambodia'])
+TestObject Destination_Country = findTestObject('iOS/Global/Generic text', [('label') : 'Cambodia'])
 
 CustomKeywords.'iOS.send_money_screen.selectCountry'('Cambodia')
 

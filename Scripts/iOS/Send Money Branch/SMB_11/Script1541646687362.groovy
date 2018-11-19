@@ -5,7 +5,7 @@ CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money scre
 
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/DistrictCity field'))
 
-TestObject Country_dropdown = findTestObject('iOS/Send Money screen/Generic field', [('value') : 'Vietnam'])
+TestObject Country_dropdown = findTestObject('iOS/Global/Generic field', [('value') : 'Vietnam'])
 
 CustomKeywords.'iOS.send_money_screen.selectDropdown'(Country_dropdown, 'Mexico')
 

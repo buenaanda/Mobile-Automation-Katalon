@@ -10,7 +10,7 @@ CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/OTP Verificatio
 
 CustomKeywords.'global.verify_element.disabled'(findTestObject('iOS/OTP Verification screen/Resend button'))
 
-CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/OTP Verification screen/Close button'))
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Global/Close button'))
 
 Mobile.delay(50)
 

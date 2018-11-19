@@ -39,17 +39,17 @@ public class object {
 		MobileElement wheels = driver.findElementByClassName("XCUIElementTypePickerWheel")
 		wheels.sendKeys(value)
 	}
-	
+
 	def selectMonthPickerWheelValue(String month) {
 		List <MobileElement> wheels = driver.findElementsByClassName("XCUIElementTypePickerWheel")
 		wheels.get(0).sendKeys(month)
 	}
-	
+
 	def selectDayPickerWheelValue(String day) {
 		List <MobileElement> wheels = driver.findElementsByClassName("XCUIElementTypePickerWheel")
 		wheels.get(1).sendKeys(day)
 	}
-	
+
 	def selectYearPickerWheelValue(String year) {
 		List <MobileElement> wheels = driver.findElementsByClassName("XCUIElementTypePickerWheel")
 		wheels.get(2).sendKeys(year)

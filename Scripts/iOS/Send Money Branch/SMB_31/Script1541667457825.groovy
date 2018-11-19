@@ -67,6 +67,6 @@ CustomKeywords.'iOS.send_money_screen.enterAmount'(amount)
 
 CustomKeywords.'iOS.send_money_screen.enterMessage'(message)
 
-TestObject Message_Field = findTestObject('iOS/Send Money screen/Generic field', [('value') : message])
+TestObject Message_Field = findTestObject('iOS/Global/Generic field', [('value') : message])
 
 CustomKeywords.'global.verify_element.text'(Message_Field, message)

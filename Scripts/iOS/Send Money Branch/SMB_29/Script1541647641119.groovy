@@ -23,7 +23,7 @@ String mobileNumber = GlobalVariable.randomMobileNumber
 String phoneNumber = GlobalVariable.randomPhoneNumber
 String sourceOfFunds = GlobalVariable.randomSourceOfFunds
 
-TestObject Enter_amount_first_error = findTestObject('iOS/Send Money screen/Generic text', [('label') : 'Please enter amount first'])
+TestObject Enter_amount_first_error = findTestObject('iOS/Global/Generic text', [('label') : 'Please enter amount first'])
 
 Mobile.startApplication(RunConfiguration.projectDir + GlobalVariable.appPath, false)
  

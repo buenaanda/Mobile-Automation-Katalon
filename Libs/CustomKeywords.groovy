@@ -48,26 +48,62 @@ def static "global.verify_element.notExist"(
         	to)
 }
 
-def static "iOS.otp_verification_screen.enterOTP"(
-    	String otp	) {
-    (new iOS.otp_verification_screen()).enterOTP(
-        	otp)
+def static "global.verify_element.clickable"(
+    	TestObject to	) {
+    (new global.verify_element()).clickable(
+        	to)
 }
 
-def static "iOS.otp_verification_screen.tapResend"() {
-    (new iOS.otp_verification_screen()).tapResend()
+def static "global.verify_element.notClickable"(
+    	TestObject to	) {
+    (new global.verify_element()).notClickable(
+        	to)
 }
 
-def static "iOS.initial_screen.tapLogin"() {
-    (new iOS.initial_screen()).tapLogin()
+def static "global.verify_element.toastMessageExist"(
+    	String text	) {
+    (new global.verify_element()).toastMessageExist(
+        	text)
 }
 
-def static "iOS.initial_screen.tapRegister"() {
-    (new iOS.initial_screen()).tapRegister()
+def static "android.transfer_money_screen.tapSendMoney"() {
+    (new android.transfer_money_screen()).tapSendMoney()
 }
 
-def static "iOS.navigation_menu.tapTransferMoney"() {
-    (new iOS.navigation_menu()).tapTransferMoney()
+def static "android.transfer_money_screen.tapOK"() {
+    (new android.transfer_money_screen()).tapOK()
+}
+
+def static "android.transfer_money_screen.tapBranchTransaction"() {
+    (new android.transfer_money_screen()).tapBranchTransaction()
+}
+
+def static "android.login_screen.enterUsername"(
+    	String username	) {
+    (new android.login_screen()).enterUsername(
+        	username)
+}
+
+def static "android.login_screen.enterPassword"(
+    	String password	) {
+    (new android.login_screen()).enterPassword(
+        	password)
+}
+
+def static "android.login_screen.tapLogin"() {
+    (new android.login_screen()).tapLogin()
+}
+
+def static "android.login_screen.tapSignIn"() {
+    (new android.login_screen()).tapSignIn()
+}
+
+def static "android.login_screen.tapOK"() {
+    (new android.login_screen()).tapOK()
+}
+
+def static "android.login_screen.tapLogout"() {
+    (new android.login_screen()).tapLogout()
 }
 
 def static "iOS.send_money_screen.tapPersonalInformation"() {
@@ -246,26 +282,8 @@ def static "iOS.send_money_screen.tapViewDashboard"() {
     (new iOS.send_money_screen()).tapViewDashboard()
 }
 
-def static "iOS.transfer_money_screen.tapSendMoney"() {
-    (new iOS.transfer_money_screen()).tapSendMoney()
-}
-
-def static "iOS.transfer_money_screen.tapOK"() {
-    (new iOS.transfer_money_screen()).tapOK()
-}
-
-def static "iOS.transfer_money_screen.tapBranchTransaction"() {
-    (new iOS.transfer_money_screen()).tapBranchTransaction()
-}
-
-def static "global.wait_for_element.visible"(
-    	TestObject to	) {
-    (new global.wait_for_element()).visible(
-        	to)
-}
-
-def static "global.wait_for_element.loaderNotVisible"() {
-    (new global.wait_for_element()).loaderNotVisible()
+def static "iOS.navigation_menu.tapTransferMoney"() {
+    (new iOS.navigation_menu()).tapTransferMoney()
 }
 
 def static "global.scroll_to_element.down"(
@@ -372,4 +390,66 @@ def static "iOS.registration_screen.enterLastName"(
     	String lastName	) {
     (new iOS.registration_screen()).enterLastName(
         	lastName)
+}
+
+def static "android.navigation_menu.tapTransferMoney"() {
+    (new android.navigation_menu()).tapTransferMoney()
+}
+
+def static "android.initial_screen.tapLogin"() {
+    (new android.initial_screen()).tapLogin()
+}
+
+def static "android.initial_screen.tapRegister"() {
+    (new android.initial_screen()).tapRegister()
+}
+
+def static "iOS.otp_verification_screen.enterOTP"(
+    	String otp	) {
+    (new iOS.otp_verification_screen()).enterOTP(
+        	otp)
+}
+
+def static "iOS.otp_verification_screen.tapResend"() {
+    (new iOS.otp_verification_screen()).tapResend()
+}
+
+def static "iOS.inactive_screen.tapOK"() {
+    (new iOS.inactive_screen()).tapOK()
+}
+
+def static "iOS.initial_screen.tapLogin"() {
+    (new iOS.initial_screen()).tapLogin()
+}
+
+def static "iOS.initial_screen.tapRegister"() {
+    (new iOS.initial_screen()).tapRegister()
+}
+
+def static "iOS.transfer_money_screen.tapSendMoney"() {
+    (new iOS.transfer_money_screen()).tapSendMoney()
+}
+
+def static "iOS.transfer_money_screen.tapBranchTransaction"() {
+    (new iOS.transfer_money_screen()).tapBranchTransaction()
+}
+
+def static "global.wait_for_element.visible"(
+    	TestObject to	) {
+    (new global.wait_for_element()).visible(
+        	to)
+}
+
+def static "global.wait_for_element.loaderNotVisible"() {
+    (new global.wait_for_element()).loaderNotVisible()
+}
+
+def static "android.otp_verification_screen.enterOTP"(
+    	String otp	) {
+    (new android.otp_verification_screen()).enterOTP(
+        	otp)
+}
+
+def static "android.otp_verification_screen.tapResend"() {
+    (new android.otp_verification_screen()).tapResend()
 }

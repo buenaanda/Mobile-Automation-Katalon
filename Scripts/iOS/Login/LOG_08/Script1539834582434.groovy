@@ -13,4 +13,3 @@ CustomKeywords.'iOS.login_screen.tapLogin'()
 CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Login screen/Error username and password'), GlobalVariable.invalidUsernamePasswordError)
 
 CustomKeywords.'iOS.login_screen.tapOK'()
-

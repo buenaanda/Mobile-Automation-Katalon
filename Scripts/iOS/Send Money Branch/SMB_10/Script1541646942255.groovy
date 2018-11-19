@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.testobject.TestObject as TestObject
 
-TestObject Country_dropdown = findTestObject('iOS/Send Money screen/Generic field', [('value') : 'Vietnam'])
+TestObject Country_dropdown = findTestObject('iOS/Global/Generic field', [('value') : 'Vietnam'])
 
 CustomKeywords.'iOS.send_money_screen.tapCurrentAddress'()
 

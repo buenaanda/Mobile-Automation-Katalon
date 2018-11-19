@@ -8,10 +8,10 @@ CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration sc
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Terms And Agreement checkbox'))
 
 CustomKeywords.'iOS.registration_screen.tapPrivacyPolicy'()
-TestObject Privacy_Policy = findTestObject('iOS/Registration screen/Generic text', [('label') : 'Privacy Policy'])
+TestObject Privacy_Policy = findTestObject('iOS/Global/Generic text', [('label') : 'Privacy Policy'])
 CustomKeywords.'global.verify_element.exist'(Privacy_Policy)
 CustomKeywords.'iOS.registration_screen.tapTermsAndAgreement'()
-TestObject Terms_And_Agreement = findTestObject('iOS/Registration screen/Generic text', [('label') : 'Terms and Conditions'])
+TestObject Terms_And_Agreement = findTestObject('iOS/Global/Generic text', [('label') : 'Terms and Conditions'])
 CustomKeywords.'global.verify_element.exist'(Terms_And_Agreement)
 
 CustomKeywords.'iOS.registration_screen.checkTermsAndAgreement'()
@@ -19,5 +19,5 @@ CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration sc
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Mobile Number field'))
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Login Now button'))
 (new object()).hideKeypad()
-CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Next button'))
-CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Close button'))
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Global/Next button'))
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Global/Close button'))

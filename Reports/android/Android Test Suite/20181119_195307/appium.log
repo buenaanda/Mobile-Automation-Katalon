@@ -1,0 +1,7 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 58451
+[Appium]   chromeDriverPort: 58452
+[Appium]   tmpDir: /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T//Katalon/Appium/Temp1542628393069
+[Appium]   webkitDebugProxyPort: 58448
+[Appium] Appium REST http interface listener started on 0.0.0.0:58451

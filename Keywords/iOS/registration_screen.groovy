@@ -45,13 +45,13 @@ public class registration_screen {
 
 	@Keyword
 	def tapNext() {
-		tap(findTestObject('iOS/Registration screen/Next button'))
+		tap(findTestObject('iOS/Global/Next button'))
 		waitForLoaderNotVisible()
 	}
 
 	@Keyword
 	def tapOK() {
-		tap(findTestObject('iOS/Registration screen/OK button'))
+		tap(findTestObject('iOS/Global/OK button'))
 	}
 
 	@Keyword
@@ -71,7 +71,7 @@ public class registration_screen {
 
 	@Keyword
 	def tapClose() {
-		tap(findTestObject('iOS/Registration screen/Close button'))
+		tap(findTestObject('iOS/Global/Close button'))
 	}
 
 	@Keyword
@@ -116,7 +116,7 @@ public class registration_screen {
 	def selectPickerWheelValue(String value) {
 		(new object()).selectPickerWheelValue(value)
 	}
-	
+
 	def hideKeypad() {
 		(new object()).hideKeypad()
 	}

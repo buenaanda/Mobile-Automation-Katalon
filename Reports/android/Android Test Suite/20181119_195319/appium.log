@@ -1,0 +1,1332 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 58519
+[Appium]   chromeDriverPort: 58521
+[Appium]   tmpDir: /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T//Katalon/Appium/Temp1542628402301
+[Appium] Appium REST http interface listener started on 0.0.0.0:58519
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 19 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},null,{"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1542628406491 (19:53:26 GMT+0800 (Philippine Standard Time))
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","appWaitActivity","autoGrantPermissions","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk
+[Appium]   appWaitActivity: 
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceId: emulator-5554
+[Appium]   deviceName: emulator-5554 (Android SDK built for x86 - Android 9)
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: emulator-5554
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"/Users/buenaanda/Ka...
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[BaseDriver] Using local app '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk'
+[debug] [UiAutomator2] Checking whether app is actually present
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/buenaanda/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3
+[ADB] Using adb from /Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: emulator-5554
+[debug] [ADB] Setting device id to emulator-5554
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 28
+[debug] [ADB] Device API level: 28
+[debug] [AndroidDriver] Parsing package and activity from app manifest
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/buenaanda/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/buenaanda/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/buenaanda/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/buenaanda/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apkanalyzer. Do you have the Android SDK installed at '/Users/buenaanda/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'com.whitecloak.perahub.dev'
+[ADB] Main activity name: 'com.whitecloak.perahub.login.LandingActivity'
+[debug] [AndroidDriver] Parsed package and activity are: com.whitecloak.perahub.dev/com.whitecloak.perahub.login.LandingActivity
+[ADB] Getting device platform version
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 9
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell wm size'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell wm density'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.model'
+[debug] [ADB] Current device property 'ro.product.model': Android SDK built for x86
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.manufacturer'
+[debug] [ADB] Current device property 'ro.product.manufacturer': Google
+[debug] [ADB] Device API level: 28
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk
+[ADB] Using apksigner from /Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner
+[debug] [ADB] Starting '/Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner' with args 'verify,--print-certs,/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk'
+[debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' is already signed.
+[debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] Starting '/Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner' with args 'verify,--print-certs,/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.uiautomator2.server'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.12.0' >= '1.12.0')
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+[debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.settings'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [ADB] Device API level: 28
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Getting install status for io.appium.unlock
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.unlock'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.unlock'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.unlock'
+[debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8203
+[debug] [ADB] Forwarding system: 8203 to device: 6790
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:8203 tcp\:6790'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell rm -rf /data/local/tmp/strings.json'
+[debug] [AndroidDriver] Extracting strings from apk
+[debug] [AndroidDriver] /Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk
+[debug] [AndroidDriver] null
+[debug] [AndroidDriver] /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T/Katalon/Appium/Temp1542628402301/com.whitecloak.perahub.dev
+[debug] [ADB] Extracting strings for language: default
+[ADB] Successfully extracted 296 strings from '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk' resources for '(default)' configuration
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 push /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T/Katalon/Appium/Temp1542628402301/com.whitecloak.perahub.dev/strings.json /data/local/tmp'
+[debug] [ADB] Uninstalling com.whitecloak.perahub.dev
+[debug] [ADB] Getting install status for com.whitecloak.perahub.dev
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages com.whitecloak.perahub.dev'
+[debug] [ADB] App is installed
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.whitecloak.perahub.dev'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 uninstall com.whitecloak.perahub.dev'
+[debug] [ADB] 'adb uninstall com.whitecloak.perahub.dev' command output: Success
+[ADB] com.whitecloak.perahub.dev was successfully uninstalled
+[debug] [ADB] Checking app cert for /Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk
+[debug] [ADB] Starting '/Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner' with args 'verify,--print-certs,/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk'
+[debug] [ADB] '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk' is already signed.
+[debug] [ADB] Getting install status for com.whitecloak.perahub.dev
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages com.whitecloak.perahub.dev'
+[debug] [ADB] App is not installed
+[debug] [AndroidDriver] Running full reset on 'com.whitecloak.perahub.dev' (reinstall)
+[debug] [ADB] Device API level: 28
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 install -r -g '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk''
+[debug] [ADB] Install command stdout: Success
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s emulator-5554 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8203/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8203/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8203/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8203/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8203/wd/hub/session] with body: {"desiredCapabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":...
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":"Created Session"}
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.whitecloak.perahub.dev/com.whitecloak.perahub.login.LandingActivity'. Starting it ourselves
+[debug] [ADB] Device API level: 28
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.whitecloak.perahub.dev/com.whitecloak.perahub.login.LandingActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.whitecloak.perahub.dev' and activity: 'com.whitecloak.perahub.login.LandingActivity' to be focused
+[debug] [ADB] Possible activities, to be checked: 'com.whitecloak.perahub.login.LandingActivity', 'com.whitecloak.perahub.dev.com.whitecloak.perahub.login.LandingActivity'
+[debug] [ADB] Getting focused package and activity
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [ADB] Found package: 'com.whitecloak.perahub.dev' and fully qualified activity name : 'com.whitecloak.perahub.login.LandingActivity'
+[debug] [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/appium/device/pixel_ratio] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":2.625}"
+[debug] [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/appium/device/system_bars] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"statusBar\":63}}"
+[debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[Appium] New AndroidUiautomator2Driver session created successfully, session 5ca4109c-d2a9-4731-8b99-41a918b13cfc added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1542628428439 (19:53:48 GMT+0800 (Philippine Standard Time))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- POST /wd/hub/session 200 21951 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getStatus() with args: []
+[debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 29 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/timeouts
+[HTTP] {"type":"implicit","ms":15000}
+[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":15000}
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/timeouts 400 21 ms - 4203
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 25 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/button_login\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/button_login\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/button_login\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"d327deeb-a1ff-46a1-bbf5-ad1f65335c97"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"d327deeb-a1ff-46a1-bbf5-ad1f65335c97"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 185 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 74 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 27 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 18 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/d327deeb-a1ff-46a1-bbf5-ad1f65335c97/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/d327deeb-a1ff-46a1-bbf5-ad1f65335c97/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/d327deeb-a1ff-46a1-bbf5-ad1f65335c97/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":801}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/d327deeb-a1ff-46a1-bbf5-ad1f65335c97/location 200 34 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"d327deeb-a1ff-46a1-bbf5-ad1f65335c97","x":1,"y":1}}]}
+[debug] [W3C] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"d327deeb-a1ff-46a1-bbf5-ad1f65335c97","x":1,"y":1}}],"5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[UiAutomator2] calling get location: d327deeb-a1ff-46a1-bbf5-ad1f65335c97
+[debug] [JSONWP Proxy] Proxying [GET /element/d327deeb-a1ff-46a1-bbf5-ad1f65335c97/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/d327deeb-a1ff-46a1-bbf5-ad1f65335c97/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":801}}"
+[debug] [JSONWP Proxy] Proxying [POST /element/d327deeb-a1ff-46a1-bbf5-ad1f65335c97/click] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/d327deeb-a1ff-46a1-bbf5-ad1f65335c97/click] with body: {"element":"d327deeb-a1ff-46a1-bbf5-ad1f65335c97","x":64,"y":802}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":true}
+[debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/touch/perform 200 1215 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getCurrentContext() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 3 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/contexts
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getContexts() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/contexts 200 28 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {"name":"NATIVE_APP"}
+[debug] [W3C] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.setContext() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 26 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/appium/device/hide_keyboard
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.hideKeyboard() with args: [null,null,null,null,"5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys input_method'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell input keyevent 4'
+[debug] [MJSONWP] Responding to client with driver.hideKeyboard() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/appium/device/hide_keyboard 200 404 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {"name":"NATIVE_APP"}
+[debug] [W3C] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.setContext() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 71 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 40 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"177a072e-8f5b-4639-a1a4-00c9d5e638f3"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"177a072e-8f5b-4639-a1a4-00c9d5e638f3"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 474 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 20 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 20 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 25 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/177a072e-8f5b-4639-a1a4-00c9d5e638f3/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/177a072e-8f5b-4639-a1a4-00c9d5e638f3/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/177a072e-8f5b-4639-a1a4-00c9d5e638f3/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":444}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/177a072e-8f5b-4639-a1a4-00c9d5e638f3/location 200 32 ms - 88
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 18 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etPassword\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etPassword\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etPassword\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"21b57ba6-09d9-48a4-b731-dba6bafedad6"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"21b57ba6-09d9-48a4-b731-dba6bafedad6"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 43 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 20 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 15 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 20 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 17 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/21b57ba6-09d9-48a4-b731-dba6bafedad6/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/21b57ba6-09d9-48a4-b731-dba6bafedad6/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/21b57ba6-09d9-48a4-b731-dba6bafedad6/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":595}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/21b57ba6-09d9-48a4-b731-dba6bafedad6/location 200 51 ms - 88
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 43 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"e2f6b66c-7ba0-4a96-9048-c058abca045a"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"e2f6b66c-7ba0-4a96-9048-c058abca045a"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 75 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 46 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 25 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 39 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 23 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/e2f6b66c-7ba0-4a96-9048-c058abca045a/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/e2f6b66c-7ba0-4a96-9048-c058abca045a/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/e2f6b66c-7ba0-4a96-9048-c058abca045a/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":798}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/e2f6b66c-7ba0-4a96-9048-c058abca045a/location 200 26 ms - 88
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 16 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvRegisterNow\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvRegisterNow\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvRegisterNow\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"71fdf3a7-2f8a-48d1-a345-8144682ca76f"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"71fdf3a7-2f8a-48d1-a345-8144682ca76f"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 36 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 15 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 15 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 16 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 13 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/71fdf3a7-2f8a-48d1-a345-8144682ca76f/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/71fdf3a7-2f8a-48d1-a345-8144682ca76f/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/71fdf3a7-2f8a-48d1-a345-8144682ca76f/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":1051}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/71fdf3a7-2f8a-48d1-a345-8144682ca76f/location 200 26 ms - 89
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 15 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvKnowMoreAbout\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvKnowMoreAbout\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvKnowMoreAbout\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"ea401585-0316-4f2e-be4b-d7982cc161d6"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"ea401585-0316-4f2e-be4b-d7982cc161d6"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 39 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 15 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 13 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 18 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/ea401585-0316-4f2e-be4b-d7982cc161d6/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/ea401585-0316-4f2e-be4b-d7982cc161d6/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/ea401585-0316-4f2e-be4b-d7982cc161d6/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":320,\"y\":1094}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/ea401585-0316-4f2e-be4b-d7982cc161d6/location 200 28 ms - 90
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 18 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"eb73b2db-a268-4236-9d79-9672c2a5792f"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"eb73b2db-a268-4236-9d79-9672c2a5792f"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 35 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 13 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 13 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/eb73b2db-a268-4236-9d79-9672c2a5792f/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/eb73b2db-a268-4236-9d79-9672c2a5792f/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/eb73b2db-a268-4236-9d79-9672c2a5792f/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":444}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/eb73b2db-a268-4236-9d79-9672c2a5792f/location 200 24 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/eb73b2db-a268-4236-9d79-9672c2a5792f/clear
+[HTTP] {"id":"eb73b2db-a268-4236-9d79-9672c2a5792f"}
+[debug] [W3C] Calling AppiumDriver.clear() with args: ["eb73b2db-a268-4236-9d79-9672c2a5792f","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [JSONWP Proxy] Proxying [POST /element/eb73b2db-a268-4236-9d79-9672c2a5792f/clear] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/eb73b2db-a268-4236-9d79-9672c2a5792f/clear] with body: {"elementId":"eb73b2db-a268-4236-9d79-9672c2a5792f"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":"Element Cleared"}
+[debug] [MJSONWP] Responding to client with driver.clear() result: "Element Cleared"
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/eb73b2db-a268-4236-9d79-9672c2a5792f/clear 200 45 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/eb73b2db-a268-4236-9d79-9672c2a5792f/value
+[HTTP] {"id":"eb73b2db-a268-4236-9d79-9672c2a5792f","value":["allen_15"]}
+[debug] [W3C] Calling AppiumDriver.setValue() with args: [["allen_15"],"eb73b2db-a268-4236-9d79-9672c2a5792f","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [JSONWP Proxy] Proxying [POST /element/eb73b2db-a268-4236-9d79-9672c2a5792f/value] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/eb73b2db-a268-4236-9d79-9672c2a5792f/value] with body: {"elementId":"eb73b2db-a268-4236-9d79-9672c2a5792f","text":"allen_15","replace":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":""}
+[debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/eb73b2db-a268-4236-9d79-9672c2a5792f/value 200 1296 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 24 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etUsername\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"f0679cc5-3742-4b87-93e1-0515d7ec96b5"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"f0679cc5-3742-4b87-93e1-0515d7ec96b5"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 559 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 21 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 17 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/f0679cc5-3742-4b87-93e1-0515d7ec96b5/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/f0679cc5-3742-4b87-93e1-0515d7ec96b5/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/f0679cc5-3742-4b87-93e1-0515d7ec96b5/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":444}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/f0679cc5-3742-4b87-93e1-0515d7ec96b5/location 200 20 ms - 88
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/f0679cc5-3742-4b87-93e1-0515d7ec96b5/text
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/f0679cc5-3742-4b87-93e1-0515d7ec96b5/text] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/f0679cc5-3742-4b87-93e1-0515d7ec96b5/text] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":\"allen_15\"}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/f0679cc5-3742-4b87-93e1-0515d7ec96b5/text 200 25 ms - 82
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 13 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"a7e076c1-5f83-48ce-a704-bd60ae01f335"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"a7e076c1-5f83-48ce-a704-bd60ae01f335"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 29 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 18 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 11 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/a7e076c1-5f83-48ce-a704-bd60ae01f335/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/a7e076c1-5f83-48ce-a704-bd60ae01f335/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/a7e076c1-5f83-48ce-a704-bd60ae01f335/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":798}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/a7e076c1-5f83-48ce-a704-bd60ae01f335/location 200 23 ms - 88
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/a7e076c1-5f83-48ce-a704-bd60ae01f335/attribute/enabled
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getAttribute() with args: ["enabled","a7e076c1-5f83-48ce-a704-bd60ae01f335","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [JSONWP Proxy] Proxying [GET /element/a7e076c1-5f83-48ce-a704-bd60ae01f335/attribute/enabled] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/a7e076c1-5f83-48ce-a704-bd60ae01f335/attribute/enabled] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":\"false\"}"
+[debug] [MJSONWP] Responding to client with driver.getAttribute() result: "false"
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/a7e076c1-5f83-48ce-a704-bd60ae01f335/attribute/enabled 200 22 ms - 79
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 29 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etPassword\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etPassword\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/etPassword\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"571770d8-2afe-4f9e-9206-ec5a7428bffd"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"571770d8-2afe-4f9e-9206-ec5a7428bffd"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 44 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 13 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 18 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":595}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/location 200 20 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/clear
+[HTTP] {"id":"571770d8-2afe-4f9e-9206-ec5a7428bffd"}
+[debug] [W3C] Calling AppiumDriver.clear() with args: ["571770d8-2afe-4f9e-9206-ec5a7428bffd","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [JSONWP Proxy] Proxying [POST /element/571770d8-2afe-4f9e-9206-ec5a7428bffd/clear] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/clear] with body: {"elementId":"571770d8-2afe-4f9e-9206-ec5a7428bffd"}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":"Element Cleared"}
+[debug] [MJSONWP] Responding to client with driver.clear() result: "Element Cleared"
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/clear 200 26 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/value
+[HTTP] {"id":"571770d8-2afe-4f9e-9206-ec5a7428bffd","value":["Hello!23"]}
+[debug] [W3C] Calling AppiumDriver.setValue() with args: [["Hello!23"],"571770d8-2afe-4f9e-9206-ec5a7428bffd","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [JSONWP Proxy] Proxying [POST /element/571770d8-2afe-4f9e-9206-ec5a7428bffd/value] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/value] with body: {"elementId":"571770d8-2afe-4f9e-9206-ec5a7428bffd","text":"Hello!23","replace":false}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":""}
+[debug] [MJSONWP] Responding to client with driver.setValue() result: ""
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/571770d8-2afe-4f9e-9206-ec5a7428bffd/value 200 1273 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getCurrentContext() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 4 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/contexts
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getContexts() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/contexts 200 94 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {"name":"NATIVE_APP"}
+[debug] [W3C] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.setContext() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 34 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/appium/device/hide_keyboard
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.hideKeyboard() with args: [null,null,null,null,"5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys input_method'
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/appium/device/hide_keyboard 500 92 ms - 218
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {"name":"NATIVE_APP"}
+[debug] [W3C] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.setContext() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 25 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getCurrentContext() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 2 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/contexts
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getContexts() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/contexts 200 27 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {"name":"NATIVE_APP"}
+[debug] [W3C] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.setContext() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 38 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/screenshot
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/screenshot] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAIAAACkA3BdAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzsnXeAHbW18KV7t3qrd917N7YxLtiA6S10wgukQyiB0BIgL4V86SHt5aW8\\nJLy0RwJJgBTghQeEAKGFajAYF1zBYNztXXvttb3de6++P2ZGoz6auTO3rM8vZH1nRnOkkTQaHZ0j\\nCY+a\\/nMEAAAAAAAAAABQTKQKnQAAAAAAAAAAAAARUFQAAAAAAAAAACg6QFEBAAAAAAAAAKDoAEUF\\nAAAAAAAAAICiAxQVAAAAAAAAAACKDlBUAAAAAAAAAAAoOkBRAQAAAAAAAACg6ABFBQAAAAAAAACA\\nogMUFQAAAAAAAAAAig5QVAAAAAAAAAAAKDpAUQEAAAAAAAAAoOgARQUAAAAAAAAAgKIDFBUAAAAA\\nAAAAAIqOskInAAAAAAAAAADyR3l5umlwVXNTdXNT9eDG6qbBVfV1lR0dffvae9r2dm\\/ZdmDLtv3Z\\nLCl0MvPB3b95\\/\\/BhNfL5vkOZCz9yf\\/7TIwCKygChqqrs9JPGH3P0KJvAmSx55vlNK95s6eo+lHTC\\nAAAAAAAACk5FRfrE48acuGjsSYvGzZg+BGNT4L6+zIZ39771zt71b+9ZvXb3y0u29fdn85XSvDJj\\nevOokXXy+b6+TP4TIwOKykBgUHX5OWdOuvn6hUOHDLIJTwg6buHo\\/\\/rlkhcXb026IpalU6k0zmSy\\nmUy4kYl0GmezhBwWwxkAAAAAACRCWVnqovOmvf+8qSctGldZmba8q6IiPWvG0FkzhiI0HSG0d1\\/3\\n\\/z60\\/v6H1q17a0+SiTVRW1MxZfLg6qryltaOjZvaC5WMPAOKSs...
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAIAAACkA3BdAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzsnXeAHbW18KV7t3qrd917N7YxLtiA6S10wgukQyiB0BIgL4V86SHt5aW8\nJLy0RwJJgBTghQeEAKGFajAYF1zBYNztXXvttb3de6++P2ZGoz6auTO3rM8vZH1nRnOkkTQaHZ0j\nCY+a/nMEAAAAAAAAAABQTKQKnQAAAAAAAAAAAAARUFQAAAAAAAAAACg6QFEBAAAAAAAAAKDoAEUF\nAAAAAAAAAICiAxQVAAAAAAAAAACKDlBUAAAAAAAAAAAoOkBRAQAAAAAAAACg6ABFBQAAAAAAAACA\nogMUFQAAAAAAAAAAig5QVAAAAAAAAAAAKDpAUQEAAAAAAAAAoOgARQUAAAAAAAAAgKIDFBUAAAAA\nAAAAAIqOskInAAAAAAAAAADyR3l5umlwVXNTdXNT9eDG6qbBVfV1lR0dffvae9r2dm/ZdmDLtv3Z\nLCl0MvPB3b95//BhNfL5vkOZCz9yf/7TIwCKygChqqrs9JPGH3P0KJvAmSx55vlNK95s6eo+lHTC\nAAAAAAAACk5FRfrE48acuGjsSYvGzZg+BGNT4L6+zIZ39771zt71b+9ZvXb3y0u29fdn85XSvDJj\nevOokXXy+b6+TP4TIwOKykBgUHX5OWdOuvn6hUOHDLIJTwg6buHo//rlkhcXb026IpalU6k0zmSy\nmUy4kYl0GmezhBwWwxkAAAAAACRCWVnqovOmvf+8qSctGldZmba8q6IiPWvG0FkzhiI0HSG0d1/3\n/z60/v6H1q17a0+SiTVRW1MxZfLg6qryltaOjZvaC5WMPAOKSslTM6j8nDMn33TdgqmTm+zvaqiv\nPP2kCe9s3Ld5y/6EEoYxGjem4bavnHziorEPPrL+zrtXvrtpn+WARF1dxaevWbB4ybaXXt16mNhe\nAQAAAA...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/screenshot 200 564 ms - 564930
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {"name":"NATIVE_APP"}
+[debug] [W3C] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.setContext() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 29 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 21 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/btnLogin\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"5eba38ae-f067-4905-afed-6f8c36f0c384"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5eba38ae-f067-4905-afed-6f8c36f0c384"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 32 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 15 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/5eba38ae-f067-4905-afed-6f8c36f0c384/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/5eba38ae-f067-4905-afed-6f8c36f0c384/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/5eba38ae-f067-4905-afed-6f8c36f0c384/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":798}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/5eba38ae-f067-4905-afed-6f8c36f0c384/location 200 27 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"5eba38ae-f067-4905-afed-6f8c36f0c384","x":1,"y":1}}]}
+[debug] [W3C] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"element":"5eba38ae-f067-4905-afed-6f8c36f0c384","x":1,"y":1}}],"5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[UiAutomator2] calling get location: 5eba38ae-f067-4905-afed-6f8c36f0c384
+[debug] [JSONWP Proxy] Proxying [GET /element/5eba38ae-f067-4905-afed-6f8c36f0c384/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/5eba38ae-f067-4905-afed-6f8c36f0c384/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":798}}"
+[debug] [JSONWP Proxy] Proxying [POST /element/5eba38ae-f067-4905-afed-6f8c36f0c384/click] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/5eba38ae-f067-4905-afed-6f8c36f0c384/click] with body: {"element":"5eba38ae-f067-4905-afed-6f8c36f0c384","x":64,"y":799}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":true}
+[debug] [MJSONWP] Responding to client with driver.performTouch() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/touch/perform 200 3903 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 14 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().text(\"OTP Verification\").resourceId(\"com.whitecloak.perahub.dev:id/tvTitle\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"OTP Verification\").resourceId(\"com.whitecloak.perahub.dev:id/tvTitle\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"OTP Verification\").resourceId(\"com.whitecloak.perahub.dev:id/tvTitle\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"bf86e5b2-171f-4dae-ac71-cefc559fae7a"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"bf86e5b2-171f-4dae-ac71-cefc559fae7a"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 31 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 14 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/bf86e5b2-171f-4dae-ac71-cefc559fae7a/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/bf86e5b2-171f-4dae-ac71-cefc559fae7a/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/bf86e5b2-171f-4dae-ac71-cefc559fae7a/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":403,\"y\":111}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/bf86e5b2-171f-4dae-ac71-cefc559fae7a/location 200 23 ms - 89
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 17 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().text(\"OTP Verification\").resourceId(\"com.whitecloak.perahub.dev:id/tvTitle\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"OTP Verification\").resourceId(\"com.whitecloak.perahub.dev:id/tvTitle\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"OTP Verification\").resourceId(\"com.whitecloak.perahub.dev:id/tvTitle\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"33e957c5-31ff-4123-a062-ce9fc6c19d1f"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"33e957c5-31ff-4123-a062-ce9fc6c19d1f"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 30 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 13 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 11 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/33e957c5-31ff-4123-a062-ce9fc6c19d1f/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/33e957c5-31ff-4123-a062-ce9fc6c19d1f/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/33e957c5-31ff-4123-a062-ce9fc6c19d1f/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":403,\"y\":111}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/33e957c5-31ff-4123-a062-ce9fc6c19d1f/location 200 20 ms - 89
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/window/current/size 200 14 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvCounter\")"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvCounter\")","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /elements] to [POST http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"com.whitecloak.perahub.dev:id/tvCounter\")","context":"","multiple":true}
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"382a836d-d41b-4e72-a3d9-fa2057b8f0fb","status":0,"value":[{"ELEMENT":"97cb3a3d-0a27-4caf-954b-f1243250d929"}]}
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"97cb3a3d-0a27-4caf-954b-f1243250d929"}]
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/elements 200 33 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 13 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 12 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{}}"
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceScre...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc 200 13 ms - 1342
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/97cb3a3d-0a27-4caf-954b-f1243250d929/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/97cb3a3d-0a27-4caf-954b-f1243250d929/location] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/97cb3a3d-0a27-4caf-954b-f1243250d929/location] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":{\"x\":63,\"y\":766}}"
+[JSONWP Proxy] Replacing sessionId 382a836d-d41b-4e72-a3d9-fa2057b8f0fb with 5ca4109c-d2a9-4731-8b99-41a918b13cfc
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/97cb3a3d-0a27-4caf-954b-f1243250d929/location 200 27 ms - 88
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/97cb3a3d-0a27-4caf-954b-f1243250d929/attribute/clickable
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getAttribute() with args: ["clickable","97cb3a3d-0a27-4caf-954b-f1243250d929","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [JSONWP Proxy] Proxying [GET /element/97cb3a3d-0a27-4caf-954b-f1243250d929/attribute/clickable] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/element/97cb3a3d-0a27-4caf-954b-f1243250d929/attribute/clickable] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":\"false\"}"
+[debug] [MJSONWP] Responding to client with driver.getAttribute() result: "false"
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/element/97cb3a3d-0a27-4caf-954b-f1243250d929/attribute/clickable 200 33 ms - 79
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getCurrentContext() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [MJSONWP] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 2 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/contexts
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getContexts() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/contexts 200 34 ms - 86
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {"name":"NATIVE_APP"}
+[debug] [W3C] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.setContext() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 30 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/screenshot
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb/screenshot] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAIAAACkA3BdAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzsnXdgHMX1+N\\/cnXqvliXbkuVu4957wzQDpoRQA6ZjmhPyBUICSQgESPIL\\nAUIgAQKhhh4wBowBg7GxccG9d7mqWM3q0t3N749ts7uze7t3u9JJfp8QeW939s3szOzsvHlvZkj+\\ngKcBQRAEQRAEQRAkmvB0dAIQBEEQBEEQBEG0oKKCIAiCIAiCIEjUgYoKgiAIgiAIgiBRByoqCIIg\\nCIIgCIJEHaioIAiCIAiCIAgSdaCigiAIgiAIgiBI1IGKCoIgCIIgCIIgUQcqKgiCIAiCIAiCRB2o\\nqCAIgiAIgiAIEnWgooIgCIIgCIIgSNSBigqCIAiCIAiCIFEHKioIgiAIgiAIgkQdqKggCIIgCIIg\\nCBJ1+Do6AQiCIAiCIAjSfsTEeDMz4rMyE7IyEzLSEzIz4lNT4urrW6trmiurmg4fPXX4aG0wSDs6\\nme3Ba\\/+8sFtukv58a1vggsvfbf\\/0aEBFpYsQH++bNbVw3Oh8K4EDQfr18kObtpQ1NrW5nTAEQRAE\\nQZAOJzbWO2VCjykTe06d2GvQgGxCzAK3tgb27q\\/ava9q156T23ZUfL\\/mqN8fbK+UtiuDBmTld0\\/R\\nn29tDbR\\/YvSgotIVSEyIOefM4rtvG5uTnWglPKUwYWzBk\\/9Ys2LVEbcros\\/r8XhJIBAMBOyNTHi9\\nJBik9LQYzkAQBEEQxBV8Ps+88\\/pfeF6\\/qRN7xcV5Ld4VG+sdMihnyKAcgAEAUFXd9P5Hu979aOfO\\n3SfdTKwZyUmxfftkJMTHlJXXHzhU01HJaGdQUen0JCXGnHNm...
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAIAAACkA3BdAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzsnXdgHMX1+N/cnXqvliXbkuVu4957wzQDpoRQA6ZjmhPyBUICSQgESPIL\nAUIgAQKhhh4wBowBg7GxccG9d7mqWM3q0t3N749ts7uze7t3u9JJfp8QeW939s3szOzsvHlvZkj+\ngKcBQRAEQRAEQRAkmvB0dAIQBEEQBEEQBEG0oKKCIAiCIAiCIEjUgYoKgiAIgiAIgiBRByoqCIIg\nCIIgCIJEHaioIAiCIAiCIAgSdaCigiAIgiAIgiBI1IGKCoIgCIIgCIIgUQcqKgiCIAiCIAiCRB2o\nqCAIgiAIgiAIEnWgooIgCIIgCIIgSNSBigqCIAiCIAiCIFEHKioIgiAIgiAIgkQdqKggCIIgCIIg\nCBJ1+Do6AQiCIAiCIAjSfsTEeDMz4rMyE7IyEzLSEzIz4lNT4urrW6trmiurmg4fPXX4aG0wSDs6\nme3Ba/+8sFtukv58a1vggsvfbf/0aEBFpYsQH++bNbVw3Oh8K4EDQfr18kObtpQ1NrW5nTAEQRAE\nQZAOJzbWO2VCjykTe06d2GvQgGxCzAK3tgb27q/ava9q156T23ZUfL/mqN8fbK+UtiuDBmTld0/R\nn29tDbR/YvSgotIVSEyIOefM4rtvG5uTnWglPKUwYWzBk/9Ys2LVEbcros/r8XhJIBAMBOyNTHi9\nJBik9LQYzkAQBEEQxBV8Ps+88/pfeF6/qRN7xcV5Ld4VG+sdMihnyKAcgAEAUFXd9P5Hu979aOfO\n3SfdTKwZyUmxfftkJMTHlJXXHzhU01HJaGdQUen0JCXGnHNmn7tuHdOvT6b1u9JS42ZNLdp3oLrk\ncK1LCSMEevVIe/jX06ZM7Pnhol3/fm3z/kPVFgckUlJi77hpzKo1R1f+cOQ0sb0iCIIgCOIgSYkx\n118z/M...
+[HTTP] <-- GET /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/screenshot 200 212 ms - 154166
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context
+[HTTP] {"name":"NATIVE_APP"}
+[debug] [W3C] Calling AppiumDriver.setContext() with args: ["NATIVE_APP","5ca4109c-d2a9-4731-8b99-41a918b13cfc"]
+[debug] [AndroidDriver] Getting a list of available webviews
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cat /proc/net/unix'
+[debug] [AndroidDriver] Found webviews: []
+[debug] [AndroidDriver] Available contexts: ["NATIVE_APP"]
+[debug] [MJSONWP] Responding to client with driver.setContext() result: null
+[HTTP] <-- POST /wd/hub/session/5ca4109c-d2a9-4731-8b99-41a918b13cfc/context 200 28 ms - 76
+[HTTP] 
+[debug] [UiAutomator2] [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+[debug] [UiAutomator2] [UIAutomator2] INSTRUMENTATION_CODE: 0
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[debug] [UiAutomator2] Deleting UiAutomator2 session
+[debug] [UiAutomator2] Deleting UiAutomator2 server session
+[debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8203/wd/hub/session/382a836d-d41b-4e72-a3d9-fa2057b8f0fb] with no body
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 5ca4109c-d2a9-4731-8b99-41a918b13cfc from our master session list
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"382a836d-d41b-4e72-a3d9-fa2057b8f0fb\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.whitecloak.perahub.dev'
+[debug] [UiAutomator2] Capability 'fullReset' set to 'true', Uninstalling 'com.whitecloak.perahub.dev'
+[debug] [ADB] Uninstalling com.whitecloak.perahub.dev
+[debug] [ADB] Getting install status for com.whitecloak.perahub.dev
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages com.whitecloak.perahub.dev'
+[debug] [ADB] App is installed
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.whitecloak.perahub.dev'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 uninstall com.whitecloak.perahub.dev'
+[debug] [ADB] 'adb uninstall com.whitecloak.perahub.dev' command output: Success
+[ADB] com.whitecloak.perahub.dev was successfully uninstalled
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Removing forwarded port socket connection: 8203 
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:8203'

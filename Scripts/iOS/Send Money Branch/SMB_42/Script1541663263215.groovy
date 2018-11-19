@@ -5,19 +5,19 @@ import internal.GlobalVariable as GlobalVariable
 String senderName = "Allen Pogi Crisostomo"
 String receiverName = GlobalVariable.randomFirstName +" "+ GlobalVariable.randomMiddleName +" "+ GlobalVariable.randomLastName
 String receiverMobileNumber = "66"+ GlobalVariable.randomMobileNumber
-String serviceFee = GlobalVariable.internationalServiceFee + " PHP"
+String serviceFee = "500.00 PHP"
 String sendAmount = GlobalVariable.randomAmount + " PHP"
 String senderMobileNumber = "63" + GlobalVariable.mobileNumber
 
-TestObject Sender_Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : senderMobileNumber])
-TestObject Sender_Name = findTestObject('iOS/Send Money screen/Generic text', [('label') : senderName])
-TestObject Sender_Country = findTestObject('iOS/Send Money screen/Generic text', [('label') : "Philippines"])
-TestObject Receiver_Name = findTestObject('iOS/Send Money screen/Generic text', [('label') : receiverName])
-TestObject Receiver_Country = findTestObject('iOS/Send Money screen/Generic text', [('label') : "Thailand"])
-TestObject Receiver_Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : receiverMobileNumber])
-TestObject Send_Amount = findTestObject('iOS/Send Money screen/Generic text', [('label') : sendAmount])
-TestObject Service_Fee = findTestObject('iOS/Send Money screen/Generic text', [('label') : serviceFee])
-TestObject Message_Charge = findTestObject('iOS/Send Money screen/Generic text', [('label') : "0.00 PHP"])
+TestObject Sender_Mobile_Number = findTestObject('iOS/Global/Generic text', [('label') : senderMobileNumber])
+TestObject Sender_Name = findTestObject('iOS/Global/Generic text', [('label') : senderName])
+TestObject Sender_Country = findTestObject('iOS/Global/Generic text', [('label') : "Philippines"])
+TestObject Receiver_Name = findTestObject('iOS/Global/Generic text', [('label') : receiverName])
+TestObject Receiver_Country = findTestObject('iOS/Global/Generic text', [('label') : "Thailand"])
+TestObject Receiver_Mobile_Number = findTestObject('iOS/Global/Generic text', [('label') : receiverMobileNumber])
+TestObject Send_Amount = findTestObject('iOS/Global/Generic text', [('label') : sendAmount])
+TestObject Service_Fee = findTestObject('iOS/Global/Generic text', [('label') : serviceFee])
+TestObject Message_Charge = findTestObject('iOS/Global/Generic text', [('label') : "0.00 PHP"])
 
 CustomKeywords.'iOS.send_money_screen.tapViewDetails'()
 

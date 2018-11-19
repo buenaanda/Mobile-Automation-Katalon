@@ -3,7 +3,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
 'Wait for the OTP timer to end'
-Mobile.delay(50)
+Mobile.delay(65)
 
 'Tap RESEND button'
 CustomKeywords.'iOS.otp_verification_screen.tapResend'()

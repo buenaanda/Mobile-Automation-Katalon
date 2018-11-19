@@ -15,12 +15,6 @@ public class transfer_money_screen {
 	}
 
 	@Keyword
-	def tapOK() {
-		Mobile.tap(findTestObject("iOS/Transfer Money screen/OK button"), 0, FailureHandling.STOP_ON_FAILURE)
-		Mobile.waitForElementPresent(findTestObject("iOS/Login screen/Password field"), 0, FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Keyword
 	def tapBranchTransaction() {
 		try {
 			Mobile.tap(findTestObject("iOS/Transfer Money screen/Branch Transaction button"), 10)

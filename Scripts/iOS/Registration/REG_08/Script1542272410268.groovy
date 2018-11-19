@@ -6,4 +6,4 @@ CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration sc
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Password field'))
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Password Strength bar'))
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Security Disclaimer button'))
-CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Registration screen/Next button'))
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Global/Next button'))

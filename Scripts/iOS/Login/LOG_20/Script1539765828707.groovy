@@ -26,9 +26,9 @@ CustomKeywords.'iOS.navigation_menu.tapTransferMoney'()
 
 CustomKeywords.'iOS.transfer_money_screen.tapSendMoney'()
 
-CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Transfer Money screen/Error inactive'), GlobalVariable.inactiveError)
+CustomKeywords.'global.verify_element.text'(findTestObject('iOS/Global/Error inactive'), GlobalVariable.inactiveError)
 
-CustomKeywords.'iOS.transfer_money_screen.tapOK'()
+CustomKeywords.'iOS.inactive_screen.tapOK'()
 
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Login screen/Password field'))
 

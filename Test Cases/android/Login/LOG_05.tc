@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LOG_05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ac20aa9-2212-4366-8de6-8224c447aadc</testCaseGuid>
+   <variable>
+      <defaultValue>'Allen Crisostomo '</defaultValue>
+      <description></description>
+      <id>e04904bd-7903-45f2-94a3-9ed89f96fccf</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>

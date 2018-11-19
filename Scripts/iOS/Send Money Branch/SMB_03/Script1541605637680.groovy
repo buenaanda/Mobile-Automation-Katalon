@@ -13,8 +13,8 @@ String lastName = GlobalVariable.randomLastName
 String mobileNumber = GlobalVariable.randomMobileNumber
 String receiverName = firstName +"  "+ lastName
 
-TestObject Receiver_Name = findTestObject('iOS/Send Money screen/Generic text', [('label') : receiverName])
-TestObject Receiver_Contact = findTestObject('iOS/Send Money screen/Generic text', [('label') : mobileNumber])
+TestObject Receiver_Name = findTestObject('iOS/Global/Generic text', [('label') : receiverName])
+TestObject Receiver_Contact = findTestObject('iOS/Global/Generic text', [('label') : mobileNumber])
 
 CustomKeywords.'iOS.send_money_screen.enterFirstName'(firstName)
 

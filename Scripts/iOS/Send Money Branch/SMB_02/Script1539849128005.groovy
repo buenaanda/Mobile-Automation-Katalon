@@ -13,7 +13,7 @@ CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money scre
 
 CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/Phone Number field'))
 
-CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/Save button'))
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Global/Save button'))
 
-CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Send Money screen/Close button'))
+CustomKeywords.'global.verify_element.exist'(findTestObject('iOS/Global/Close button'))
 

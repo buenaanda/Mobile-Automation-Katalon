@@ -15,8 +15,8 @@ String fullName = firstName +" "+ middleName +" "+ lastName
 String contact = mobileNumber +" "+ phoneNumber
 String firstNameLastName = firstName +"  "+ lastName
 
-TestObject Receiver_Name = findTestObject('iOS/Send Money screen/Generic text', [('label') : fullName])
-TestObject Receiver_Contact = findTestObject('iOS/Send Money screen/Generic text', [('label') : contact])
+TestObject Receiver_Name = findTestObject('iOS/Global/Generic text', [('label') : fullName])
+TestObject Receiver_Contact = findTestObject('iOS/Global/Generic text', [('label') : contact])
 
 CustomKeywords.'iOS.send_money_screen.enterFirstName'(firstName)
 

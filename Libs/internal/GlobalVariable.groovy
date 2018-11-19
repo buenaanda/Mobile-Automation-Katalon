@@ -113,10 +113,15 @@ public class GlobalVariable {
      */
     public static Object randomUsername
      
+    /**
+     * <p></p>
+     */
+    public static Object androidAppPath
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['username' : 'allen_15', 'password' : 'Hello!23', 'otp' : '111111', 'invalidUsernamePasswordError' : 'username and password did not match in our records.', 'invalidOTPError' : 'Wrong OTP Code', 'inactiveError' : 'It seems that your been inactive for a while. Please do login again.', 'appPath' : '/Data Files/PeraHub_v3.2.0-QAT.app', 'randomFirstName' : '', 'randomLastName' : '', 'randomMobileNumber' : '', 'randomMiddleName' : '', 'randomPhoneNumber' : '', 'randomAmount' : '', 'sendMoneyScreen_iOS' : 'iOS/Send Money screen/', 'randomSourceOfFunds' : '', 'internationalServiceFee' : 'PHP 500.00', 'mobileNumber' : '9271819134', 'randomSentence' : '', 'promoCode1' : 'A0027', 'randomUsername' : ''])
+        allVariables.put('default', ['username' : 'allen_15', 'password' : 'Hello!23', 'otp' : '111111', 'invalidUsernamePasswordError' : 'username and password did not match in our records.', 'invalidOTPError' : 'Wrong OTP Code', 'inactiveError' : 'It seems that your been inactive for a while. Please do login again.', 'appPath' : '/Data Files/PeraHub_v3.2.0-QAT.app', 'randomFirstName' : '', 'randomLastName' : '', 'randomMobileNumber' : '', 'randomMiddleName' : '', 'randomPhoneNumber' : '', 'randomAmount' : '', 'sendMoneyScreen_iOS' : 'iOS/Send Money screen/', 'randomSourceOfFunds' : '', 'internationalServiceFee' : 'PHP 500.00', 'mobileNumber' : '9271819134', 'randomSentence' : '', 'promoCode1' : 'A0027', 'randomUsername' : '', 'androidAppPath' : '/Data Files/base.apk'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
@@ -141,6 +146,7 @@ public class GlobalVariable {
         randomSentence = selectedVariables['randomSentence']
         promoCode1 = selectedVariables['promoCode1']
         randomUsername = selectedVariables['randomUsername']
+        androidAppPath = selectedVariables['androidAppPath']
         
     }
 }

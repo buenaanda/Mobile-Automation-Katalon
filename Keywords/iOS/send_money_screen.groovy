@@ -29,7 +29,7 @@ public class send_money_screen {
 	@Keyword
 	def enterField(TestObject to, String text) {
 		setText(to, text)
-		tap(findTestObject(testObjectPath + 'Toolbar Done button'))
+		tap(findTestObject('iOS/Global/Toolbar Done button'))
 	}
 
 	@Keyword
@@ -83,7 +83,7 @@ public class send_money_screen {
 	@Keyword
 	def enterUnitHouseNumberBuildingStreet(String unitHouseNumberBuildingStreet) {
 		setText(findTestObject(testObjectPath + 'UnitHouse NumberBuildingStreet field'), unitHouseNumberBuildingStreet)
-		tap(findTestObject(testObjectPath + 'Toolbar Done button'))
+		tap(findTestObject('iOS/Global/Toolbar Done button'))
 	}
 
 	@Keyword
@@ -125,7 +125,7 @@ public class send_money_screen {
 	def enterAmount(String amount) {
 		scrollToELementDown(findTestObject(testObjectPath + 'Amount field'))
 		setText(findTestObject(testObjectPath + 'Amount field'), amount)
-		tap(findTestObject(testObjectPath + 'Toolbar Done button'))
+		tap(findTestObject('iOS/Global/Toolbar Done button'))
 		waitForLoaderNotVisible()
 	}
 
@@ -156,29 +156,29 @@ public class send_money_screen {
 
 	@Keyword
 	def tapSave() {
-		tap(findTestObject(testObjectPath + 'Save button'))
+		tap(findTestObject('iOS/Global/Save button'))
 		Mobile.delay(3)
 	}
 
 	@Keyword
 	def tapClose() {
-		tap(findTestObject(testObjectPath + 'Close button'))
+		tap(findTestObject('iOS/Global/Close button'))
 	}
 
 	@Keyword
 	def tapOK() {
-		tap(findTestObject(testObjectPath + 'OK button'))
+		tap(findTestObject('iOS/Global/OK button'))
 	}
 
 	@Keyword
 	def tapNext() {
-		tap(findTestObject(testObjectPath + 'Next button'))
+		tap(findTestObject('iOS/Global/Next button'))
 		waitForLoaderNotVisible()
 	}
 
 	@Keyword
 	def tapBack() {
-		tap(findTestObject(testObjectPath + 'Back button'))
+		tap(findTestObject('iOS/Global/Back button'))
 	}
 
 	@Keyword

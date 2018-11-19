@@ -14,10 +14,10 @@ String newFirstName = GlobalVariable.randomFirstName
 String newLastName = GlobalVariable.randomLastName
 String newFirstNameLastName = newFirstName +"  "+ newLastName
 
-TestObject First_name_field = findTestObject('iOS/Send Money screen/Generic field', [('value') : firstName])
-TestObject Last_name_field = findTestObject('iOS/Send Money screen/Generic field', [('value') : lastName])
-TestObject Receiver_Name = findTestObject('iOS/Send Money screen/Generic text', [('label') : newFirstNameLastName])
-TestObject Receiver_Contact = findTestObject('iOS/Send Money screen/Generic text', [('label') : mobileNumber])
+TestObject First_name_field = findTestObject('iOS/Global/Generic field', [('value') : firstName])
+TestObject Last_name_field = findTestObject('iOS/Global/Generic field', [('value') : lastName])
+TestObject Receiver_Name = findTestObject('iOS/Global/Generic text', [('label') : newFirstNameLastName])
+TestObject Receiver_Contact = findTestObject('iOS/Global/Generic text', [('label') : mobileNumber])
 
 CustomKeywords.'iOS.send_money_screen.tapPersonalInformation'()
 
