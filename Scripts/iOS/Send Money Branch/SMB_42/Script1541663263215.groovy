@@ -5,8 +5,8 @@ import internal.GlobalVariable as GlobalVariable
 String senderName = "Allen Pogi Crisostomo"
 String receiverName = GlobalVariable.randomFirstName +" "+ GlobalVariable.randomMiddleName +" "+ GlobalVariable.randomLastName
 String receiverMobileNumber = "66"+ GlobalVariable.randomMobileNumber
-String serviceFee = GlobalVariable.internationalServiceFee
-String sendAmount = GlobalVariable.randomAmount
+String serviceFee = GlobalVariable.internationalServiceFee + " PHP"
+String sendAmount = GlobalVariable.randomAmount + " PHP"
 String senderMobileNumber = "63" + GlobalVariable.mobileNumber
 
 TestObject Sender_Mobile_Number = findTestObject('iOS/Send Money screen/Generic text', [('label') : senderMobileNumber])
