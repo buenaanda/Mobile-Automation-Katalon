@@ -26,7 +26,7 @@ CustomKeywords.'android.navigation_menu.tapTransferMoney'()
 
 CustomKeywords.'android.transfer_money_screen.tapSendMoney'()
 
-CustomKeywords.'global.verify_element.text'(findTestObject('android/Global/Error inactive'), GlobalVariable.inactiveError)
+CustomKeywords.'global.verify_element.text'(findTestObject('android/Global/Error inactive'), GlobalVariable.inactiveErrorAndroid)
 
 Mobile.closeApplication()
 

@@ -109,4 +109,9 @@
       <initValue>'/Data Files/base.apk'</initValue>
       <name>androidAppPath</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your session has expired. Please log in again'</initValue>
+      <name>inactiveErrorAndroid</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -66,18 +66,6 @@ def static "global.verify_element.toastMessageExist"(
         	text)
 }
 
-def static "android.transfer_money_screen.tapSendMoney"() {
-    (new android.transfer_money_screen()).tapSendMoney()
-}
-
-def static "android.transfer_money_screen.tapOK"() {
-    (new android.transfer_money_screen()).tapOK()
-}
-
-def static "android.transfer_money_screen.tapBranchTransaction"() {
-    (new android.transfer_money_screen()).tapBranchTransaction()
-}
-
 def static "android.login_screen.enterUsername"(
     	String username	) {
     (new android.login_screen()).enterUsername(
@@ -87,6 +75,12 @@ def static "android.login_screen.enterUsername"(
 def static "android.login_screen.enterPassword"(
     	String password	) {
     (new android.login_screen()).enterPassword(
+        	password)
+}
+
+def static "android.login_screen.enterSignInPassword"(
+    	String password	) {
+    (new android.login_screen()).enterSignInPassword(
         	password)
 }
 
@@ -104,6 +98,22 @@ def static "android.login_screen.tapOK"() {
 
 def static "android.login_screen.tapLogout"() {
     (new android.login_screen()).tapLogout()
+}
+
+def static "android.transfer_money_screen.tapSendMoney"() {
+    (new android.transfer_money_screen()).tapSendMoney()
+}
+
+def static "android.transfer_money_screen.tapOK"() {
+    (new android.transfer_money_screen()).tapOK()
+}
+
+def static "android.transfer_money_screen.tapBranchTransaction"() {
+    (new android.transfer_money_screen()).tapBranchTransaction()
+}
+
+def static "iOS.navigation_menu.tapTransferMoney"() {
+    (new iOS.navigation_menu()).tapTransferMoney()
 }
 
 def static "iOS.send_money_screen.tapPersonalInformation"() {
@@ -280,10 +290,6 @@ def static "iOS.send_money_screen.tapViewDetails"() {
 
 def static "iOS.send_money_screen.tapViewDashboard"() {
     (new iOS.send_money_screen()).tapViewDashboard()
-}
-
-def static "iOS.navigation_menu.tapTransferMoney"() {
-    (new iOS.navigation_menu()).tapTransferMoney()
 }
 
 def static "global.scroll_to_element.down"(

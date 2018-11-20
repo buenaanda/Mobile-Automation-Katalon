@@ -8,11 +8,9 @@ CustomKeywords.'android.otp_verification_screen.enterOTP'(GlobalVariable.otp)
 
 CustomKeywords.'global.wait_for_element.visible'(findTestObject('android/Navigation menu/My Account menu'))
 
-Mobile.closeApplication()
-
 Mobile.startApplication(RunConfiguration.projectDir + GlobalVariable.androidAppPath, false)
 
 CustomKeywords.'global.verify_element.text'(findTestObject('android/Login screen/Account Name'), accountNameFull)
 
-CustomKeywords.'global.verify_element.exist'(findTestObject('android/Login screen/Password field'))
+CustomKeywords.'global.verify_element.exist'(findTestObject('android/Login screen/Sign In Password field'))
 

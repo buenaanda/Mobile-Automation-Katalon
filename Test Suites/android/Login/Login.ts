@@ -99,6 +99,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/android/Login/LOG_13</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>523d8e2f-ed28-45e6-b381-d0d0595ace84</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>e7a17471-7c44-491a-843d-d9a6e837a99b</guid>

@@ -4,6 +4,7 @@
    <name>Android Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-11-20T14:30:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>15</pageLoadTimeout>
@@ -99,6 +100,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/android/Login/LOG_13</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>523d8e2f-ed28-45e6-b381-d0d0595ace84</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4ea75da4-a434-464e-b6b9-bf5e5331d54a</guid>

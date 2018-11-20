@@ -16,6 +16,11 @@ public class login_screen {
 	def enterPassword(String password) {
 		(new object()).setText(findTestObject('android/Login screen/Password field'), password)
 	}
+	
+	@Keyword
+	def enterSignInPassword(String password) {
+		(new object()).setText(findTestObject('android/Login screen/Sign In Password field'), password)
+	}
 
 	@Keyword
 	def tapLogin() {

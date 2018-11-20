@@ -7,12 +7,10 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.startApplication(RunConfiguration.projectDir + GlobalVariable.androidAppPath, false)
 
 'Enter valid password in Password text field'
-CustomKeywords.'android.login_screen.enterPassword'('1nvalid')
+CustomKeywords.'android.login_screen.enterSignInPassword'('1nvalid')
 
 'Tap Login button'
 CustomKeywords.'android.login_screen.tapSignIn'()
 
 CustomKeywords.'global.verify_element.notExist'(findTestObject('android/OTP Verification screen/OTP Verification screen'))
-
-Mobile.closeApplication()
 

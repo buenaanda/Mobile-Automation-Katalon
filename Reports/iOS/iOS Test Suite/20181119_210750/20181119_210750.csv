@@ -1,0 +1,658 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+iOS Test Suite,,"Login, Send Money Branch",2018-11-19 21:07:52,2018-11-19 22:00:26,52m - 33.242s,FAILED
+,,,,,,
+Test Cases/iOS/Registration/REG_01,,User can see the Registration screen,2018-11-19 21:07:53,2018-11-19 21:08:55,1m - 1.700s,PASSED
+startApplication,,,2018-11-19 21:07:53,2018-11-19 21:08:43,50.055s,PASSED
+iOS.initial_screen.tapRegister,,,2018-11-19 21:08:43,2018-11-19 21:08:50,6.820s,PASSED
+global.verify_element.exist,,,2018-11-19 21:08:50,2018-11-19 21:08:52,2.477s,PASSED
+global.verify_element.exist,,,2018-11-19 21:08:52,2018-11-19 21:08:55,2.061s,PASSED
+,,,,,,
+Test Cases/iOS/Registration/REG_02,,User can select Use My Mobile Number option,2018-11-19 21:08:55,2018-11-19 21:10:39,1m - 44.040s,FAILED
+iOS.registration_screen.tapUseMobileNumber,,,2018-11-19 21:08:55,2018-11-19 21:08:57,2.338s,PASSED
+global.verify_element.exist,,,2018-11-19 21:08:57,2018-11-19 21:09:05,7.573s,PASSED
+global.verify_element.exist,,,2018-11-19 21:09:05,2018-11-19 21:09:14,9.289s,PASSED
+global.verify_element.exist,,,2018-11-19 21:09:14,2018-11-19 21:09:22,8.115s,PASSED
+iOS.registration_screen.tapPrivacyPolicy,,,2018-11-19 21:09:22,2018-11-19 21:09:30,8.490s,PASSED
+"Statement - Privacy_Policy = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Privacy Policy])",,,2018-11-19 21:09:30,2018-11-19 21:09:30,0.012s,PASSED
+global.verify_element.exist,,,2018-11-19 21:09:30,2018-11-19 21:09:48,17.262s,PASSED
+iOS.registration_screen.tapTermsAndAgreement,,,2018-11-19 21:09:48,2018-11-19 21:09:57,9.588s,PASSED
+"Statement - Terms_And_Agreement = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Terms and Conditions])",,,2018-11-19 21:09:57,2018-11-19 21:09:57,0.011s,PASSED
+global.verify_element.exist,,,2018-11-19 21:09:57,2018-11-19 21:10:06,9.103s,FAILED
+iOS.registration_screen.checkTermsAndAgreement,,,2018-11-19 21:10:06,2018-11-19 21:10:19,12.832s,PASSED
+global.verify_element.exist,,,2018-11-19 21:10:19,2018-11-19 21:10:25,6.059s,PASSED
+global.verify_element.exist,,,2018-11-19 21:10:25,2018-11-19 21:10:28,2.820s,PASSED
+global.verify_element.exist,,,2018-11-19 21:10:28,2018-11-19 21:10:31,2.783s,PASSED
+Statement - new global.object().hideKeypad(),,,2018-11-19 21:10:31,2018-11-19 21:10:34,3.052s,PASSED
+global.verify_element.exist,,,2018-11-19 21:10:34,2018-11-19 21:10:36,2.503s,PASSED
+global.verify_element.exist,,,2018-11-19 21:10:36,2018-11-19 21:10:39,2.112s,PASSED
+,,,,,,
+Test Cases/iOS/Registration/REG_03,,User can input 10 numeric characters in Mobile Number text field,2018-11-19 21:10:39,2018-11-19 21:10:50,11.254s,PASSED
+iOS.registration_screen.enterMobileNumber,,,2018-11-19 21:10:39,2018-11-19 21:10:45,6.518s,PASSED
+global.verify_element.text,,,2018-11-19 21:10:45,2018-11-19 21:10:48,2.515s,PASSED
+global.verify_element.enabled,,,2018-11-19 21:10:48,2018-11-19 21:10:50,2.126s,PASSED
+,,,,,,
+Test Cases/iOS/Registration/REG_04,,User cannot input alpha - special characters in Mobile Number text field,2018-11-19 21:10:50,2018-11-19 21:11:00,10.092s,PASSED
+iOS.registration_screen.enterMobileNumber,,,2018-11-19 21:10:50,2018-11-19 21:10:57,7.531s,PASSED
+global.verify_element.text,,,2018-11-19 21:10:57,2018-11-19 21:11:00,2.480s,PASSED
+,,,,,,
+Test Cases/iOS/Registration/REG_05,,User cannot tap Get Started using 9 numeric characters and below,2018-11-19 21:11:00,2018-11-19 21:11:09,9.128s,PASSED
+iOS.registration_screen.enterMobileNumber,,,2018-11-19 21:11:00,2018-11-19 21:11:07,6.510s,PASSED
+"Statement - Mobile_Number_Error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Mobile number should be at least 10-digit long.])",,,2018-11-19 21:11:07,2018-11-19 21:11:07,0.013s,PASSED
+global.verify_element.exist,,,2018-11-19 21:11:07,2018-11-19 21:11:09,2.567s,PASSED
+,,,,,,
+Test Cases/iOS/Registration/REG_06,,User cannot proceed using invalid mobile number,2018-11-19 21:11:09,2018-11-19 21:11:31,21.573s,PASSED
+iOS.registration_screen.enterMobileNumber,,,2018-11-19 21:11:09,2018-11-19 21:11:17,7.393s,PASSED
+iOS.registration_screen.tapNext,,,2018-11-19 21:11:17,2018-11-19 21:11:25,7.996s,PASSED
+"Statement - SMS_Sending_Error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:SMS sending error])",,,2018-11-19 21:11:25,2018-11-19 21:11:25,0.006s,PASSED
+global.verify_element.exist,,,2018-11-19 21:11:25,2018-11-19 21:11:28,3.031s,PASSED
+iOS.registration_screen.tapOK,,,2018-11-19 21:11:28,2018-11-19 21:11:31,3.109s,PASSED
+,,,,,,
+Test Cases/iOS/Registration/REG_07,,User can proceed to OTP screen,2018-11-19 21:11:31,2018-11-19 21:11:48,17.754s,PASSED
+iOS.registration_screen.enterMobileNumber,,,2018-11-19 21:11:31,2018-11-19 21:11:39,7.804s,PASSED
+iOS.registration_screen.tapNext,,,2018-11-19 21:11:39,2018-11-19 21:11:46,7.414s,PASSED
+global.verify_element.exist,,,2018-11-19 21:11:46,2018-11-19 21:11:48,2.504s,PASSED
+,,,,,,
+Test Cases/iOS/Registration/REG_09,,,2018-11-19 21:11:48,2018-11-19 21:12:01,12.066s,PASSED
+iOS.otp_verification_screen.enterOTP,,,2018-11-19 21:11:48,2018-11-19 21:11:51,2.668s,PASSED
+global.verify_element.exist,,,2018-11-19 21:11:51,2018-11-19 21:11:58,6.561s,PASSED
+iOS.registration_screen.tapOK,,,2018-11-19 21:11:58,2018-11-19 21:12:01,2.819s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_01,,User can tap Login button,2018-11-19 21:12:01,2018-11-19 21:13:03,1m - 2.766s,PASSED
+startApplication,,,2018-11-19 21:12:01,2018-11-19 21:12:52,51.079s,PASSED
+iOS.initial_screen.tapLogin,,,2018-11-19 21:12:52,2018-11-19 21:12:54,2.326s,PASSED
+global.verify_element.exist,,,2018-11-19 21:12:54,2018-11-19 21:12:57,2.607s,PASSED
+global.verify_element.exist,,,2018-11-19 21:12:57,2018-11-19 21:12:59,2.124s,PASSED
+global.verify_element.exist,,,2018-11-19 21:12:59,2018-11-19 21:13:01,2.303s,PASSED
+global.verify_element.exist,,,2018-11-19 21:13:01,2018-11-19 21:13:03,2.255s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_02,,,2018-11-19 21:13:03,2018-11-19 21:13:14,10.512s,PASSED
+iOS.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-19 21:13:03,2018-11-19 21:13:08,4.192s,PASSED
+global.verify_element.text,,,2018-11-19 21:13:08,2018-11-19 21:13:11,3.192s,PASSED
+global.verify_element.disabled,,Login button is disabled,2018-11-19 21:13:11,2018-11-19 21:13:14,3.040s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_03,,User can enter its password,2018-11-19 21:13:14,2018-11-19 21:13:25,10.722s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-19 21:13:14,2018-11-19 21:13:20,5.886s,PASSED
+global.verify_element.text,,,2018-11-19 21:13:20,2018-11-19 21:13:22,2.752s,PASSED
+global.verify_element.enabled,,Login button is enabled,2018-11-19 21:13:22,2018-11-19 21:13:25,2.052s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_04,,User can tap Login button with valid credentials,2018-11-19 21:13:25,2018-11-19 21:14:32,1m - 7.502s,PASSED
+iOS.login_screen.tapLogin,,Tap Login button,2018-11-19 21:13:25,2018-11-19 21:13:30,5.247s,PASSED
+global.wait_for_element.visible,,,2018-11-19 21:13:30,2018-11-19 21:13:32,2.434s,PASSED
+global.verify_element.exist,,,2018-11-19 21:13:32,2018-11-19 21:13:35,2.383s,PASSED
+global.verify_element.disabled,,,2018-11-19 21:13:35,2018-11-19 21:13:37,2.445s,PASSED
+global.verify_element.exist,,,2018-11-19 21:13:37,2018-11-19 21:13:40,2.410s,PASSED
+delay,,,2018-11-19 21:13:40,2018-11-19 21:14:30,50.007s,PASSED
+global.verify_element.enabled,,,2018-11-19 21:14:30,2018-11-19 21:14:32,2.523s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_05,,User can enter valid OTP,2018-11-19 21:14:32,2018-11-19 21:14:45,12.772s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-19 21:14:32,2018-11-19 21:14:35,2.604s,PASSED
+global.verify_element.text,,User will redirect in My Accounts screen,2018-11-19 21:14:35,2018-11-19 21:14:44,9.724s,PASSED
+closeApplication,,,2018-11-19 21:14:44,2018-11-19 21:14:45,0.393s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_06,,User cannot login using invalid username,2018-11-19 21:14:45,2018-11-19 21:15:32,46.872s,PASSED
+startApplication,,,2018-11-19 21:14:45,2018-11-19 21:15:02,16.693s,PASSED
+iOS.login_screen.tapLogout,,,2018-11-19 21:15:02,2018-11-19 21:15:05,3.352s,PASSED
+iOS.initial_screen.tapLogin,,,2018-11-19 21:15:05,2018-11-19 21:15:10,5.392s,PASSED
+iOS.login_screen.enterUsername,,Enter invalid username in Username text field,2018-11-19 21:15:10,2018-11-19 21:15:14,3.612s,PASSED
+iOS.login_screen.enterPassword,,Enter valid Password,2018-11-19 21:15:14,2018-11-19 21:15:19,5.425s,PASSED
+iOS.login_screen.tapLogin,,Tap LOGIN button,2018-11-19 21:15:19,2018-11-19 21:15:25,5.772s,PASSED
+global.verify_element.text,,,2018-11-19 21:15:25,2018-11-19 21:15:28,3.168s,PASSED
+iOS.login_screen.tapOK,,,2018-11-19 21:15:28,2018-11-19 21:15:32,3.389s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_07,,User cannot login using <blank> username,2018-11-19 21:15:32,2018-11-19 21:15:39,7.752s,PASSED
+iOS.login_screen.enterUsername,,Leave Username field as blank,2018-11-19 21:15:32,2018-11-19 21:15:36,4.519s,PASSED
+global.verify_element.disabled,,,2018-11-19 21:15:36,2018-11-19 21:15:39,3.189s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_08,,User cannot login using invalid password,2018-11-19 21:15:39,2018-11-19 21:16:01,21.758s,PASSED
+iOS.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-19 21:15:40,2018-11-19 21:15:43,3.627s,PASSED
+iOS.login_screen.enterPassword,,Enter invalid password in Password field,2018-11-19 21:15:43,2018-11-19 21:15:49,5.879s,PASSED
+iOS.login_screen.tapLogin,,Tap LOGIN button,2018-11-19 21:15:49,2018-11-19 21:15:55,5.782s,PASSED
+global.verify_element.text,,,2018-11-19 21:15:55,2018-11-19 21:15:58,3.129s,PASSED
+iOS.login_screen.tapOK,,,2018-11-19 21:15:58,2018-11-19 21:16:01,3.299s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_09,,User cannot login using <blank> password,2018-11-19 21:16:01,2018-11-19 21:16:10,8.355s,PASSED
+iOS.login_screen.enterPassword,,Leave Password field as blank,2018-11-19 21:16:01,2018-11-19 21:16:07,5.716s,PASSED
+global.verify_element.disabled,,,2018-11-19 21:16:07,2018-11-19 21:16:10,2.589s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_10,,User cannot login using invalid OTP,2018-11-19 21:16:10,2018-11-19 21:16:51,41.561s,FAILED
+iOS.login_screen.enterUsername,,,2018-11-19 21:16:10,2018-11-19 21:16:14,4.421s,PASSED
+iOS.login_screen.enterPassword,,,2018-11-19 21:16:14,2018-11-19 21:16:19,5.028s,PASSED
+iOS.login_screen.tapLogin,,Tap LOGIN button,2018-11-19 21:16:19,2018-11-19 21:16:25,5.798s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter invalid OTP,2018-11-19 21:16:25,2018-11-19 21:16:29,3.914s,PASSED
+global.verify_element.text,,,2018-11-19 21:16:29,2018-11-19 21:16:46,16.787s,FAILED
+iOS.login_screen.tapOK,,,2018-11-19 21:16:46,2018-11-19 21:16:51,5.559s,FAILED
+,,,,,,
+Test Cases/iOS/Login/LOG_11,,User can tap RESEND button,2018-11-19 21:16:51,2018-11-19 21:18:13,1m - 21.759s,FAILED
+delay,,Wait for the OTP timer to end,2018-11-19 21:16:51,2018-11-19 21:17:56,1m - 5.010s,PASSED
+iOS.otp_verification_screen.tapResend,,Tap RESEND button,2018-11-19 21:17:56,2018-11-19 21:18:13,16.704s,FAILED
+,,,,,,
+Test Cases/iOS/Login/LOG_12,,User can see the Succeeding Login screen,2018-11-19 21:18:13,2018-11-19 21:19:24,1m - 10.814s,FAILED
+iOS.otp_verification_screen.enterOTP,,,2018-11-19 21:18:13,2018-11-19 21:18:44,31.325s,PASSED
+global.wait_for_element.visible,,,2018-11-19 21:18:44,2018-11-19 21:18:48,3.863s,PASSED
+closeApplication,,,2018-11-19 21:18:48,2018-11-19 21:18:49,0.500s,PASSED
+startApplication,,,2018-11-19 21:18:49,2018-11-19 21:19:04,15.642s,PASSED
+global.verify_element.text,,,2018-11-19 21:19:04,2018-11-19 21:19:21,16.343s,FAILED
+global.verify_element.exist,,,2018-11-19 21:19:21,2018-11-19 21:19:24,3.060s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_13,,User can login using valid password,2018-11-19 21:19:24,2018-11-19 21:19:46,22.181s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-19 21:19:24,2018-11-19 21:19:28,4.330s,PASSED
+iOS.login_screen.tapSignIn,,Tap Login button,2018-11-19 21:19:28,2018-11-19 21:19:34,5.732s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-19 21:19:34,2018-11-19 21:19:37,2.656s,PASSED
+global.verify_element.text,,,2018-11-19 21:19:37,2018-11-19 21:19:46,8.963s,PASSED
+closeApplication,,,2018-11-19 21:19:46,2018-11-19 21:19:46,0.420s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_14,,User cannot login using invalid password,2018-11-19 21:19:46,2018-11-19 21:20:20,34.448s,PASSED
+startApplication,,,2018-11-19 21:19:46,2018-11-19 21:20:01,15.040s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-19 21:20:01,2018-11-19 21:20:06,4.873s,PASSED
+iOS.login_screen.tapSignIn,,Tap Login button,2018-11-19 21:20:06,2018-11-19 21:20:12,5.781s,PASSED
+global.verify_element.text,,,2018-11-19 21:20:12,2018-11-19 21:20:15,2.853s,PASSED
+iOS.login_screen.tapOK,,,2018-11-19 21:20:15,2018-11-19 21:20:18,2.981s,PASSED
+iOS.login_screen.tapLogout,,,2018-11-19 21:20:18,2018-11-19 21:20:20,2.434s,PASSED
+closeApplication,,,2018-11-19 21:20:20,2018-11-19 21:20:20,0.413s,PASSED
+,,,,,,
+Test Cases/iOS/Login/LOG_20,,System can force logout the user,2018-11-19 21:20:20,2018-11-19 21:28:04,7m - 43.435s,PASSED
+startApplication,,,2018-11-19 21:20:20,2018-11-19 21:20:33,12.903s,PASSED
+iOS.initial_screen.tapLogin,,,2018-11-19 21:20:33,2018-11-19 21:20:35,2.012s,PASSED
+iOS.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-19 21:20:35,2018-11-19 21:20:39,4.099s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-19 21:20:39,2018-11-19 21:20:45,5.595s,PASSED
+iOS.login_screen.tapLogin,,Tap Login button,2018-11-19 21:20:45,2018-11-19 21:20:51,5.642s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-19 21:20:51,2018-11-19 21:20:53,2.681s,PASSED
+delay,,Do not make any activities for 5 minutes,2018-11-19 21:20:53,2018-11-19 21:27:33,6m - 40.024s,PASSED
+iOS.navigation_menu.tapTransferMoney,,,2018-11-19 21:27:33,2018-11-19 21:27:38,4.201s,PASSED
+iOS.transfer_money_screen.tapSendMoney,,,2018-11-19 21:27:38,2018-11-19 21:27:41,3.452s,PASSED
+global.verify_element.text,,,2018-11-19 21:27:41,2018-11-19 21:27:48,6.805s,PASSED
+iOS.inactive_screen.tapOK,,,2018-11-19 21:27:48,2018-11-19 21:27:57,9.410s,PASSED
+global.verify_element.exist,,,2018-11-19 21:27:57,2018-11-19 21:28:00,2.921s,PASSED
+iOS.login_screen.tapLogout,,,2018-11-19 21:28:00,2018-11-19 21:28:03,3.201s,PASSED
+closeApplication,,,2018-11-19 21:28:03,2018-11-19 21:28:04,0.405s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_01,,User can select Send Money via Branch button,2018-11-19 21:28:04,2018-11-19 21:29:05,1m - 1.175s,PASSED
+startApplication,,,2018-11-19 21:28:04,2018-11-19 21:28:20,15.709s,PASSED
+iOS.initial_screen.tapLogin,,,2018-11-19 21:28:20,2018-11-19 21:28:22,1.954s,PASSED
+iOS.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-19 21:28:22,2018-11-19 21:28:26,3.953s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-19 21:28:26,2018-11-19 21:28:31,5.047s,PASSED
+iOS.login_screen.tapLogin,,Tap Login button,2018-11-19 21:28:31,2018-11-19 21:28:36,5.711s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-19 21:28:36,2018-11-19 21:28:39,2.693s,PASSED
+iOS.navigation_menu.tapTransferMoney,,,2018-11-19 21:28:39,2018-11-19 21:28:47,8.462s,PASSED
+iOS.transfer_money_screen.tapSendMoney,,,2018-11-19 21:28:47,2018-11-19 21:28:51,3.582s,PASSED
+iOS.transfer_money_screen.tapBranchTransaction,,,2018-11-19 21:28:51,2018-11-19 21:29:00,9.068s,PASSED
+global.verify_element.exist,,,2018-11-19 21:29:00,2018-11-19 21:29:05,4.933s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_07,,User can close the Personal Information screen,2018-11-19 21:29:05,2018-11-19 21:29:22,16.937s,PASSED
+"Statement - Receiver_label = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Receiver:])",,,2018-11-19 21:29:05,2018-11-19 21:29:05,0.003s,PASSED
+"Statement - Contact_label = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Contact:])",,,2018-11-19 21:29:05,2018-11-19 21:29:05,0.002s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-19 21:29:05,2018-11-19 21:29:08,3.196s,PASSED
+iOS.send_money_screen.tapClose,,,2018-11-19 21:29:08,2018-11-19 21:29:11,2.877s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:29:11,2018-11-19 21:29:17,5.652s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:29:17,2018-11-19 21:29:22,5.127s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_02,,User can tap Personal Information button,2018-11-19 21:29:22,2018-11-19 21:29:41,19.197s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,Tap Personal Information button,2018-11-19 21:29:22,2018-11-19 21:29:25,3.088s,PASSED
+global.verify_element.exist,,,2018-11-19 21:29:25,2018-11-19 21:29:28,2.662s,PASSED
+global.verify_element.exist,,,2018-11-19 21:29:28,2018-11-19 21:29:30,2.254s,PASSED
+global.verify_element.exist,,,2018-11-19 21:29:30,2018-11-19 21:29:32,2.241s,PASSED
+global.verify_element.exist,,,2018-11-19 21:29:32,2018-11-19 21:29:34,2.208s,PASSED
+global.verify_element.exist,,,2018-11-19 21:29:34,2018-11-19 21:29:37,2.220s,PASSED
+global.verify_element.exist,,,2018-11-19 21:29:37,2018-11-19 21:29:39,2.243s,PASSED
+global.verify_element.exist,,,2018-11-19 21:29:39,2018-11-19 21:29:41,2.246s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_03,,User can proceed using valid details in each required fields,2018-11-19 21:29:41,2018-11-19 21:30:10,29.310s,PASSED
+Statement - randomFirstName = new global.random_data().firstName(),,,2018-11-19 21:29:41,2018-11-19 21:29:42,0.316s,PASSED
+Statement - randomLastName = new global.random_data().lastName(),,,2018-11-19 21:29:42,2018-11-19 21:29:42,0.103s,PASSED
+Statement - randomMobileNumber = new global.random_data().mobileNumber(),,,2018-11-19 21:29:42,2018-11-19 21:29:42,0.190s,PASSED
+Statement - firstName = randomFirstName,,,2018-11-19 21:29:42,2018-11-19 21:29:42,0.000s,PASSED
+Statement - lastName = randomLastName,,,2018-11-19 21:29:42,2018-11-19 21:29:42,0.000s,PASSED
+Statement - mobileNumber = randomMobileNumber,,,2018-11-19 21:29:42,2018-11-19 21:29:42,0.001s,PASSED
+"Statement - receiverName = firstName + ""  "" + lastName",,,2018-11-19 21:29:42,2018-11-19 21:29:42,0.000s,PASSED
+"Statement - Receiver_Name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:receiverName])",,,2018-11-19 21:29:42,2018-11-19 21:29:42,0.004s,PASSED
+"Statement - Receiver_Contact = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:mobileNumber])",,,2018-11-19 21:29:42,2018-11-19 21:29:42,0.002s,PASSED
+iOS.send_money_screen.enterFirstName,,,2018-11-19 21:29:42,2018-11-19 21:29:46,3.762s,PASSED
+iOS.send_money_screen.enterLastName,,,2018-11-19 21:29:46,2018-11-19 21:29:50,4.694s,PASSED
+iOS.send_money_screen.enterMobileNumber,,,2018-11-19 21:29:50,2018-11-19 21:29:58,7.999s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:29:58,2018-11-19 21:30:04,5.895s,PASSED
+global.verify_element.exist,,,2018-11-19 21:30:04,2018-11-19 21:30:07,3.079s,PASSED
+global.verify_element.exist,,,2018-11-19 21:30:07,2018-11-19 21:30:10,3.204s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_04,,,2018-11-19 21:30:10,2018-11-19 21:30:56,45.629s,PASSED
+"Statement - First_name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:internal.GlobalVariable.randomFirstName])",,,2018-11-19 21:30:11,2018-11-19 21:30:11,0.003s,PASSED
+"Statement - Last_name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:internal.GlobalVariable.randomLastName])",,,2018-11-19 21:30:11,2018-11-19 21:30:11,0.001s,PASSED
+"Statement - Mobile_number_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:internal.GlobalVariable.randomMobileNumber])",,,2018-11-19 21:30:11,2018-11-19 21:30:11,0.002s,PASSED
+"Statement - Firstname_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Firstname is required])",,,2018-11-19 21:30:11,2018-11-19 21:30:11,0.002s,PASSED
+"Statement - Lastname_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Lastname is required])",,,2018-11-19 21:30:11,2018-11-19 21:30:11,0.003s,PASSED
+"Statement - Mobile_number_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Mobile number is required])",,,2018-11-19 21:30:11,2018-11-19 21:30:11,0.002s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-19 21:30:11,2018-11-19 21:30:14,3.896s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:30:14,2018-11-19 21:30:24,9.163s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:30:24,2018-11-19 21:30:33,9.873s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:30:33,2018-11-19 21:30:42,8.974s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:30:42,2018-11-19 21:30:49,6.069s,PASSED
+global.verify_element.exist,,,2018-11-19 21:30:49,2018-11-19 21:30:51,2.554s,PASSED
+global.verify_element.exist,,,2018-11-19 21:30:51,2018-11-19 21:30:54,2.610s,PASSED
+global.verify_element.exist,,,2018-11-19 21:30:54,2018-11-19 21:30:56,2.406s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_05,,User can proceed with Optional fields,2018-11-19 21:30:56,2018-11-19 21:31:35,39.011s,PASSED
+Statement - randomMiddleName = new global.random_data().middleName(),,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.135s,PASSED
+Statement - randomPhoneNumber = new global.random_data().phoneNumber(),,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.053s,PASSED
+Statement - firstName = randomFirstName,,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.001s,PASSED
+Statement - middleName = randomMiddleName,,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.000s,PASSED
+Statement - lastName = randomLastName,,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.000s,PASSED
+Statement - mobileNumber = randomMobileNumber,,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.000s,PASSED
+Statement - phoneNumber = randomPhoneNumber,,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.000s,PASSED
+"Statement - fullName = firstName + "" "" + middleName + "" "" + lastName",,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.001s,PASSED
+"Statement - contact = mobileNumber + "" "" + phoneNumber",,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.000s,PASSED
+"Statement - firstNameLastName = firstName + ""  "" + lastName",,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.001s,PASSED
+"Statement - Receiver_Name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:fullName])",,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.004s,PASSED
+"Statement - Receiver_Contact = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:contact])",,,2018-11-19 21:30:56,2018-11-19 21:30:56,0.002s,PASSED
+iOS.send_money_screen.enterFirstName,,,2018-11-19 21:30:56,2018-11-19 21:31:00,3.843s,PASSED
+iOS.send_money_screen.enterMiddleName,,,2018-11-19 21:31:00,2018-11-19 21:31:05,4.708s,PASSED
+iOS.send_money_screen.enterLastName,,,2018-11-19 21:31:05,2018-11-19 21:31:09,4.484s,PASSED
+iOS.send_money_screen.enterMobileNumber,,,2018-11-19 21:31:09,2018-11-19 21:31:18,8.464s,PASSED
+iOS.send_money_screen.enterPhoneNumber,,,2018-11-19 21:31:18,2018-11-19 21:31:22,4.211s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:31:22,2018-11-19 21:31:29,6.534s,PASSED
+global.verify_element.exist,,,2018-11-19 21:31:29,2018-11-19 21:31:32,3.212s,PASSED
+global.verify_element.exist,,,2018-11-19 21:31:32,2018-11-19 21:31:35,3.247s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_06,,,2018-11-19 21:31:35,2018-11-19 21:32:09,34.295s,PASSED
+Statement - firstName = randomFirstName,,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.001s,PASSED
+Statement - middleName = randomMiddleName,,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.000s,PASSED
+Statement - lastName = randomLastName,,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.001s,PASSED
+"Statement - mobileNumber = randomMobileNumber + "" """,,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.000s,PASSED
+Statement - phoneNumber = randomPhoneNumber,,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.000s,PASSED
+"Statement - firstNameLastName = firstName + ""  "" + lastName",,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.000s,PASSED
+"Statement - Middle_name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:middleName])",,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.003s,PASSED
+"Statement - Phone_number_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:phoneNumber])",,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.001s,PASSED
+"Statement - Receiver_Name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:firstNameLastName])",,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.001s,PASSED
+"Statement - Receiver_Contact = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:mobileNumber])",,,2018-11-19 21:31:35,2018-11-19 21:31:35,0.001s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-19 21:31:35,2018-11-19 21:31:39,3.647s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:31:39,2018-11-19 21:31:48,9.290s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:31:48,2018-11-19 21:31:57,8.731s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:31:57,2018-11-19 21:32:03,5.980s,PASSED
+global.verify_element.exist,,,2018-11-19 21:32:03,2018-11-19 21:32:06,3.403s,PASSED
+global.verify_element.exist,,,2018-11-19 21:32:06,2018-11-19 21:32:09,3.194s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_08,,,2018-11-19 21:32:09,2018-11-19 21:32:44,34.853s,PASSED
+Statement - firstName = randomFirstName,,,2018-11-19 21:32:09,2018-11-19 21:32:09,0.001s,PASSED
+Statement - lastName = randomLastName,,,2018-11-19 21:32:09,2018-11-19 21:32:09,0.000s,PASSED
+"Statement - mobileNumber = randomMobileNumber + "" """,,,2018-11-19 21:32:09,2018-11-19 21:32:09,0.000s,PASSED
+Statement - randomFirstName = new global.random_data().firstName(),,,2018-11-19 21:32:09,2018-11-19 21:32:09,0.036s,PASSED
+Statement - randomLastName = new global.random_data().lastName(),,,2018-11-19 21:32:09,2018-11-19 21:32:10,0.036s,PASSED
+Statement - newFirstName = randomFirstName,,,2018-11-19 21:32:10,2018-11-19 21:32:10,0.000s,PASSED
+Statement - newLastName = randomLastName,,,2018-11-19 21:32:10,2018-11-19 21:32:10,0.000s,PASSED
+"Statement - newFirstNameLastName = newFirstName + ""  "" + newLastName",,,2018-11-19 21:32:10,2018-11-19 21:32:10,0.001s,PASSED
+"Statement - First_name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:firstName])",,,2018-11-19 21:32:10,2018-11-19 21:32:10,0.001s,PASSED
+"Statement - Last_name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:lastName])",,,2018-11-19 21:32:10,2018-11-19 21:32:10,0.001s,PASSED
+"Statement - Receiver_Name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:newFirstNameLastName])",,,2018-11-19 21:32:10,2018-11-19 21:32:10,0.002s,PASSED
+"Statement - Receiver_Contact = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:mobileNumber])",,,2018-11-19 21:32:10,2018-11-19 21:32:10,0.001s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-19 21:32:10,2018-11-19 21:32:13,3.508s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:32:13,2018-11-19 21:32:22,9.358s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:32:22,2018-11-19 21:32:32,9.270s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:32:32,2018-11-19 21:32:38,6.213s,PASSED
+global.verify_element.exist,,,2018-11-19 21:32:38,2018-11-19 21:32:41,3.158s,PASSED
+global.verify_element.exist,,,2018-11-19 21:32:41,2018-11-19 21:32:44,3.224s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_09,,User can tap Recipient Address screen,2018-11-19 21:32:44,2018-11-19 21:33:18,33.737s,PASSED
+iOS.send_money_screen.tapCurrentAddress,,,2018-11-19 21:32:44,2018-11-19 21:32:51,6.585s,PASSED
+global.verify_element.exist,,,2018-11-19 21:32:51,2018-11-19 21:32:57,6.612s,PASSED
+global.verify_element.exist,,,2018-11-19 21:32:57,2018-11-19 21:33:01,3.728s,PASSED
+global.verify_element.exist,,,2018-11-19 21:33:01,2018-11-19 21:33:05,3.819s,PASSED
+global.verify_element.exist,,,2018-11-19 21:33:05,2018-11-19 21:33:09,3.729s,PASSED
+global.verify_element.exist,,,2018-11-19 21:33:09,2018-11-19 21:33:12,3.674s,PASSED
+global.verify_element.exist,,,2018-11-19 21:33:12,2018-11-19 21:33:18,5.571s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_17,,User cannot proceed with incomplete informations,2018-11-19 21:33:18,2018-11-19 21:33:40,22.088s,PASSED
+"Statement - Country_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Country is required])",,,2018-11-19 21:33:18,2018-11-19 21:33:18,0.002s,PASSED
+"Statement - Postal_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Postal is required])",,,2018-11-19 21:33:18,2018-11-19 21:33:18,0.001s,PASSED
+"Statement - Present_address_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Present address is required])",,,2018-11-19 21:33:18,2018-11-19 21:33:18,0.001s,PASSED
+"Statement - Destination_country_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Destination country is required])",,,2018-11-19 21:33:18,2018-11-19 21:33:18,0.001s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:33:18,2018-11-19 21:33:25,7.048s,PASSED
+global.verify_element.exist,,,2018-11-19 21:33:25,2018-11-19 21:33:29,3.754s,PASSED
+global.verify_element.exist,,,2018-11-19 21:33:29,2018-11-19 21:33:33,3.800s,PASSED
+global.verify_element.exist,,,2018-11-19 21:33:33,2018-11-19 21:33:36,3.710s,PASSED
+global.verify_element.exist,,,2018-11-19 21:33:36,2018-11-19 21:33:40,3.723s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_18,,User can proceed in Recipient's Address with complete informations,2018-11-19 21:33:40,2018-11-19 21:35:17,1m - 36.641s,PASSED
+"Statement - Receiver_Current_Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:503 Tindalo, 1442, Cambodia])",,,2018-11-19 21:33:40,2018-11-19 21:33:40,0.003s,PASSED
+"Statement - Destination_Country = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Cambodia])",,,2018-11-19 21:33:40,2018-11-19 21:33:40,0.002s,PASSED
+iOS.send_money_screen.selectCountry,,,2018-11-19 21:33:40,2018-11-19 21:34:02,22.308s,PASSED
+iOS.send_money_screen.enterPostal,,,2018-11-19 21:34:02,2018-11-19 21:34:13,10.117s,PASSED
+iOS.send_money_screen.enterUnitHouseNumberBuildingStreet,,,2018-11-19 21:34:13,2018-11-19 21:34:23,10.292s,PASSED
+iOS.send_money_screen.selectDestinationCountry,,,2018-11-19 21:34:23,2018-11-19 21:35:02,39.081s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:35:02,2018-11-19 21:35:09,7.311s,PASSED
+global.verify_element.exist,,,2018-11-19 21:35:09,2018-11-19 21:35:13,3.829s,PASSED
+global.verify_element.exist,,,2018-11-19 21:35:13,2018-11-19 21:35:17,3.671s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_19,,,2018-11-19 21:35:17,2018-11-19 21:37:22,2m - 4.917s,PASSED
+"Statement - Receiver_Current_Address = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:086 Bgy Loob, 3117, Vietnam])",,,2018-11-19 21:35:17,2018-11-19 21:35:17,0.002s,PASSED
+"Statement - Destination_Country = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Vietnam])",,,2018-11-19 21:35:17,2018-11-19 21:35:17,0.001s,PASSED
+iOS.send_money_screen.tapCurrentAddress,,,2018-11-19 21:35:17,2018-11-19 21:35:25,7.721s,PASSED
+"Statement - Country_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Cambodia])",,,2018-11-19 21:35:25,2018-11-19 21:35:25,0.007s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:35:25,2018-11-19 21:36:06,41.340s,PASSED
+"Statement - Postal_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:1442])",,,2018-11-19 21:36:06,2018-11-19 21:36:06,0.002s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:36:06,2018-11-19 21:36:17,10.882s,PASSED
+"Statement - UnitHouse_NumberBuildingStreet_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:503 Tindalo])",,,2018-11-19 21:36:17,2018-11-19 21:36:17,0.002s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:36:17,2018-11-19 21:36:28,11.380s,PASSED
+"Statement - Destination_Country_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Cambodia])",,,2018-11-19 21:36:28,2018-11-19 21:36:28,0.016s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:36:28,2018-11-19 21:37:07,38.822s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:37:07,2018-11-19 21:37:14,7.348s,PASSED
+global.verify_element.exist,,,2018-11-19 21:37:14,2018-11-19 21:37:18,3.683s,PASSED
+global.verify_element.exist,,,2018-11-19 21:37:18,2018-11-19 21:37:22,3.640s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_10,,User can select receiver's Current Country,2018-11-19 21:37:22,2018-11-19 21:37:36,14.033s,PASSED
+"Statement - Country_dropdown = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Vietnam])",,,2018-11-19 21:37:22,2018-11-19 21:37:22,0.002s,PASSED
+iOS.send_money_screen.tapCurrentAddress,,,2018-11-19 21:37:22,2018-11-19 21:37:29,7.653s,PASSED
+global.verify_element.text,,,2018-11-19 21:37:29,2018-11-19 21:37:36,6.345s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_11,,,2018-11-19 21:37:36,2018-11-19 21:38:42,1m - 6.407s,PASSED
+global.verify_element.exist,,,2018-11-19 21:37:36,2018-11-19 21:37:39,3.219s,PASSED
+global.verify_element.exist,,,2018-11-19 21:37:39,2018-11-19 21:37:42,3.297s,PASSED
+"Statement - Country_dropdown = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Vietnam])",,,2018-11-19 21:37:42,2018-11-19 21:37:42,0.002s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:37:42,2018-11-19 21:38:23,41.208s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:38:23,2018-11-19 21:38:29,6.013s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:38:29,2018-11-19 21:38:35,5.279s,PASSED
+global.verify_element.exist,,,2018-11-19 21:38:35,2018-11-19 21:38:38,3.688s,PASSED
+global.verify_element.exist,,,2018-11-19 21:38:38,2018-11-19 21:38:42,3.671s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_12,,,2018-11-19 21:38:42,2018-11-19 21:40:38,1m - 56.067s,PASSED
+Statement - Country_dropdown = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-11-19 21:38:42,2018-11-19 21:38:42,0.000s,PASSED
+"Statement - Country_dropdown = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Mexico])",,,2018-11-19 21:38:42,2018-11-19 21:38:42,0.002s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:38:42,2018-11-19 21:39:21,39.292s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:39:21,2018-11-19 21:39:27,5.491s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:39:27,2018-11-19 21:39:33,6.119s,PASSED
+global.verify_element.exist,,,2018-11-19 21:39:33,2018-11-19 21:39:37,3.689s,PASSED
+global.verify_element.exist,,,2018-11-19 21:39:37,2018-11-19 21:39:40,3.541s,PASSED
+"Statement - Country_dropdown = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:United States])",,,2018-11-19 21:39:40,2018-11-19 21:39:40,0.003s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:39:40,2018-11-19 21:40:19,38.864s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:40:19,2018-11-19 21:40:25,6.151s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:40:25,2018-11-19 21:40:31,5.377s,PASSED
+global.verify_element.exist,,,2018-11-19 21:40:31,2018-11-19 21:40:34,3.737s,PASSED
+global.verify_element.exist,,,2018-11-19 21:40:34,2018-11-19 21:40:38,3.775s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_13,,User can enter postal code in Postal field (required),2018-11-19 21:40:38,2018-11-19 21:40:54,15.538s,PASSED
+"Statement - Postal_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:3117])",,,2018-11-19 21:40:38,2018-11-19 21:40:38,0.003s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:40:38,2018-11-19 21:40:49,11.132s,PASSED
+"Statement - Postal_Field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:123456789])",,,2018-11-19 21:40:49,2018-11-19 21:40:49,0.003s,PASSED
+global.verify_element.text,,,2018-11-19 21:40:49,2018-11-19 21:40:54,4.368s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_14,,User can enter its address in Unit/House number/Building/Street (required),2018-11-19 21:40:54,2018-11-19 21:41:10,16.740s,PASSED
+Statement - UnitHouse_NumberBuildingStreet_field = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-11-19 21:40:54,2018-11-19 21:40:54,0.000s,PASSED
+"Statement - UnitHouse_NumberBuildingStreet_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:086 Bgy Loob])",,,2018-11-19 21:40:54,2018-11-19 21:40:54,0.002s,PASSED
+iOS.send_money_screen.enterField,,,2018-11-19 21:40:54,2018-11-19 21:41:06,12.405s,PASSED
+"Statement - UnitHouse_NumberBuildingStreet_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:123qwertyuiopasdfghjklzxcvbnmqwertyuirtr])",,,2018-11-19 21:41:06,2018-11-19 21:41:06,0.003s,PASSED
+global.verify_element.text,,,2018-11-19 21:41:06,2018-11-19 21:41:10,4.288s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_15,,User can select Destination Country (required),2018-11-19 21:41:10,2018-11-19 21:41:55,44.580s,PASSED
+Statement - Destination_Country_field = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,2018-11-19 21:41:11,2018-11-19 21:41:11,0.001s,PASSED
+"Statement - Destination_Country_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Vietnam])",,,2018-11-19 21:41:11,2018-11-19 21:41:11,0.002s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:41:11,2018-11-19 21:41:49,38.956s,PASSED
+"Statement - Destination_Country_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Mexico])",,,2018-11-19 21:41:49,2018-11-19 21:41:49,0.003s,PASSED
+global.verify_element.text,,,2018-11-19 21:41:49,2018-11-19 21:41:55,5.594s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_16,,User can see Province/State and City fields in Destination Country as required fields,2018-11-19 21:41:55,2018-11-19 21:42:08,13.376s,PASSED
+global.verify_element.exist,,,2018-11-19 21:41:55,2018-11-19 21:42:02,6.680s,PASSED
+global.verify_element.exist,,,2018-11-19 21:42:02,2018-11-19 21:42:08,6.663s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_20,,User can tap Sender's Information button,2018-11-19 21:42:08,2018-11-19 21:42:25,16.787s,PASSED
+iOS.send_money_screen.tapClose,,,2018-11-19 21:42:08,2018-11-19 21:42:13,4.752s,PASSED
+iOS.send_money_screen.tapSenderEmploymentInformation,,,2018-11-19 21:42:13,2018-11-19 21:42:18,5.017s,PASSED
+global.verify_element.exist,,,2018-11-19 21:42:18,2018-11-19 21:42:22,4.007s,PASSED
+global.verify_element.exist,,,2018-11-19 21:42:22,2018-11-19 21:42:25,2.981s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_25,,User cannot proceed with incomplete informations,2018-11-19 21:42:25,2018-11-19 21:42:44,18.356s,PASSED
+"Statement - Occupation_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Occupation is required])",,,2018-11-19 21:42:25,2018-11-19 21:42:25,0.003s,PASSED
+"Statement - Position_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Position is required])",,,2018-11-19 21:42:25,2018-11-19 21:42:25,0.002s,PASSED
+"Statement - Source_of_funds_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Source of funds is required])",,,2018-11-19 21:42:25,2018-11-19 21:42:25,0.002s,PASSED
+"Statement - Employer_is_required_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Employer is required])",,,2018-11-19 21:42:25,2018-11-19 21:42:25,0.002s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:42:25,2018-11-19 21:42:32,6.242s,PASSED
+global.verify_element.exist,,,2018-11-19 21:42:32,2018-11-19 21:42:35,3.107s,PASSED
+global.verify_element.exist,,,2018-11-19 21:42:35,2018-11-19 21:42:38,2.962s,PASSED
+global.verify_element.exist,,,2018-11-19 21:42:38,2018-11-19 21:42:41,2.972s,PASSED
+global.verify_element.exist,,,2018-11-19 21:42:41,2018-11-19 21:42:44,3.027s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_21,,User can select Occupation,2018-11-19 21:42:44,2018-11-19 21:44:33,1m - 49.519s,PASSED
+Statement - sendMoneyScreen = sendMoneyScreen_iOS,,,2018-11-19 21:42:44,2018-11-19 21:42:44,0.000s,PASSED
+iOS.send_money_screen.selectOccupation,,,2018-11-19 21:42:44,2018-11-19 21:42:58,14.678s,PASSED
+global.verify_element.exist,,,2018-11-19 21:42:58,2018-11-19 21:43:02,3.413s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:43:02,2018-11-19 21:43:08,5.929s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:43:08,2018-11-19 21:43:14,5.948s,PASSED
+"Statement - Occupation_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Unemployed])",,,2018-11-19 21:43:14,2018-11-19 21:43:14,0.003s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:43:14,2018-11-19 21:43:29,15.288s,PASSED
+global.verify_element.exist,,,2018-11-19 21:43:29,2018-11-19 21:43:32,3.563s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:43:32,2018-11-19 21:43:38,5.296s,PASSED
+global.verify_element.exist,,,2018-11-19 21:43:38,2018-11-19 21:43:40,2.677s,PASSED
+"Statement - Occupation_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Student])",,,2018-11-19 21:43:40,2018-11-19 21:43:40,0.003s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:43:40,2018-11-19 21:43:56,15.325s,PASSED
+global.verify_element.exist,,,2018-11-19 21:43:56,2018-11-19 21:43:59,3.551s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:43:59,2018-11-19 21:44:05,5.291s,PASSED
+global.verify_element.exist,,,2018-11-19 21:44:05,2018-11-19 21:44:07,2.803s,PASSED
+"Statement - Occupation_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Driver])",,,2018-11-19 21:44:07,2018-11-19 21:44:07,0.002s,PASSED
+iOS.send_money_screen.selectDropdown,,,2018-11-19 21:44:07,2018-11-19 21:44:23,15.715s,PASSED
+global.verify_element.exist,,,2018-11-19 21:44:23,2018-11-19 21:44:27,3.830s,PASSED
+global.verify_element.exist,,,2018-11-19 21:44:27,2018-11-19 21:44:30,3.066s,PASSED
+global.verify_element.exist,,,2018-11-19 21:44:30,2018-11-19 21:44:33,3.064s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_22,,,2018-11-19 21:44:33,2018-11-19 21:44:49,15.576s,PASSED
+"Statement - Position_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Entry Level])",,,2018-11-19 21:44:33,2018-11-19 21:44:33,0.002s,PASSED
+iOS.send_money_screen.selectPosition,,,2018-11-19 21:44:33,2018-11-19 21:44:45,11.569s,PASSED
+global.verify_element.text,,,2018-11-19 21:44:45,2018-11-19 21:44:49,3.961s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_23,,User can select Source of Funds,2018-11-19 21:44:49,2018-11-19 21:45:04,15.743s,PASSED
+iOS.send_money_screen.selectSourceOfFunds,,,2018-11-19 21:44:49,2018-11-19 21:45:00,11.630s,PASSED
+"Statement - Source_of_Funds_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:Salary/Income])",,,2018-11-19 21:45:00,2018-11-19 21:45:00,0.002s,PASSED
+global.verify_element.text,,,2018-11-19 21:45:00,2018-11-19 21:45:04,4.067s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_24,,User can enter its Employer's Name,2018-11-19 21:45:04,2018-11-19 21:45:14,9.190s,PASSED
+iOS.send_money_screen.enterEmployerName,,,2018-11-19 21:45:04,2018-11-19 21:45:09,4.786s,PASSED
+"Statement - Employer_Name_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:White Cloak Inc.])",,,2018-11-19 21:45:09,2018-11-19 21:45:09,0.003s,PASSED
+global.verify_element.text,,,2018-11-19 21:45:09,2018-11-19 21:45:14,4.352s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_26,,User can proceed in Sender's Information screen with complete informations,2018-11-19 21:45:14,2018-11-19 21:45:37,23.690s,PASSED
+"Statement - Occupation_and_Level = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:IT and Tech Professional, Entry Level])",,,2018-11-19 21:45:14,2018-11-19 21:45:14,0.002s,PASSED
+"Statement - Source_of_Funds = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Salary/Income])",,,2018-11-19 21:45:14,2018-11-19 21:45:14,0.003s,PASSED
+"Statement - Employer_Name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:White Cloak Inc.])",,,2018-11-19 21:45:14,2018-11-19 21:45:14,0.002s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:45:14,2018-11-19 21:45:21,7.355s,PASSED
+global.verify_element.exist,,,2018-11-19 21:45:21,2018-11-19 21:45:25,4.056s,PASSED
+global.verify_element.exist,,,2018-11-19 21:45:25,2018-11-19 21:45:29,3.908s,PASSED
+global.verify_element.exist,,,2018-11-19 21:45:29,2018-11-19 21:45:37,7.771s,PASSED
+closeApplication,,,2018-11-19 21:45:37,2018-11-19 21:45:37,0.545s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_29,,,2018-11-19 21:45:37,2018-11-19 21:49:55,4m - 17.739s,PASSED
+Statement - randomFirstName = new global.random_data().firstName(),,,2018-11-19 21:45:37,2018-11-19 21:45:38,0.133s,PASSED
+Statement - randomMiddleName = new global.random_data().middleName(),,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.142s,PASSED
+Statement - randomLastName = new global.random_data().lastName(),,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.052s,PASSED
+Statement - randomMobileNumber = new global.random_data().mobileNumber(),,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.041s,PASSED
+Statement - randomPhoneNumber = new global.random_data().phoneNumber(),,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.042s,PASSED
+Statement - randomSourceOfFunds = new global.random_data().sourceOfFunds(),,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.041s,PASSED
+Statement - firstName = randomFirstName,,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.001s,PASSED
+Statement - middleName = randomMiddleName,,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.000s,PASSED
+Statement - lastName = randomLastName,,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.000s,PASSED
+Statement - mobileNumber = randomMobileNumber,,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.000s,PASSED
+Statement - phoneNumber = randomPhoneNumber,,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.001s,PASSED
+Statement - sourceOfFunds = randomSourceOfFunds,,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.000s,PASSED
+"Statement - Enter_amount_first_error = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Please enter amount first])",,,2018-11-19 21:45:38,2018-11-19 21:45:38,0.001s,PASSED
+startApplication,,,2018-11-19 21:45:38,2018-11-19 21:45:56,17.837s,PASSED
+iOS.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-19 21:45:56,2018-11-19 21:46:01,5.095s,PASSED
+iOS.login_screen.tapSignIn,,Tap Sign in button,2018-11-19 21:46:01,2018-11-19 21:46:07,5.784s,PASSED
+iOS.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-19 21:46:07,2018-11-19 21:46:09,2.655s,PASSED
+iOS.navigation_menu.tapTransferMoney,,,2018-11-19 21:46:09,2018-11-19 21:46:19,9.661s,PASSED
+iOS.transfer_money_screen.tapSendMoney,,,2018-11-19 21:46:19,2018-11-19 21:46:23,3.551s,PASSED
+iOS.transfer_money_screen.tapBranchTransaction,,,2018-11-19 21:46:23,2018-11-19 21:46:30,7.219s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-19 21:46:30,2018-11-19 21:46:35,5.306s,PASSED
+iOS.send_money_screen.enterFirstName,,,2018-11-19 21:46:35,2018-11-19 21:46:39,4.155s,PASSED
+iOS.send_money_screen.enterMiddleName,,,2018-11-19 21:46:39,2018-11-19 21:46:44,4.567s,PASSED
+iOS.send_money_screen.enterLastName,,,2018-11-19 21:46:44,2018-11-19 21:46:48,4.538s,PASSED
+iOS.send_money_screen.enterMobileNumber,,,2018-11-19 21:46:48,2018-11-19 21:46:56,8.154s,PASSED
+iOS.send_money_screen.enterPhoneNumber,,,2018-11-19 21:46:56,2018-11-19 21:47:01,4.079s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:47:01,2018-11-19 21:47:07,6.501s,PASSED
+iOS.send_money_screen.tapCurrentAddress,,,2018-11-19 21:47:07,2018-11-19 21:47:14,6.550s,PASSED
+iOS.send_money_screen.selectCountry,,,2018-11-19 21:47:14,2018-11-19 21:47:37,23.197s,PASSED
+iOS.send_money_screen.enterPostal,,,2018-11-19 21:47:37,2018-11-19 21:47:46,9.519s,PASSED
+iOS.send_money_screen.enterUnitHouseNumberBuildingStreet,,,2018-11-19 21:47:46,2018-11-19 21:47:56,9.955s,PASSED
+iOS.send_money_screen.selectDestinationCountry,,,2018-11-19 21:47:56,2018-11-19 21:48:35,38.468s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:48:35,2018-11-19 21:48:42,7.200s,PASSED
+iOS.send_money_screen.tapSenderEmploymentInformation,,,2018-11-19 21:48:42,2018-11-19 21:48:46,3.985s,PASSED
+iOS.send_money_screen.selectOccupation,,,2018-11-19 21:48:46,2018-11-19 21:49:02,15.746s,PASSED
+iOS.send_money_screen.selectSourceOfFunds,,,2018-11-19 21:49:02,2018-11-19 21:49:15,13.514s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:49:15,2018-11-19 21:49:22,6.459s,PASSED
+global.scroll_to_element.down,,,2018-11-19 21:49:22,2018-11-19 21:49:40,18.188s,PASSED
+iOS.send_money_screen.tapCurrency,,,2018-11-19 21:49:40,2018-11-19 21:49:44,4.054s,PASSED
+global.verify_element.exist,,,2018-11-19 21:49:44,2018-11-19 21:49:49,5.499s,PASSED
+iOS.send_money_screen.tapOK,,,2018-11-19 21:49:49,2018-11-19 21:49:55,5.704s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_28,,User can select Currency,2018-11-19 21:49:55,2018-11-19 21:50:33,37.927s,PASSED
+Statement - randomAmount = new global.random_data().amount(),,,2018-11-19 21:49:55,2018-11-19 21:49:55,0.073s,PASSED
+Statement - amount = randomAmount,,,2018-11-19 21:49:55,2018-11-19 21:49:55,0.000s,PASSED
+iOS.send_money_screen.enterAmount,,,2018-11-19 21:49:55,2018-11-19 21:50:29,33.447s,PASSED
+takeScreenshot,,,2018-11-19 21:50:29,2018-11-19 21:50:29,0.191s,PASSED
+global.verify_element.exist,,,2018-11-19 21:50:29,2018-11-19 21:50:33,4.136s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_33,,,2018-11-19 21:50:33,2018-11-19 21:51:37,1m - 4.136s,PASSED
+"Statement - objectPath = ""iOS/Global/Generic text""",,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+Statement - firstName = randomFirstName,,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+Statement - middleName = randomMiddleName,,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+Statement - lastName = randomLastName,,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+Statement - mobileNumber = randomMobileNumber,,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+Statement - phoneNumber = randomPhoneNumber,,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+"Statement - fullName = firstName + "" "" + middleName + "" "" + lastName",,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+"Statement - address = ""503 Tindalo St, 1442, Thailand""",,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.001s,PASSED
+"Statement - country = ""Thailand""",,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+"Statement - occupation = ""Unemployed""",,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.001s,PASSED
+Statement - sourceOfFunds = randomSourceOfFunds,,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+"Statement - sendAmount = ""PHP "" + randomAmount + "".00""",,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.001s,PASSED
+Statement - serviceFee = internationalServiceFee,,,2018-11-19 21:50:33,2018-11-19 21:50:33,0.000s,PASSED
+iOS.send_money_screen.tapNext,,,2018-11-19 21:50:33,2018-11-19 21:50:43,9.589s,PASSED
+global.verify_element.exist,,,2018-11-19 21:50:43,2018-11-19 21:50:46,2.962s,PASSED
+global.verify_element.exist,,,2018-11-19 21:50:46,2018-11-19 21:50:49,2.964s,PASSED
+global.verify_element.exist,,,2018-11-19 21:50:49,2018-11-19 21:50:52,3.021s,PASSED
+global.verify_element.exist,,,2018-11-19 21:50:52,2018-11-19 21:50:55,2.966s,PASSED
+global.verify_element.exist,,,2018-11-19 21:50:55,2018-11-19 21:50:57,2.894s,PASSED
+global.verify_element.exist,,,2018-11-19 21:50:57,2018-11-19 21:51:00,2.950s,PASSED
+global.verify_element.exist,,,2018-11-19 21:51:00,2018-11-19 21:51:03,3.069s,PASSED
+global.scroll_to_element.down,,,2018-11-19 21:51:03,2018-11-19 21:51:19,15.228s,PASSED
+global.verify_element.exist,,,2018-11-19 21:51:19,2018-11-19 21:51:22,3.036s,PASSED
+global.verify_element.exist,,,2018-11-19 21:51:22,2018-11-19 21:51:25,3.135s,PASSED
+global.verify_element.exist,,,2018-11-19 21:51:25,2018-11-19 21:51:28,3.085s,PASSED
+global.verify_element.exist,,,2018-11-19 21:51:28,2018-11-19 21:51:31,3.043s,PASSED
+global.verify_element.exist,,,2018-11-19 21:51:31,2018-11-19 21:51:34,3.087s,PASSED
+global.verify_element.exist,,,2018-11-19 21:51:34,2018-11-19 21:51:37,3.030s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_34,,User cannot Complete its transaction without checking the Terms and Agreements,2018-11-19 21:51:37,2018-11-19 21:51:40,3.219s,PASSED
+global.verify_element.disabled,,,2018-11-19 21:51:37,2018-11-19 21:51:40,3.189s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_38,,User can tap Back button in Send Successful screen,2018-11-19 21:51:40,2018-11-19 21:51:50,9.742s,PASSED
+iOS.send_money_screen.tapBack,,,2018-11-19 21:51:40,2018-11-19 21:51:44,3.395s,PASSED
+global.verify_element.notExist,,,2018-11-19 21:51:44,2018-11-19 21:51:50,6.326s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_37,,User can proceed to Send Summary screen,2018-11-19 21:51:50,2018-11-19 21:53:02,1m - 12.094s,PASSED
+"Statement - senderMobileNumber = ""63"" + mobileNumber",,,2018-11-19 21:51:50,2018-11-19 21:51:50,0.000s,PASSED
+iOS.send_money_screen.tapNext,,,2018-11-19 21:51:50,2018-11-19 21:52:01,10.594s,PASSED
+iOS.send_money_screen.checkTermsAndAgreement,,,2018-11-19 21:52:01,2018-11-19 21:52:21,20.531s,PASSED
+iOS.send_money_screen.tapCompleteBranchTransaction,,,2018-11-19 21:52:21,2018-11-19 21:52:55,33.685s,PASSED
+"Statement - Success_screen_message = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:You can now go to a branch to send your money!])",,,2018-11-19 21:52:55,2018-11-19 21:52:55,0.003s,PASSED
+global.verify_element.exist,,,2018-11-19 21:52:55,2018-11-19 21:52:57,1.726s,PASSED
+"Statement - Success_screen_message = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:To complete your transaction, please present your mobile number along with the required documents at a PERA HUB branch])",,,2018-11-19 21:52:57,2018-11-19 21:52:57,0.001s,PASSED
+global.verify_element.exist,,,2018-11-19 21:52:57,2018-11-19 21:52:58,1.745s,PASSED
+"Statement - Success_screen_message = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Present your mobile # to Pera Hub Branch])",,,2018-11-19 21:52:58,2018-11-19 21:52:58,0.001s,PASSED
+global.verify_element.exist,,,2018-11-19 21:52:58,2018-11-19 21:53:00,1.835s,PASSED
+"Statement - Mobile_Number = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:senderMobileNumber])",,,2018-11-19 21:53:00,2018-11-19 21:53:00,0.002s,PASSED
+global.verify_element.exist,,,2018-11-19 21:53:00,2018-11-19 21:53:02,1.946s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_42,,User can tap View Details,2018-11-19 21:53:02,2018-11-19 21:53:28,25.762s,FAILED
+"Statement - senderName = ""Allen Pogi Crisostomo""",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.000s,PASSED
+"Statement - receiverName = randomFirstName + "" "" + randomMiddleName + "" "" + randomLastName",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.000s,PASSED
+"Statement - receiverMobileNumber = ""66"" + randomMobileNumber",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.000s,PASSED
+"Statement - serviceFee = ""500.00 PHP""",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.000s,PASSED
+"Statement - sendAmount = randomAmount + "" PHP""",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.001s,PASSED
+"Statement - senderMobileNumber = ""63"" + mobileNumber",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.000s,PASSED
+"Statement - Sender_Mobile_Number = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:senderMobileNumber])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.001s,PASSED
+"Statement - Sender_Name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:senderName])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.002s,PASSED
+"Statement - Sender_Country = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Philippines])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.001s,PASSED
+"Statement - Receiver_Name = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:receiverName])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.002s,PASSED
+"Statement - Receiver_Country = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Thailand])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.001s,PASSED
+"Statement - Receiver_Mobile_Number = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:receiverMobileNumber])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.002s,PASSED
+"Statement - Send_Amount = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:sendAmount])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.002s,PASSED
+"Statement - Service_Fee = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:serviceFee])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.001s,PASSED
+"Statement - Message_Charge = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:0.00 PHP])",,,2018-11-19 21:53:02,2018-11-19 21:53:02,0.001s,PASSED
+iOS.send_money_screen.tapViewDetails,,,2018-11-19 21:53:02,2018-11-19 21:53:04,1.976s,PASSED
+global.verify_element.exist,,,2018-11-19 21:53:04,2018-11-19 21:53:07,3.208s,PASSED
+global.verify_element.exist,,,2018-11-19 21:53:07,2018-11-19 21:53:10,2.526s,PASSED
+global.verify_element.exist,,,2018-11-19 21:53:10,2018-11-19 21:53:13,2.547s,PASSED
+global.verify_element.exist,,,2018-11-19 21:53:13,2018-11-19 21:53:15,2.534s,PASSED
+global.scroll_to_element.down,,,2018-11-19 21:53:15,2018-11-19 21:53:18,2.602s,PASSED
+global.verify_element.exist,,,2018-11-19 21:53:18,2018-11-19 21:53:20,2.508s,PASSED
+global.verify_element.exist,,,2018-11-19 21:53:20,2018-11-19 21:53:25,5.258s,FAILED
+global.verify_element.exist,,,2018-11-19 21:53:25,2018-11-19 21:53:28,2.542s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_43,,User can tap View Dashboard button,2018-11-19 21:53:28,2018-11-19 21:53:38,10.343s,PASSED
+iOS.send_money_screen.tapBack,,,2018-11-19 21:53:28,2018-11-19 21:53:31,2.780s,PASSED
+iOS.send_money_screen.tapViewDashboard,,,2018-11-19 21:53:31,2018-11-19 21:53:33,2.579s,PASSED
+global.verify_element.exist,,,2018-11-19 21:53:33,2018-11-19 21:53:38,4.964s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_31,,User can enter its personal message (Optional),2018-11-19 21:53:38,2018-11-19 21:58:15,4m - 36.524s,PASSED
+Statement - randomFirstName = new global.random_data().firstName(),,,2018-11-19 21:53:38,2018-11-19 21:53:38,0.087s,PASSED
+Statement - randomMiddleName = new global.random_data().middleName(),,,2018-11-19 21:53:38,2018-11-19 21:53:39,0.065s,PASSED
+Statement - randomLastName = new global.random_data().lastName(),,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.093s,PASSED
+Statement - randomMobileNumber = new global.random_data().mobileNumber(),,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.091s,PASSED
+Statement - randomPhoneNumber = new global.random_data().phoneNumber(),,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.070s,PASSED
+Statement - randomSourceOfFunds = new global.random_data().sourceOfFunds(),,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.069s,PASSED
+Statement - randomAmount = new global.random_data().amount(),,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.028s,PASSED
+Statement - randomSentence = new global.random_data().message(),,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.040s,PASSED
+Statement - firstName = randomFirstName,,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.001s,PASSED
+Statement - middleName = randomMiddleName,,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.000s,PASSED
+Statement - lastName = randomLastName,,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.000s,PASSED
+Statement - mobileNumber = randomMobileNumber,,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.000s,PASSED
+Statement - phoneNumber = randomPhoneNumber,,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.000s,PASSED
+Statement - sourceOfFunds = randomSourceOfFunds,,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.000s,PASSED
+Statement - amount = randomAmount,,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.000s,PASSED
+Statement - message = randomSentence,,,2018-11-19 21:53:39,2018-11-19 21:53:39,0.000s,PASSED
+iOS.navigation_menu.tapTransferMoney,,,2018-11-19 21:53:39,2018-11-19 21:53:44,5.096s,PASSED
+iOS.transfer_money_screen.tapSendMoney,,,2018-11-19 21:53:44,2018-11-19 21:53:48,3.572s,PASSED
+iOS.transfer_money_screen.tapBranchTransaction,,,2018-11-19 21:53:48,2018-11-19 21:53:57,9.802s,PASSED
+iOS.send_money_screen.tapPersonalInformation,,,2018-11-19 21:53:57,2018-11-19 21:54:03,5.871s,PASSED
+iOS.send_money_screen.enterFirstName,,,2018-11-19 21:54:03,2018-11-19 21:54:08,4.702s,PASSED
+iOS.send_money_screen.enterMiddleName,,,2018-11-19 21:54:08,2018-11-19 21:54:13,4.699s,PASSED
+iOS.send_money_screen.enterLastName,,,2018-11-19 21:54:13,2018-11-19 21:54:17,4.839s,PASSED
+iOS.send_money_screen.enterMobileNumber,,,2018-11-19 21:54:17,2018-11-19 21:54:26,8.671s,PASSED
+iOS.send_money_screen.enterPhoneNumber,,,2018-11-19 21:54:26,2018-11-19 21:54:30,4.249s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:54:30,2018-11-19 21:54:37,6.586s,PASSED
+iOS.send_money_screen.tapCurrentAddress,,,2018-11-19 21:54:37,2018-11-19 21:54:44,6.983s,PASSED
+iOS.send_money_screen.selectCountry,,,2018-11-19 21:54:44,2018-11-19 21:55:26,41.625s,PASSED
+iOS.send_money_screen.enterPostal,,,2018-11-19 21:55:26,2018-11-19 21:55:35,9.451s,PASSED
+iOS.send_money_screen.enterUnitHouseNumberBuildingStreet,,,2018-11-19 21:55:35,2018-11-19 21:55:45,10.126s,PASSED
+iOS.send_money_screen.selectDestinationCountry,,,2018-11-19 21:55:45,2018-11-19 21:56:24,38.580s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:56:24,2018-11-19 21:56:31,7.262s,PASSED
+iOS.send_money_screen.tapSenderEmploymentInformation,,,2018-11-19 21:56:31,2018-11-19 21:56:35,4.018s,PASSED
+iOS.send_money_screen.selectOccupation,,,2018-11-19 21:56:35,2018-11-19 21:56:51,16.136s,PASSED
+iOS.send_money_screen.enterEmployerName,,,2018-11-19 21:56:51,2018-11-19 21:56:56,4.867s,PASSED
+iOS.send_money_screen.selectSourceOfFunds,,,2018-11-19 21:56:56,2018-11-19 21:57:09,13.099s,PASSED
+iOS.send_money_screen.tapSave,,,2018-11-19 21:57:09,2018-11-19 21:57:17,7.555s,PASSED
+iOS.send_money_screen.enterAmount,,,2018-11-19 21:57:17,2018-11-19 21:58:01,44.712s,PASSED
+iOS.send_money_screen.enterMessage,,,2018-11-19 21:58:01,2018-11-19 21:58:10,8.365s,PASSED
+"Statement - Message_Field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:message])",,,2018-11-19 21:58:10,2018-11-19 21:58:10,0.005s,PASSED
+global.verify_element.text,,,2018-11-19 21:58:10,2018-11-19 21:58:15,5.057s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_32,,User can enter Promo Code (Optional),2018-11-19 21:58:15,2018-11-19 21:58:27,12.115s,PASSED
+Statement - promoCode = promoCode1,,,2018-11-19 21:58:15,2018-11-19 21:58:15,0.001s,PASSED
+iOS.send_money_screen.enterPromoCode,,,2018-11-19 21:58:15,2018-11-19 21:58:22,7.018s,PASSED
+"Statement - Promo_Code_field = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic field, [value:promoCode])",,,2018-11-19 21:58:22,2018-11-19 21:58:22,0.003s,PASSED
+global.verify_element.text,,,2018-11-19 21:58:22,2018-11-19 21:58:27,4.964s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_35,,User can see the discounted amount using promo code,2018-11-19 21:58:27,2018-11-19 21:59:08,40.971s,PASSED
+"Statement - Promo_Description = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:PHP 250.00 Half base off You have PHP 250.00 off on your Service Fee])",,,2018-11-19 21:58:27,2018-11-19 21:58:27,0.004s,PASSED
+iOS.send_money_screen.tapNext,,,2018-11-19 21:58:27,2018-11-19 21:58:49,22.012s,PASSED
+global.scroll_to_element.down,,,2018-11-19 21:58:49,2018-11-19 21:59:05,15.623s,PASSED
+global.verify_element.exist,,,2018-11-19 21:59:05,2018-11-19 21:59:08,3.270s,PASSED
+,,,,,,
+Test Cases/iOS/Send Money Branch/SMB_36,,User can see the personal message,2018-11-19 21:59:08,2018-11-19 22:00:26,1m - 17.606s,PASSED
+"Statement - Message = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:internal.GlobalVariable.randomSentence])",,,2018-11-19 21:59:08,2018-11-19 21:59:08,0.003s,PASSED
+"Statement - Message_Charge = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:PHP 50.00])",,,2018-11-19 21:59:08,2018-11-19 21:59:08,0.002s,PASSED
+"Statement - Message_Charge_2 = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:50.00 PHP])",,,2018-11-19 21:59:08,2018-11-19 21:59:08,0.003s,PASSED
+"Statement - Service_Charge = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:250.00 PHP])",,,2018-11-19 21:59:08,2018-11-19 21:59:08,0.002s,PASSED
+"Statement - Personal_Message_label = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(iOS/Global/Generic text, [label:Personal Message])",,,2018-11-19 21:59:08,2018-11-19 21:59:08,0.002s,PASSED
+global.verify_element.exist,,,2018-11-19 21:59:08,2018-11-19 21:59:12,3.603s,PASSED
+global.verify_element.exist,,,2018-11-19 21:59:12,2018-11-19 21:59:15,3.318s,PASSED
+iOS.send_money_screen.checkTermsAndAgreement,,,2018-11-19 21:59:15,2018-11-19 21:59:22,7.098s,PASSED
+iOS.send_money_screen.tapCompleteBranchTransaction,,,2018-11-19 21:59:22,2018-11-19 21:59:57,35.225s,PASSED
+iOS.send_money_screen.tapViewDetails,,,2018-11-19 21:59:57,2018-11-19 21:59:59,2.154s,PASSED
+global.scroll_to_element.down,,,2018-11-19 21:59:59,2018-11-19 22:00:17,17.478s,PASSED
+global.verify_element.exist,,,2018-11-19 22:00:17,2018-11-19 22:00:20,3.259s,PASSED
+global.verify_element.exist,,,2018-11-19 22:00:20,2018-11-19 22:00:23,2.661s,PASSED
+global.verify_element.exist,,,2018-11-19 22:00:23,2018-11-19 22:00:26,2.731s,PASSED

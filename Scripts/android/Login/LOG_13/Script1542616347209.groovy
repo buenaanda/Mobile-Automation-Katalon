@@ -3,7 +3,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import internal.GlobalVariable as GlobalVariable
 
 'Enter valid password in Password text field'
-CustomKeywords.'android.login_screen.enterPassword'(GlobalVariable.password)
+CustomKeywords.'android.login_screen.enterSignInPassword'(GlobalVariable.password)
 
 'Tap Login button'
 CustomKeywords.'android.login_screen.tapSignIn'()

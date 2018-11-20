@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b32eddb2-9ede-4f0d-a3d7-4cdf48d89de0</testCaseGuid>
+   <variable>
+      <defaultValue>'Allen Crisostomo '</defaultValue>
+      <description></description>
+      <id>523d8e2f-ed28-45e6-b381-d0d0595ace84</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
 </TestCaseEntity>

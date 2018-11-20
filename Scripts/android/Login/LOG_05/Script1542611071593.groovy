@@ -8,5 +8,3 @@ CustomKeywords.'android.otp_verification_screen.enterOTP'(GlobalVariable.otp)
 'User will redirect in My Accounts screen'
 CustomKeywords.'global.verify_element.text'(findTestObject('android/My Account screen/Account Name'), accountName)
 
-Mobile.closeApplication()
-
