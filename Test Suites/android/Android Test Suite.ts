@@ -4,7 +4,7 @@
    <name>Android Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-20T14:30:12</lastRun>
+   <lastRun>2018-11-20T19:34:32</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>15</pageLoadTimeout>
@@ -118,5 +118,47 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/android/Login/LOG_20</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>412105f9-a2a9-4f0a-aff9-887caefe7ecd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_01</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f0a25e3-b392-4ecd-a583-6b7a32321c03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_07</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>132426ad-b2b0-405d-a644-f0da4375cb21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_02</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e5491005-9f39-45a6-baed-df45ba449e1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_03</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e431680-aace-4204-a920-7134f5011a77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_04</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a1039711-54c7-4281-8583-f045102861d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_05</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>044f241c-43c9-4628-9f17-19e8e6c23890</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_06</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

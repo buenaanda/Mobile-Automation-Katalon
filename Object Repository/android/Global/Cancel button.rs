@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Close button</name>
+   <name>Cancel button</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and (text() = 'CLOSE' or . = 'CLOSE') and @resource-id = 'com.whitecloak.perahub.dev:id/md_buttonDefaultPositive']</value>
+         <value>//*[@resource-id = 'com.whitecloak.perahub.dev:id/md_buttonDefaultNegative']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -27,18 +27,18 @@
       <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>CLOSE</value>
+      <value>CANCEL</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.whitecloak.perahub.dev:id/md_buttonDefaultPositive</value>
+      <value>com.whitecloak.perahub.dev:id/md_buttonDefaultNegative</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -122,28 +122,28 @@
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>785</value>
+      <value>473</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>1027</value>
+      <value>1071</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>189</value>
+      <value>231</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>126</value>
+      <value>144</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

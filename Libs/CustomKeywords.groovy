@@ -66,6 +66,166 @@ def static "global.verify_element.toastMessageExist"(
         	text)
 }
 
+def static "android.send_money_screen.tapPersonalInformation"() {
+    (new android.send_money_screen()).tapPersonalInformation()
+}
+
+def static "android.send_money_screen.enterFirstName"(
+    	String firstname	) {
+    (new android.send_money_screen()).enterFirstName(
+        	firstname)
+}
+
+def static "android.send_money_screen.enterMiddleName"(
+    	String middlename	) {
+    (new android.send_money_screen()).enterMiddleName(
+        	middlename)
+}
+
+def static "android.send_money_screen.enterLastName"(
+    	String lastname	) {
+    (new android.send_money_screen()).enterLastName(
+        	lastname)
+}
+
+def static "android.send_money_screen.enterMobileNumber"(
+    	String mobileNumber	) {
+    (new android.send_money_screen()).enterMobileNumber(
+        	mobileNumber)
+}
+
+def static "android.send_money_screen.enterPhoneNumber"(
+    	String phoneNumber	) {
+    (new android.send_money_screen()).enterPhoneNumber(
+        	phoneNumber)
+}
+
+def static "android.send_money_screen.tapCurrentAddress"() {
+    (new android.send_money_screen()).tapCurrentAddress()
+}
+
+def static "android.send_money_screen.selectCountry"(
+    	String country	) {
+    (new android.send_money_screen()).selectCountry(
+        	country)
+}
+
+def static "android.send_money_screen.enterPostal"(
+    	String postal	) {
+    (new android.send_money_screen()).enterPostal(
+        	postal)
+}
+
+def static "android.send_money_screen.enterUnitHouseNumberBuildingStreet"(
+    	String unitHouseNumberBuildingStreet	) {
+    (new android.send_money_screen()).enterUnitHouseNumberBuildingStreet(
+        	unitHouseNumberBuildingStreet)
+}
+
+def static "android.send_money_screen.selectDestinationCountry"(
+    	String destinationCountry	) {
+    (new android.send_money_screen()).selectDestinationCountry(
+        	destinationCountry)
+}
+
+def static "android.send_money_screen.tapSenderEmploymentInformation"() {
+    (new android.send_money_screen()).tapSenderEmploymentInformation()
+}
+
+def static "android.send_money_screen.selectOccupation"(
+    	String occupation	) {
+    (new android.send_money_screen()).selectOccupation(
+        	occupation)
+}
+
+def static "android.send_money_screen.selectPosition"(
+    	String position	) {
+    (new android.send_money_screen()).selectPosition(
+        	position)
+}
+
+def static "android.send_money_screen.selectSourceOfFunds"(
+    	String sourceOfFunds	) {
+    (new android.send_money_screen()).selectSourceOfFunds(
+        	sourceOfFunds)
+}
+
+def static "android.send_money_screen.enterEmployerName"(
+    	String employerName	) {
+    (new android.send_money_screen()).enterEmployerName(
+        	employerName)
+}
+
+def static "android.send_money_screen.enterSchoolName"(
+    	String schoolName	) {
+    (new android.send_money_screen()).enterSchoolName(
+        	schoolName)
+}
+
+def static "android.send_money_screen.enterAmount"(
+    	String amount	) {
+    (new android.send_money_screen()).enterAmount(
+        	amount)
+}
+
+def static "android.send_money_screen.tapCurrency"() {
+    (new android.send_money_screen()).tapCurrency()
+}
+
+def static "android.send_money_screen.selectCurrency"(
+    	String currency	) {
+    (new android.send_money_screen()).selectCurrency(
+        	currency)
+}
+
+def static "android.send_money_screen.enterPromoCode"(
+    	Object promoCode	) {
+    (new android.send_money_screen()).enterPromoCode(
+        	promoCode)
+}
+
+def static "android.send_money_screen.enterMessage"(
+    	Object message	) {
+    (new android.send_money_screen()).enterMessage(
+        	message)
+}
+
+def static "android.send_money_screen.tapSave"() {
+    (new android.send_money_screen()).tapSave()
+}
+
+def static "android.send_money_screen.tapClose"() {
+    (new android.send_money_screen()).tapClose()
+}
+
+def static "android.send_money_screen.tapOK"() {
+    (new android.send_money_screen()).tapOK()
+}
+
+def static "android.send_money_screen.tapNext"() {
+    (new android.send_money_screen()).tapNext()
+}
+
+def static "android.send_money_screen.tapBack"() {
+    (new android.send_money_screen()).tapBack()
+}
+
+def static "android.send_money_screen.checkTermsAndAgreement"() {
+    (new android.send_money_screen()).checkTermsAndAgreement()
+}
+
+def static "android.send_money_screen.tapCompleteBranchTransaction"() {
+    (new android.send_money_screen()).tapCompleteBranchTransaction()
+}
+
+def static "android.send_money_screen.tapViewDetails"() {
+    (new android.send_money_screen()).tapViewDetails()
+}
+
+def static "android.send_money_screen.tapViewDashboard"() {
+    (new android.send_money_screen()).tapViewDashboard()
+}
+
 def static "android.login_screen.enterUsername"(
     	String username	) {
     (new android.login_screen()).enterUsername(
@@ -102,10 +262,6 @@ def static "android.login_screen.tapLogout"() {
 
 def static "android.transfer_money_screen.tapSendMoney"() {
     (new android.transfer_money_screen()).tapSendMoney()
-}
-
-def static "android.transfer_money_screen.tapOK"() {
-    (new android.transfer_money_screen()).tapOK()
 }
 
 def static "android.transfer_money_screen.tapBranchTransaction"() {
@@ -398,10 +554,6 @@ def static "iOS.registration_screen.enterLastName"(
         	lastName)
 }
 
-def static "android.navigation_menu.tapTransferMoney"() {
-    (new android.navigation_menu()).tapTransferMoney()
-}
-
 def static "android.initial_screen.tapLogin"() {
     (new android.initial_screen()).tapLogin()
 }
@@ -418,6 +570,10 @@ def static "iOS.otp_verification_screen.enterOTP"(
 
 def static "iOS.otp_verification_screen.tapResend"() {
     (new iOS.otp_verification_screen()).tapResend()
+}
+
+def static "android.navigation_menu.tapTransferMoney"() {
+    (new android.navigation_menu()).tapTransferMoney()
 }
 
 def static "iOS.inactive_screen.tapOK"() {

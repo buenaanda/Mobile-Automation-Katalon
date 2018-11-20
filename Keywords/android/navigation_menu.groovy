@@ -12,6 +12,6 @@ public class navigation_menu {
 
 	@Keyword
 	def tapTransferMoney() {
-		Mobile.tap(findTestObject("android/Navigation menu/Transfer Money menu"), 5, FailureHandling.STOP_ON_FAILURE)
+		Mobile.tap(findTestObject("android/Navigation menu/Transfer Money menu"), 0, FailureHandling.STOP_ON_FAILURE)
 	}
 }

@@ -1,184 +1,242 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
-[Appium]   port: 61213
-[Appium]   chromeDriverPort: 61214
-[Appium]   tmpDir: /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T//Katalon/Appium/Temp1542699933983
-[Appium] Appium REST http interface listener started on 0.0.0.0:61213
+[Appium]   port: 49594
+[Appium]   chromeDriverPort: 49595
+[Appium]   tmpDir: /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T//Katalon/Appium/Temp1542712876403
+[Appium] Appium REST http interface listener started on 0.0.0.0:49594
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
 [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
 [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
-[HTTP] <-- GET /wd/hub/status 200 17 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 18 ms - 83
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
 [debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
 [debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
-[HTTP] <-- GET /wd/hub/status 200 17 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 11 ms - 83
 [HTTP] 
 [HTTP] --> POST /wd/hub/session
-[HTTP] {"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app","automationName":"XCUITest","deviceId":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","deviceName":"iPhone 5s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","waitForAppScript":"true;","wdaLocalPort":61229},"capabilities":{"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app","automationName":"XCUITest","deviceId":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","deviceName":"iPhone 5s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"D354ACBC-0C9
-[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app","automationName":"XCUITest","deviceId":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","deviceName":"iPhone 5s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","waitForAppScript":"true;","wdaLocalPort":61229},null,{"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app","automationName":"XCUITest","deviceId":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","deviceName":"iPhone 5s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","waitForAppScript":"true;",...
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1542699947883 (15:45:47 GMT+0800 (Philippine Standard Time))
+[HTTP] {"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},null,{"desiredCapabilities":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1542712879194 (19:21:19 GMT+0800 (Philippine Standard Time))
 [Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
-[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platformName","realDeviceLogger","udid","waitForAppScript","wdaLocalPort"]. Falling back to JSONWP protocol.
-[Appium] Creating new XCUITestDriver (v2.84.0) session
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","appWaitActivity","autoGrantPermissions","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
 [Appium] Capabilities:
-[Appium]   app: /Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app
-[Appium]   automationName: XCUITest
-[Appium]   deviceId: D354ACBC-0C95-43DF-9FC0-E9C6988CADDB
-[Appium]   deviceName: iPhone 5s
+[Appium]   app: /Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk
+[Appium]   appWaitActivity: *
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceId: emulator-5554
+[Appium]   deviceName: emulator-5554 (Android SDK built for x86 - Android 9)
 [Appium]   fullReset: false
 [Appium]   newCommandTimeout: 1800
 [Appium]   noReset: true
-[Appium]   platformName: iOS
-[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
-[Appium]   udid: D354ACBC-0C95-43DF-9FC0-E9C6988CADDB
-[Appium]   waitForAppScript: true;
-[Appium]   wdaLocalPort: 61229
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: emulator-5554
 [debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"/Users/buenaanda/Ka...
-[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId.
-[BaseDriver] Session created with session id: ce95b248-a26c-4922-9b0c-9df857bde39e
-[debug] [XCUITest] Current user: 'buenaanda'
-[debug] [XCUITest] Xcode version set to '9.4.1' (tools v10.1.0.0.1.1539992718)
-[debug] [XCUITest] iOS SDK Version set to '11.4'
-[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1542699948191 (15:45:48 GMT+0800 (Philippine Standard Time))
-[iOSSim] Constructing iOS simulator for Xcode version 9.4.1 with udid 'D354ACBC-0C95-43DF-9FC0-E9C6988CADDB'
-[XCUITest] Determining device to run tests on: udid: 'D354ACBC-0C95-43DF-9FC0-E9C6988CADDB', real device: false
-[XCUITest] No platformVersion specified. Using device version: '11.4'
-[BaseDriver] Using local app '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app'
-[debug] [BaseDriver] Event 'appConfigured' logged at 1542699948659 (15:45:48 GMT+0800 (Philippine Standard Time))
-[debug] [XCUITest] Checking whether app '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app' is actually present on file system
-[debug] [XCUITest] App is present
-[debug] [iOS] Getting bundle ID from app '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app': 'com.whitecloak.PeraHub'
-[debug] [BaseDriver] Event 'resetStarted' logged at 1542699948663 (15:45:48 GMT+0800 (Philippine Standard Time))
-[debug] [XCUITest] Reset: noReset is on. Leaving simulator as is
-[debug] [BaseDriver] Event 'resetComplete' logged at 1542699948664 (15:45:48 GMT+0800 (Philippine Standard Time))
-[debug] [XCUITest] Starting log capture for iOS Simulator with udid 'D354ACBC-0C95-43DF-9FC0-E9C6988CADDB', using 'xcrun simctl spawn D354ACBC-0C95-43DF-9FC0-E9C6988CADDB log stream --style compact'
-[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1542699949154 (15:45:49 GMT+0800 (Philippine Standard Time))
-[XCUITest] Setting up simulator
-[debug] [iOS] No reason to set locale
-[debug] [iOS] No iOS / app preferences to set
-[debug] [iOSSim] Matched 1 Simulator cache item for cleanup: /Users/buenaanda/Library/Developer/CoreSimulator/Devices/D354ACBC-0C95-43DF-9FC0-E9C6988CADDB/data/Library/Caches/com.apple.mobile.installd.staging
-[debug] [iOSSim] Setting preferences of D354ACBC-0C95-43DF-9FC0-E9C6988CADDB Simulator to {"ConnectHardwareKeyboard":false}
-[debug] [iOSSim] Setting common Simulator preferences to {"ConnectHardwareKeyboard":false}
-[debug] [iOSSim] Updated D354ACBC-0C95-43DF-9FC0-E9C6988CADDB Simulator preferences at '/Users/buenaanda/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB":{"ConnectHardwareKeyboard":false}},"ConnectHardwareKeyboard":false}
-[debug] [iOSSim] The count of running Simulator UI client instances is 1
-[iOSSim] Both Simulator with UDID D354ACBC-0C95-43DF-9FC0-E9C6988CADDB and the UI client are currently running
-[debug] [BaseDriver] Event 'simStarted' logged at 1542699999314 (15:46:39 GMT+0800 (Philippine Standard Time))
-[debug] [XCUITest] Verifying application platform
-[debug] [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
-[debug] [XCUITest] App 'com.whitecloak.PeraHub' is already installed. No need to reinstall.
-[debug] [BaseDriver] Event 'appInstalled' logged at 1542699999537 (15:46:39 GMT+0800 (Philippine Standard Time))
-[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
-[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
-[debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 61229 have been found
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [XCUITest] WDA is not listening at 'http://localhost:61229/'
-[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1542699999756 (15:46:39 GMT+0800 (Philippine Standard Time))
-[XCUITest] Launching WebDriverAgent on the device
-[debug] [XCUITest] Carthage found: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/carthage/0.18.1/etc/bash_completion.d/carthage'
-[debug] [XCUITest] Killing running processes 'xcodebuild.*D354ACBC-0C95-43DF-9FC0-E9C6988CADDB, iproxy 61229, D354ACBC-0C95-43DF-9FC0-E9C6988CADDB.*XCTRunner' for the device D354ACBC-0C95-43DF-9FC0-E9C6988CADDB...
-[debug] [XCUITest] 'pgrep -nif xcodebuild.*D354ACBC-0C95-43DF-9FC0-E9C6988CADDB' didn't detect any matching processes. Return code: 1
-[debug] [XCUITest] 'pgrep -nif iproxy 61229' didn't detect any matching processes. Return code: 1
-[debug] [XCUITest] 'pgrep -nif D354ACBC-0C95-43DF-9FC0-E9C6988CADDB.*XCTRunner' didn't detect any matching processes. Return code: 1
-[debug] [XCUITest] Using Xcode 9.4.1, so fixing WDA codebase
-[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=D354ACBC-0C95-43DF-9FC0-E9C6988CADDB IPHONEOS_DEPLOYMENT_TARGET=11.4' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
-[debug] [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
-[debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [XCUITest] Log file for xcodebuild test: /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T/com.apple.dt.XCTest/IDETestRunSession-E1446C1D-095C-401F-84F1-25DFE7C878CD/WebDriverAgentRunner-47C14D7E-C988-41F1-A024-5DBB3B050692/Session-WebDriverAgentRunner-2018-11-20_154644-m30u5n.log
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61229/status] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.4\",\n      \"sdkVersion\" : \"11.3\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.4\",\n      \"ip\" : \"192.168.254.106\"\n    },\n    \"build\" : {\n      \"time\" : \"Nov  7 2018 10:28:10\"\n    }\n  },\n  \"sessionId\" : \"52033208-6E17-452B-BCBE-8B092819D532\",\n  \"status\" : 0\n}"
-[debug] [XCUITest] WebDriverAgent running on ip '192.168.254.106'
-[debug] [XCUITest] WebDriverAgent successfully started after 8579ms
-[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1542700008585 (15:46:48 GMT+0800 (Philippine Standard Time))
-[debug] [XCUITest] Sending createSession command to WDA
-[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:61229/session] with body: {"desiredCapabilities":{"bundleId":"com.whitecloak.PeraHub","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
-[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"E85EC079-BECC-4829-87E9-426E2A1DE816","capabilities":{"device":"iphone","browserName":"PeraHub","sdkVersion":"11.4","CFBundleIdentifier":"com.whitecloak.PeraHub"}},"sessionId":"E85EC079-BECC-4829-87E9-426E2A1DE816","status":0}
-[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1542700011281 (15:46:51 GMT+0800 (Philippine Standard Time))
-[debug] [BaseDriver] Event 'wdaStarted' logged at 1542700011281 (15:46:51 GMT+0800 (Philippine Standard Time))
-[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
-[debug] [BaseDriver] Event 'orientationSet' logged at 1542700011281 (15:46:51 GMT+0800 (Philippine Standard Time))
-[Appium] New XCUITestDriver session created successfully, session ce95b248-a26c-4922-9b0c-9df857bde39e added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1542700011283 (15:46:51 GMT+0800 (Philippine Standard Time))
-[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/PeraHub_v3.2.0-QAT.app","automationName":"XCUITest","deviceId":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","deviceName":"iPhone 5s","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"iOS","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","udid":"D354ACBC-0C95-43DF-9FC0-E9C6988CADDB","waitForAppScript":"true;","wdaLocalPort":61229}
-[HTTP] <-- POST /wd/hub/session 200 63402 ms - 774
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: bf6d673f-be55-4d0c-9ca0-c47020fc7a34
+[BaseDriver] Using local app '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk'
+[debug] [UiAutomator2] Checking whether app is actually present
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/buenaanda/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3
+[ADB] Using adb from /Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: emulator-5554
+[debug] [ADB] Setting device id to emulator-5554
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 28
+[debug] [ADB] Device API level: 28
+[debug] [AndroidDriver] Parsing package and activity from app manifest
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/buenaanda/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/buenaanda/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/buenaanda/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/buenaanda/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apkanalyzer. Do you have the Android SDK installed at '/Users/buenaanda/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'com.whitecloak.perahub.dev'
+[ADB] Main activity name: 'com.whitecloak.perahub.login.LandingActivity'
+[debug] [AndroidDriver] Parsed package and activity are: com.whitecloak.perahub.dev/com.whitecloak.perahub.login.LandingActivity
+[ADB] Getting device platform version
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 9
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell wm size'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell wm density'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.model'
+[debug] [ADB] Current device property 'ro.product.model': Android SDK built for x86
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.product.manufacturer'
+[debug] [ADB] Current device property 'ro.product.manufacturer': Google
+[debug] [ADB] Device API level: 28
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk
+[ADB] Using apksigner from /Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner
+[debug] [ADB] Starting '/Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner' with args 'verify,--print-certs,/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk'
+[debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' is already signed.
+[debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] Starting '/Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner' with args 'verify,--print-certs,/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.uiautomator2.server'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] The installed 'io.appium.uiautomator2.server' package does not require upgrade ('1.12.0' >= '1.12.0')
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+[debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.settings'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell ps'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [ADB] Device API level: 28
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Getting install status for io.appium.unlock
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages io.appium.unlock'
+[debug] [ADB] App is installed
+[debug] [ADB] Getting package info for 'io.appium.unlock'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.unlock'
+[debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8202
+[debug] [ADB] Forwarding system: 8202 to device: 6790
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:8202 tcp\:6790'
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell rm -rf /data/local/tmp/strings.json'
+[debug] [AndroidDriver] Extracting strings from apk
+[debug] [AndroidDriver] /Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk
+[debug] [AndroidDriver] null
+[debug] [AndroidDriver] /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T/Katalon/Appium/Temp1542712876403/com.whitecloak.perahub.dev
+[debug] [ADB] Extracting strings for language: default
+[ADB] Successfully extracted 296 strings from '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk' resources for '(default)' configuration
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 push /var/folders/gm/r1v5tl811hs077zglbzf5kk80000gn/T/Katalon/Appium/Temp1542712876403/com.whitecloak.perahub.dev/strings.json /data/local/tmp'
+[debug] [ADB] Checking app cert for /Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk
+[debug] [ADB] Starting '/Users/buenaanda/.katalon/tools/android_sdk/build-tools/28.0.3/apksigner' with args 'verify,--print-certs,/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk'
+[debug] [ADB] '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk' is already signed.
+[debug] [ADB] Getting install status for com.whitecloak.perahub.dev
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list packages com.whitecloak.perahub.dev'
+[debug] [ADB] App is not installed
+[debug] [ADB] App '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk' not installed. Installing
+[debug] [ADB] Device API level: 28
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 install -g '/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk''
+[debug] [ADB] Install command stdout: Success
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s emulator-5554 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8202/wd/hub/session] with body: {"desiredCapabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize...
+[debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"e127d401-22f0-46bb-9625-81be2ee3ae8a","status":0,"value":"Created Session"}
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.whitecloak.perahub.dev/*'. Starting it ourselves
+[debug] [ADB] Device API level: 28
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.whitecloak.perahub.dev/com.whitecloak.perahub.login.LandingActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.whitecloak.perahub.dev' and activity: '*' to be focused
+[debug] [ADB] Possible activities, to be checked: '*', 'com.whitecloak.perahub.dev.*'
+[debug] [ADB] Getting focused package and activity
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window windows'
+[debug] [ADB] Found package: 'com.whitecloak.perahub.dev' and fully qualified activity name : 'com.whitecloak.perahub.login.LandingActivity'
+[debug] [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8202/wd/hub/session/e127d401-22f0-46bb-9625-81be2ee3ae8a/appium/device/pixel_ratio] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"e127d401-22f0-46bb-9625-81be2ee3ae8a\",\"status\":0,\"value\":3}"
+[debug] [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8202/wd/hub/session/e127d401-22f0-46bb-9625-81be2ee3ae8a/appium/device/system_bars] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"e127d401-22f0-46bb-9625-81be2ee3ae8a\",\"status\":0,\"value\":{\"statusBar\":72}}"
+[debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8202/wd/hub/session/e127d401-22f0-46bb-9625-81be2ee3ae8a/window/current/size] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"e127d401-22f0-46bb-9625-81be2ee3ae8a\",\"status\":0,\"value\":{\"height\":1776,\"width\":1080}}"
+[Appium] New AndroidUiautomator2Driver session created successfully, session bf6d673f-be55-4d0c-9ca0-c47020fc7a34 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1542712889546 (19:21:29 GMT+0800 (Philippine Standard Time))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554 (Android SDK built for x86 - Android 9)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"app":"/Users/buenaanda/Katalon Studio/mobile-automation-katalon/Data Files/base.apk","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"emulator-5554","deviceName":"emulator-5554","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"emulator-5554","deviceUDID":"emulator-5554","platformVersion":"9","deviceScreenSize":"1080x1920","deviceSc...
+[HTTP] <-- POST /wd/hub/session 200 10354 ms - 1340
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
 [debug] [W3C] Calling AppiumDriver.getStatus() with args: []
 [debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
-[HTTP] <-- GET /wd/hub/status 200 15 ms - 55
+[HTTP] <-- GET /wd/hub/status 200 45 ms - 55
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/timeouts
+[HTTP] --> POST /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/timeouts
 [HTTP] {"type":"implicit","ms":60000}
 [debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/timeouts 400 34 ms - 4203
+[HTTP] <-- POST /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/timeouts 400 34 ms - 4203
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/source
+[HTTP] --> GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/source
 [HTTP] {}
-[debug] [W3C] Calling AppiumDriver.getPageSource() with args: ["ce95b248-a26c-4922-9b0c-9df857bde39e"]
-[debug] [XCUITest] Executing command 'getPageSource'
-[debug] [JSONWP Proxy] Proxying [GET /source] to [GET http://localhost:61229/session/E85EC079-BECC-4829-87E9-426E2A1DE816/source] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\n<XCUIElementTypeApplication type=\\\"XCUIElementTypeApplication\\\" name=\\\"PeraHub\\\" label=\\\"PeraHub\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n  <XCUIElementTypeWindow type=\\\"XCUIElementTypeWindow\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n    <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n      <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n        <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n          <XCUIElementTypeOther type=\\\"XCUIElementTypeOther...
-[debug] [MJSONWP] Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"PeraHub\" label=\"PeraHub\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n            <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\...
-[HTTP] <-- GET /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/source 200 421 ms - 5153
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/source] to [GET http://localhost:8202/wd/hub/session/e127d401-22f0-46bb-9625-81be2ee3ae8a/source] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"e127d401-22f0-46bb-9625-81be2ee3ae8a\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"com.whitecloak.perahub.dev\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][1080,1776]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"com.whitecloak.perahub.dev\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" select...
+[JSONWP Proxy] Replacing sessionId e127d401-22f0-46bb-9625-81be2ee3ae8a with bf6d673f-be55-4d0c-9ca0-c47020fc7a34
+[HTTP] <-- GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/source 200 209 ms - 5071
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/screenshot
+[HTTP] --> GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/screenshot
 [HTTP] {}
-[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["ce95b248-a26c-4922-9b0c-9df857bde39e"]
-[debug] [XCUITest] Executing command 'getScreenshot'
-[debug] [XCUITest] Taking screenshot with WDA
-[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:61229/session/E85EC079-BECC-4829-87E9-426E2A1DE816/screenshot] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAoAAAARwCAIAAAD17XJXAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAI4AAAAKAAAAjgAAAI4AARI9V7As3YAAEAASURBVHgB\\r\\n7L0HdxzHmbDbyDkDk3NPxwkAKTnt2usoW7bXSXJQli0rUBIlkQoUJVHMESASCSIx\\r\\niFTavXvv+X7jfd6qmcYMAokBQS\\/1CWSdOYWenu6enq566s1GzJmvabMxhzYfs6+o\\r\\ntiCvsgMbp2PuJVrcvhK0ym7qCHFnutLs2bg0tZu1UHPw2hNt3ffOxrzzMfdizJ2S\\r\\nxnnl7EHT17YQs5aj9krUul69VH3B6rXuG219ou3tFnWnaeoyptX3mk9atCupvLSk\\r\\nPZu0p+Puxbh7NuafivknQt48LexekeYs0KLSqrdRfSm1Px85T6u9h9V7FXxZOur6\\r\\n136Oxu\\/n9r5m9dT3e7u+cceJu\\/qnkS8ed67SEu5i0ltK+au0ZKXdSPqVlvIXpRWu\\r\\n0pKFawn\\/WtRbjLgrYWc54tyIOzcT7u2U91nKu6mOsJz0PpOmP15YTtLkmBztZtK7\\r\\no9oXaoebauNq1vki7d7h4+wWK13TLVq4Hve+SLpfs2fKu5EqXKclCrcThc9TxaWk\\r\\ndy3uziWcuYx3JecvZovL2YI+\\/mdxn3aTk6YK11LF2XRhOucup92bMf+rcOGrcHmZ\\r\\n43OitPtZ2vkq5X4RKV8Lj89GyvPx0tW0fy3nLqac\\/0m5X8ULq\\/HiYqS0GCneiPl3\\r\\nuBiOzAVX7xLf5bNYQVrSvZH2b\\/Mn9yHufMYNidsrMYt7O510Lqln\\/mLUm4q6syHv\\r\\nSsjde57vMeLi9nxDrdEBGHXmgxZjLDx8Le5dpa27ML1RXt1V1ZbjbrV5i3Fp8qmg\\r\\nBR+...
-[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAoAAAARwCAIAAAD17XJXAAAAAXNSR0IArs4c6QAA\r\nABxpRE9UAAAAAgAAAAAAAAI4AAAAKAAAAjgAAAI4AARI9V7As3YAAEAASURBVHgB\r\n7L0HdxzHmbDbyDkDk3NPxwkAKTnt2usoW7bXSXJQli0rUBIlkQoUJVHMESASCSIx\r\niFTavXvv+X7jfd6qmcYMAokBQS/1CWSdOYWenu6enq566s1GzJmvabMxhzYfs6+o\r\ntiCvsgMbp2PuJVrcvhK0ym7qCHFnutLs2bg0tZu1UHPw2hNt3ffOxrzzMfdizJ2S\r\nxnnl7EHT17YQs5aj9krUul69VH3B6rXuG219ou3tFnWnaeoyptX3mk9atCupvLSk\r\nPZu0p+Puxbh7NuafivknQt48LexekeYs0KLSqrdRfSm1Px85T6u9h9V7FXxZOur6\r\n136Oxu/n9r5m9dT3e7u+cceJu/qnkS8ed67SEu5i0ltK+au0ZKXdSPqVlvIXpRWu\r\n0pKFawn/WtRbjLgrYWc54tyIOzcT7u2U91nKu6mOsJz0PpOmP15YTtLkmBztZtK7\r\no9oXaoebauNq1vki7d7h4+wWK13TLVq4Hve+SLpfs2fKu5EqXKclCrcThc9TxaWk\r\ndy3uziWcuYx3JecvZovL2YI+/mdxn3aTk6YK11LF2XRhOucup92bMf+rcOGrcHmZ\r\n43OitPtZ2vkq5X4RKV8Lj89GyvPx0tW0fy3nLqac/0m5X8ULq/HiYqS0GCneiPl3\r\nuBiOzAVX7xLf5bNYQVrSvZH2b/Mn9yHufMYNidsrMYt7O510Lqln/mLUm4q6syHv\r\nSsjde57vMeLi9nxDrdEBGHXmgxZjLDx8Le5dpa27ML1RXt1V1ZbjbrV5i3Fp8qmg\r\nBR+P+/OVjezv3InbX/Ca8K7HC9PxwqS8Bsdkz8J0wl8IGgNNNUacDDpp/gItUbii\r\n...
-[HTTP] <-- GET /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/screenshot 200 101 ms - 515554
+[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["bf6d673f-be55-4d0c-9ca0-c47020fc7a34"]
+[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8202/wd/hub/session/e127d401-22f0-46bb-9625-81be2ee3ae8a/screenshot] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"e127d401-22f0-46bb-9625-81be2ee3ae8a\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAIAAACkA3BdAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzsvXncZkdVJ37O0510EuhOyAZJOgshEBLCDgkwyKossigwgApBQQgofERH\\nHXB+yA8YdYAZRBBxAMEggiM4AmERDJsSCIQlJERCgGxk39dO6E76qfnj3qpby6mqU3XrPu\\/zvH2+\\nhH6fe2\\/VqVP7WWrBg49+BwgEAoFAIBAIBALBMmG21gwIBAKBQCAQCAQCgQ9RVAQCgUAgEAgEAsHS\\nQRQVgUAgEAgEAoFAsHQQRUUgEAgEAoFAIBAsHURREQgEAoFAIBAIBEsHUVQEAoFAIBAIBALB0kEU\\nFYFAIBAIBAKBQLB0EEVFIBAIBAKBQCAQLB1EUREIBAKBQCAQCARLB1FUBAKBQCAQCAQCwdJBFBWB\\nQCAQCAQCgUCwdBBFRSAQCAQCgUAgECwdRFERCAQCgUAgEAgESwdRVAQCgUAgEAgEAsHSQRQVgUAg\\nEAgEAoFAsHTYuNYMCMZit9027L1l9z332I0TWCm1ffvOm2\\/dvn37zqkZEwgEAoFAIBCsM5z1tZft\\nv9+e5Kerr73twY\\/+m4ZpiaKy2th99w2PeNghj\\/+5w\\/fZZw9mlO3b77z8ylvP+M7lZ59z9W233zEp\\newKBQCAQCATLic2bd3\\/IA+5xzyP2OeKwfe51z7vtt++e+2zZtPfemzbfddO2bTtuvHn7TTf\\/7Nrr\\nbr\\/4pzddePGN5194w\\/e+f9UNN\\/5srbnetSCKygpj9903PPLhh7zsNx78qOO3btq0gR9x2213fPNb\\nl73n5DO\\/9o1LlJqOQYFAIBAIBIIlwsaNs8c++rBfeNw9H\...
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAIAAACkA3BdAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzsvXncZkdVJ37O0510EuhOyAZJOgshEBLCDgkwyKossigwgApBQQgofERH\nHXB+yA8YdYAZRBBxAMEggiM4AmERDJsSCIQlJERCgGxk39dO6E76qfnj3qpby6mqU3XrPu/zvH2+\nhH6fe2/VqVP7WWrBg49+BwgEAoFAIBAIBALBMmG21gwIBAKBQCAQCAQCgQ9RVAQCgUAgEAgEAsHS\nQRQVgUAgEAgEAoFAsHQQRUUgEAgEAoFAIBAsHURREQgEAoFAIBAIBEsHUVQEAoFAIBAIBALB0kEU\nFYFAIBAIBAKBQLB0EEVFIBAIBAKBQCAQLB1EUREIBAKBQCAQCARLB1FUBAKBQCAQCAQCwdJBFBWB\nQCAQCAQCgUCwdBBFRSAQCAQCgUAgECwdRFERCAQCgUAgEAgESwdRVAQCgUAgEAgEAsHSQRQVgUAg\nEAgEAoFAsHTYuNYMCMZit9027L1l9z332I0TWCm1ffvOm2/dvn37zqkZEwgEAoFAIBCsM5z1tZft\nv9+e5Kerr73twY/+m4ZpiaKy2th99w2PeNghj/+5w/fZZw9mlO3b77z8ylvP+M7lZ59z9W233zEp\newKBQCAQCATLic2bd3/IA+5xzyP2OeKwfe51z7vtt++e+2zZtPfemzbfddO2bTtuvHn7TTf/7Nrr\nbr/4pzddePGN5194w/e+f9UNN/5srbnetSCKygpj9903PPLhh7zsNx78qOO3btq0gR9x2213fPNb\nl73n5DO/9o1LlJqOQYFAIBAIBIIlwsaNs8c++rBfeNw9H/7Qg48+aj9EOtiWLZu2bNkEsMV7f8FF\nN37ru5d//YzLvvaNS6648tbJ2d3lIYrKqqJaSwGAu+y126NO2Pqj868/97xrr7v+9ok4FAgEAoFA\nIFgSHP...
+[HTTP] <-- GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/screenshot 200 545 ms - 637578
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/source
+[HTTP] --> GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/source
 [HTTP] {}
-[debug] [W3C] Calling AppiumDriver.getPageSource() with args: ["ce95b248-a26c-4922-9b0c-9df857bde39e"]
-[debug] [XCUITest] Executing command 'getPageSource'
-[debug] [JSONWP Proxy] Proxying [GET /source] to [GET http://localhost:61229/session/E85EC079-BECC-4829-87E9-426E2A1DE816/source] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\n<XCUIElementTypeApplication type=\\\"XCUIElementTypeApplication\\\" name=\\\"PeraHub\\\" label=\\\"PeraHub\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n  <XCUIElementTypeWindow type=\\\"XCUIElementTypeWindow\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n    <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"false\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\"\\/>\\n    <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n      <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\\" enabled=\\\"true\\\" visible=\\\"true\\\" x=\\\"0\\\" y=\\\"0\\\" width=\\\"320\\\" height=\\\"568\\\">\\n        <XCUIElementTypeOther type=\\\"XCUIElementTypeOther\\...
-[debug] [MJSONWP] Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><AppiumAUT><XCUIElementTypeApplication type=\"XCUIElementTypeApplication\" name=\"PeraHub\" label=\"PeraHub\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n  <XCUIElementTypeWindow type=\"XCUIElementTypeWindow\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"false\" x=\"0\" y=\"0\" width=\"320\" height=\"568\"/>\n    <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n      <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"568\">\n        <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\" x=\"0\" y=\"0\" width=\"320\" height=\"84\">\n          <XCUIElementTypeOther type=\"XCUIElementTypeOther\" enabled=\"true\" visible=\"true\"...
-[HTTP] <-- GET /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/source 200 2299 ms - 60973
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/source] to [GET http://localhost:8202/wd/hub/session/e127d401-22f0-46bb-9625-81be2ee3ae8a/source] with body: {}
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"e127d401-22f0-46bb-9625-81be2ee3ae8a\",\"status\":0,\"value\":\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?><hierarchy rotation=\\\"0\\\"><android.widget.FrameLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.FrameLayout\\\" package=\\\"com.whitecloak.perahub.dev\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" selected=\\\"false\\\" bounds=\\\"[0,0][1080,1776]\\\" resource-id=\\\"\\\" instance=\\\"0\\\"><android.widget.LinearLayout index=\\\"0\\\" text=\\\"\\\" class=\\\"android.widget.LinearLayout\\\" package=\\\"com.whitecloak.perahub.dev\\\" content-desc=\\\"\\\" checkable=\\\"false\\\" checked=\\\"false\\\" clickable=\\\"false\\\" enabled=\\\"true\\\" focusable=\\\"false\\\" focused=\\\"false\\\" scrollable=\\\"false\\\" long-clickable=\\\"false\\\" password=\\\"false\\\" select...
+[JSONWP Proxy] Replacing sessionId e127d401-22f0-46bb-9625-81be2ee3ae8a with bf6d673f-be55-4d0c-9ca0-c47020fc7a34
+[HTTP] <-- GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/source 200 127 ms - 8519
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/screenshot
+[HTTP] --> GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/screenshot
 [HTTP] {}
-[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["ce95b248-a26c-4922-9b0c-9df857bde39e"]
-[debug] [XCUITest] Executing command 'getScreenshot'
-[debug] [XCUITest] Taking screenshot with WDA
-[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:61229/session/E85EC079-BECC-4829-87E9-426E2A1DE816/screenshot] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAoAAAARwCAIAAAD17XJXAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAI4AAAAKAAAAjgAAAI4AANx+Vy9ZGIAAEAASURBVHgB\\r\\n7L2HexzV3fc96r1YZXvf6VskmySkPndIv9MDSeiQEIoBUwyY5oJ7kSxZsrq7gZA8\\r\\n9\\/2+79\\/4fn7n7K5m1Sy5YBMv17mW8ezsNM2cz\\/n+2jFizmygXYg5tNmYfVG1efmU\\r\\nDVg5FXPP0eL2xVqrbKb2EHemKs2+EJemNrPmAzsPHmjzZe9kzDsdc8\\/G3ElpHFeO\\r\\nXmv63OZj1nLUXolal6unqk9YfdZd0eYH2t5mUXeKpk5jSl3XbNKiXUyZ0pL2haQ9\\r\\nFXfPxt2TMf9YzP8s5M3Swu5Fac48LSqtehvVRant+clpWvAeVu9V7WJZUOe\\/+ufY\\r\\n+f3c3mVWD32nt+sbt5+oPU2r3ee4s5D0llL+Jd2S\\/pVAu5T0L8VLc\\/HigrTCcqy4\\r\\nHC2sRPzFsD8XKdBmY8WLscJ8srDMr1Le9ZR7Uz6lXVVNL19P+9fUbi8lC4vVxk\\/Y\\r\\n\\/5VY8Uq8cCleXEwVFtL+YtZbTnmcw9V4ga+WI+XZWGkx5v8z6X6V8hfThQvJAie8\\r\\nkrCvp+zP096VjH817fwzZbOBbBN3\\/yfu\\/ps9p3zZT9q9LtsXFtmbassciN1y0Jj\\/\\r\\nBbuNy4GWk8U5NmN7OX\\/nf1LuP\\/UpRUqLEbVl3GPL65yV3CV1eknvesy\\/Scs4V7KO\\r\\nXGbSuRF1r8e8axF\\/Wd4Fj9f5HK82D796m3iRF3mLv3EPzH\\/YCUed2WCLuRcfnBb3\\r\\n5mptzVnV1sfdy6otx93luLeo2nzcm4\\/7s9ICe5CV3nzSnVVtLuks89Y...
-[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAoAAAARwCAIAAAD17XJXAAAAAXNSR0IArs4c6QAA\r\nABxpRE9UAAAAAgAAAAAAAAI4AAAAKAAAAjgAAAI4AANx+Vy9ZGIAAEAASURBVHgB\r\n7L2HexzV3fc96r1YZXvf6VskmySkPndIv9MDSeiQEIoBUwyY5oJ7kSxZsrq7gZA8\r\n9/2+79/4fn7n7K5m1Sy5YBMv17mW8ezsNM2cz/n+2jFizmygXYg5tNmYfVG1efmU\r\nDVg5FXPP0eL2xVqrbKb2EHemKs2+EJemNrPmAzsPHmjzZe9kzDsdc8/G3ElpHFeO\r\nXmv63OZj1nLUXolal6unqk9YfdZd0eYH2t5mUXeKpk5jSl3XbNKiXUyZ0pL2haQ9\r\nFXfPxt2TMf9YzP8s5M3Swu5Fac48LSqtehvVRant+clpWvAeVu9V7WJZUOe/+ufY\r\n+f3c3mVWD32nt+sbt5+oPU2r3ee4s5D0llL+Jd2S/pVAu5T0L8VLc/HigrTCcqy4\r\nHC2sRPzFsD8XKdBmY8WLscJ8srDMr1Le9ZR7Uz6lXVVNL19P+9fUbi8lC4vVxk/Y\r\n/5VY8Uq8cCleXEwVFtL+YtZbTnmcw9V4ga+WI+XZWGkx5v8z6X6V8hfThQvJAie8\r\nkrCvp+zP096VjH817fwzZbOBbBN3/yfu/ps9p3zZT9q9LtsXFtmbassciN1y0Jj/\r\nBbuNy4GWk8U5NmN7OX/nf1LuP/UpRUqLEbVl3GPL65yV3CV1eknvesy/Scs4V7KO\r\nXGbSuRF1r8e8axF/Wd4Fj9f5HK82D796m3iRF3mLv3EPzH/YCUed2WCLuRcfnBb3\r\n5mptzVnV1sfdy6otx93luLeo2nzcm4/7s9ICe5CV3nzSnVVtLuks89Yk7C8S9s2E\r\ncynhTyX8Cfn05uSfziX5eWEqUbiY8OdVW+JFS7qX5VMa791C0r9Ik21WN9Mb133K\r\n...
-[HTTP] <-- GET /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e/screenshot 200 149 ms - 644910
+[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["bf6d673f-be55-4d0c-9ca0-c47020fc7a34"]
+[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:8202/wd/hub/session/e127d401-22f0-46bb-9625-81be2ee3ae8a/screenshot] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"e127d401-22f0-46bb-9625-81be2ee3ae8a\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAIAAACkA3BdAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\\n2+FP4AAAIABJREFUeJzsnXeAFsXZwGfe9\\/pxld67VOlNRQEbNuy9axSNsXyJJmqiRo0pGk1sKWr0\\n0xhjPmMsqFiwEAERBCmiCEjvB8cddxzHHXfvfH9sm76z++5ewecXw727O\\/NM3dl55pmCuwx4DAEA\\nAAAAAAAAALQkEs0dAQAAAAAAAAAAAB5QVAAAAAAAAAAAaHGAogIAAAAAAAAAQIsDFBUAAAAAAAAA\\nAFocoKgAAAAAAAAAANDiAEUFAAAAAAAAAIAWBygqAAAAAAAAAAC0OEBRAQAAAAAAAACgxQGKCgAA\\nAAAAAAAALQ5QVAAAAAAAAAAAaHGAogIAAAAAAAAAQIsDFBUAAAAAAAAAAFocoKgAAAAAAAAAANDi\\nAEUFAAAAAAAAAIAWBygqAAAAAAAAAAC0ODKaOwJAumRmJosKs3JzMk0cE0Lq6hqr9tXV1TXGHTEA\\nAAAAAADgEGPZvGvbtc2VPirbvX\\/kxL9FGBYoKq2brKzkhDFdpxzds7g4x9BLXV3Dth37Fi7etnxF\\n2f7ag7FGDwAAAAAAoGVSUJA1alin3r2Ke\\/Uo7tu7pG1pbnFhdlFRdkGb7Jqa+sqqur1VB3aX127c\\ntHf9xsq16yuWfrWzovJAc8f6+wUoKq2YrKzkEWO7XnvlyCPHdcvOTpp7rNl\\/cMEXW596fsm8zzcT\\nEl8EAQAAAAAAWhAZGYlJE3ucMLn32NFdBvRri7HcWWFhdmFhNkKF3P11Gyq\\/+HLbZwu3zvt88\\/Yd\\n+2KP7vceUFRaK6G1FIRQfl7mkeO7rV67Z+Wq3eV7amOKIQAAAAAAQAth...
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAIAAACkA3BdAAAAAXNSR0IArs4c6QAAAANzQklUCAgI\n2+FP4AAAIABJREFUeJzsnXeAFsXZwGfe9/pxld67VOlNRQEbNuy9axSNsXyJJmqiRo0pGk1sKWr0\n0xhjPmMsqFiwEAERBCmiCEjvB8cddxzHHXfvfH9sm76z++5ewecXw727O/NM3dl55pmCuwx4DAEA\nAAAAAAAAALQkEs0dAQAAAAAAAAAAAB5QVAAAAAAAAAAAaHGAogIAAAAAAAAAQIsDFBUAAAAAAAAA\nAFocoKgAAAAAAAAAANDiAEUFAAAAAAAAAIAWBygqAAAAAAAAAAC0OEBRAQAAAAAAAACgxQGKCgAA\nAAAAAAAALQ5QVAAAAAAAAAAAaHGAogIAAAAAAAAAQIsDFBUAAAAAAAAAAFocoKgAAAAAAAAAANDi\nAEUFAAAAAAAAAIAWBygqAAAAAAAAAAC0ODKaOwJAumRmJosKs3JzMk0cE0Lq6hqr9tXV1TXGHTEA\nAAAAAADgEGPZvGvbtc2VPirbvX/kxL9FGBYoKq2brKzkhDFdpxzds7g4x9BLXV3Dth37Fi7etnxF\n2f7ag7FGDwAAAAAAoGVSUJA1alin3r2Ke/Uo7tu7pG1pbnFhdlFRdkGb7Jqa+sqqur1VB3aX127c\ntHf9xsq16yuWfrWzovJAc8f6+wUoKq2YrKzkEWO7XnvlyCPHdcvOTpp7rNl/cMEXW596fsm8zzcT\nEl8EAQAAAAAAWhAZGYlJE3ucMLn32NFdBvRri7HcWWFhdmFhNkKF3P11Gyq/+HLbZwu3zvt88/Yd\n+2KP7vceUFRaK6G1FIRQfl7mkeO7rV67Z+Wq3eV7amOKIQAAAAAAQAth3Ogu55wx8IyTDysoyAot\npE+v4j69ii84ezBCaN2Gyn/95+sX/vnVvpr66KIJMOAuAx5r7jgAgaG1FITQ5q1Vu3bXIIQKC7K7\ndy1saE...
+[HTTP] <-- GET /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34/screenshot 200 185 ms - 111746
 [HTTP] 
-[HTTP] --> DELETE /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e
+[debug] [UiAutomator2] [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+[debug] [UiAutomator2] [UIAutomator2] Time: 122.167
+[debug] [UiAutomator2] [UIAutomator2] OK (1 test)
+[HTTP] --> DELETE /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34
 [HTTP] {}
-[debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["ce95b248-a26c-4922-9b0c-9df857bde39e"]
-[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1542700055731 (15:47:35 GMT+0800 (Philippine Standard Time))
-[Appium] Removing session ce95b248-a26c-4922-9b0c-9df857bde39e from our master session list
-[debug] [JSONWP Proxy] Proxying [DELETE /session/ce95b248-a26c-4922-9b0c-9df857bde39e] to [DELETE http://localhost:61229/session/E85EC079-BECC-4829-87E9-426E2A1DE816] with no body
-[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"A694CA11-A69C-40D2-B572-A1C40D09852F\",\n  \"status\" : 0\n}"
-[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
-[debug] [iOSLog] Stopping iOS log capture
-[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1542700056100 (15:47:36 GMT+0800 (Philippine Standard Time))
+[debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["bf6d673f-be55-4d0c-9ca0-c47020fc7a34"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1542713655537 (19:34:15 GMT+0800 (Philippine Standard Time))
+[Appium] Removing session bf6d673f-be55-4d0c-9ca0-c47020fc7a34 from our master session list
+[debug] [UiAutomator2] Deleting UiAutomator2 session
+[debug] [UiAutomator2] Deleting UiAutomator2 server session
+[debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8202/wd/hub/session/e127d401-22f0-46bb-9625-81be2ee3ae8a] with no body
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.whitecloak.perahub.dev'
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Removing forwarded port socket connection: 8202 
+[debug] [ADB] Running '/Users/buenaanda/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:8202'
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1542713655706 (19:34:15 GMT+0800 (Philippine Standard Time))
 [debug] [MJSONWP] Received response: null
 [debug] [MJSONWP] But deleting session, so not returning
 [debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
-[HTTP] <-- DELETE /wd/hub/session/ce95b248-a26c-4922-9b0c-9df857bde39e 200 370 ms - 76
+[HTTP] <-- DELETE /wd/hub/session/bf6d673f-be55-4d0c-9ca0-c47020fc7a34 200 193 ms - 76
 [HTTP] 

@@ -27,11 +27,18 @@ public class object {
 	}
 
 	def select(TestObject to, String value) {
+		String textfieldXpath = "//*[@type = 'XCUIElementTypeTextField' and @value = 'Search here']"
+		String firstResultXpath = String.format("//*[@type='XCUIElementTypeStaticText' and @value='%s']", value)
+		
+		if(Mobile.verifyElementExist(findTestObject("//*[@resource-id = 'com.whitecloak.perahub.dev:id/etSearch']"), 2, FailureHandling.OPTIONAL) == true) {
+			textfieldXpath = "//*[@resource-id = 'com.whitecloak.perahub.dev:id/etSearch']"
+			firstResultXpath = String.format("//*[@resource-id = 'com.whitecloak.perahub.dev:id/text_choices' and @text='%s']", value)
+		}
+		
 		tap(to)
-		MobileElement searchHereField = driver.findElementByXPath("//*[@type = 'XCUIElementTypeTextField' and @value = 'Search here']")
+		MobileElement searchHereField = driver.findElementByXPath(textfieldXpath)
 		searchHereField.sendKeys(value)
-		String firstResultLocator = String.format("//*[@type='XCUIElementTypeStaticText' and @value='%s']", value)
-		MobileElement firstResult = driver.findElementByXPath(firstResultLocator)
+		MobileElement firstResult = driver.findElementByXPath(firstResultXpath)
 		firstResult.click()
 	}
 
