@@ -11,7 +11,7 @@ CustomKeywords.'iOS.registration_screen.tapPrivacyPolicy'()
 TestObject Privacy_Policy = findTestObject('iOS/Global/Generic text', [('label') : 'Privacy Policy'])
 CustomKeywords.'global.verify_element.exist'(Privacy_Policy)
 CustomKeywords.'iOS.registration_screen.tapTermsAndAgreement'()
-TestObject Terms_And_Agreement = findTestObject('iOS/Global/Generic text', [('label') : 'Terms and Conditions'])
+TestObject Terms_And_Agreement = findTestObject('iOS/Global/Generic text', [('label') : 'Terms and Conditions of the PERA HUB Mobile Application Service'])
 CustomKeywords.'global.verify_element.exist'(Terms_And_Agreement)
 
 CustomKeywords.'iOS.registration_screen.checkTermsAndAgreement'()

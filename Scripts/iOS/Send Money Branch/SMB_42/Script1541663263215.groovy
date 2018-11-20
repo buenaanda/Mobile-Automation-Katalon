@@ -6,7 +6,7 @@ String senderName = "Allen Pogi Crisostomo"
 String receiverName = GlobalVariable.randomFirstName +" "+ GlobalVariable.randomMiddleName +" "+ GlobalVariable.randomLastName
 String receiverMobileNumber = "66"+ GlobalVariable.randomMobileNumber
 String serviceFee = "500.00 PHP"
-String sendAmount = GlobalVariable.randomAmount + " PHP"
+String sendAmount = GlobalVariable.randomAmount + ".00 PHP"
 String senderMobileNumber = "63" + GlobalVariable.mobileNumber
 
 TestObject Sender_Mobile_Number = findTestObject('iOS/Global/Generic text', [('label') : senderMobileNumber])

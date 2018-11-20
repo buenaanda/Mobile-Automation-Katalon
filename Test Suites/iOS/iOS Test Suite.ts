@@ -4,7 +4,7 @@
    <name>iOS Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-19T21:07:50</lastRun>
+   <lastRun>2018-11-20T15:48:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>15</pageLoadTimeout>
