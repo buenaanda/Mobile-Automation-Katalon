@@ -25,6 +25,7 @@ public class verify_element {
 
 	@Keyword
 	def text(TestObject to, String text) {
+		Mobile.waitForElementPresent(to, 10, FailureHandling.CONTINUE_ON_FAILURE)
 		Mobile.verifyElementText(to, text, FailureHandling.CONTINUE_ON_FAILURE)
 	}
 

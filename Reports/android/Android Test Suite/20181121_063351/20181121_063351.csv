@@ -1,0 +1,129 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Android Test Suite,,,2018-11-21 06:33:53,2018-11-21 11:06:59,4h - 33m - 6.291s,FAILED
+,,,,,,
+Test Cases/android/Login/LOG_01,,,2018-11-21 06:33:53,2018-11-21 07:19:20,45m - 26.489s,PASSED
+startApplication,,,2018-11-21 06:33:53,2018-11-21 07:00:36,26m - 42.465s,PASSED
+android.initial_screen.tapLogin,,,2018-11-21 07:00:36,2018-11-21 07:18:59,18m - 23.130s,PASSED
+hideKeyboard,,,2018-11-21 07:18:59,2018-11-21 07:19:09,9.660s,PASSED
+global.verify_element.exist,,,2018-11-21 07:19:09,2018-11-21 07:19:18,9.796s,PASSED
+global.verify_element.exist,,,2018-11-21 07:19:18,2018-11-21 07:19:19,0.309s,PASSED
+global.verify_element.exist,,,2018-11-21 07:19:19,2018-11-21 07:19:19,0.353s,PASSED
+global.verify_element.exist,,,2018-11-21 07:19:19,2018-11-21 07:19:19,0.290s,PASSED
+global.verify_element.exist,,,2018-11-21 07:19:19,2018-11-21 07:19:20,0.266s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_02,,,2018-11-21 07:19:20,2018-11-21 07:19:23,3.600s,PASSED
+android.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-21 07:19:20,2018-11-21 07:19:22,1.962s,PASSED
+global.verify_element.text,,,2018-11-21 07:19:22,2018-11-21 07:19:23,1.248s,PASSED
+global.verify_element.disabled,,Login button is disabled,2018-11-21 07:19:23,2018-11-21 07:19:23,0.296s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_03,,,2018-11-21 07:19:23,2018-11-21 07:37:27,18m - 3.491s,PASSED
+android.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-21 07:19:23,2018-11-21 07:37:15,17m - 51.213s,PASSED
+global.verify_element.text,,,2018-11-21 07:37:15,2018-11-21 07:37:27,12.063s,PASSED
+global.verify_element.enabled,,Login button is enabled,2018-11-21 07:37:27,2018-11-21 07:37:27,0.163s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_04,,,2018-11-21 07:37:27,2018-11-21 10:51:38,3h - 14m - 11.080s,PASSED
+android.login_screen.tapLogin,,Tap Login button,2018-11-21 07:37:27,2018-11-21 07:52:57,15m - 30.161s,PASSED
+global.wait_for_element.visible,,,2018-11-21 07:52:57,2018-11-21 07:53:24,27.193s,PASSED
+global.verify_element.exist,,,2018-11-21 07:53:24,2018-11-21 08:08:50,15m - 26.114s,PASSED
+global.verify_element.notClickable,,,2018-11-21 08:08:50,2018-11-21 08:09:07,16.260s,PASSED
+global.verify_element.exist,,,2018-11-21 08:09:07,2018-11-21 09:15:04,1h - 5m - 57.736s,PASSED
+delay,,,2018-11-21 09:15:04,2018-11-21 10:51:37,1h - 36m - 32.365s,PASSED
+global.verify_element.clickable,,,2018-11-21 10:51:37,2018-11-21 10:51:38,1.080s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_05,,,2018-11-21 10:51:38,2018-11-21 10:51:51,13.017s,PASSED
+android.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-21 10:51:38,2018-11-21 10:51:41,2.268s,PASSED
+global.verify_element.text,,User will redirect in My Accounts screen,2018-11-21 10:51:41,2018-11-21 10:51:51,10.212s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_06,,,2018-11-21 10:51:51,2018-11-21 10:52:29,38.169s,PASSED
+startApplication,,,2018-11-21 10:51:51,2018-11-21 10:52:13,21.992s,PASSED
+android.initial_screen.tapLogin,,,2018-11-21 10:52:13,2018-11-21 10:52:15,1.474s,PASSED
+android.login_screen.enterUsername,,Enter invalid username in Username text field,2018-11-21 10:52:15,2018-11-21 10:52:16,1.685s,PASSED
+android.login_screen.enterPassword,,Enter valid Password,2018-11-21 10:52:16,2018-11-21 10:52:19,2.593s,PASSED
+android.login_screen.tapLogin,,Tap LOGIN button,2018-11-21 10:52:19,2018-11-21 10:52:24,5.281s,PASSED
+global.verify_element.notExist,,,2018-11-21 10:52:24,2018-11-21 10:52:29,5.051s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_07,,,2018-11-21 10:52:29,2018-11-21 10:52:31,2.171s,PASSED
+android.login_screen.enterUsername,,Leave Username field as blank,2018-11-21 10:52:29,2018-11-21 10:52:31,1.428s,PASSED
+global.verify_element.disabled,,,2018-11-21 10:52:31,2018-11-21 10:52:31,0.706s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_08,,,2018-11-21 10:52:31,2018-11-21 10:52:47,15.208s,PASSED
+android.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-21 10:52:31,2018-11-21 10:52:33,1.435s,PASSED
+android.login_screen.enterPassword,,Enter invalid password in Password field,2018-11-21 10:52:33,2018-11-21 10:52:35,1.959s,PASSED
+android.login_screen.tapLogin,,Tap LOGIN button,2018-11-21 10:52:35,2018-11-21 10:52:42,6.765s,PASSED
+global.verify_element.notExist,,,2018-11-21 10:52:42,2018-11-21 10:52:47,5.018s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_09,,,2018-11-21 10:52:47,2018-11-21 10:52:49,2.148s,PASSED
+android.login_screen.enterPassword,,Leave Password field as blank,2018-11-21 10:52:47,2018-11-21 10:52:48,1.409s,PASSED
+global.verify_element.disabled,,,2018-11-21 10:52:48,2018-11-21 10:52:49,0.709s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_10,,,2018-11-21 10:52:49,2018-11-21 10:53:05,16.480s,FAILED
+android.login_screen.enterUsername,,,2018-11-21 10:52:49,2018-11-21 10:52:50,1.424s,PASSED
+android.login_screen.enterPassword,,,2018-11-21 10:52:50,2018-11-21 10:52:52,1.953s,PASSED
+android.login_screen.tapLogin,,Tap LOGIN button,2018-11-21 10:52:52,2018-11-21 10:52:59,6.601s,PASSED
+android.otp_verification_screen.enterOTP,,Enter invalid OTP,2018-11-21 10:52:59,2018-11-21 10:52:59,0.646s,PASSED
+global.verify_element.notExist,,,2018-11-21 10:52:59,2018-11-21 10:53:05,5.795s,FAILED
+,,,,,,
+Test Cases/android/Login/LOG_11,,,2018-11-21 10:53:05,2018-11-21 10:54:22,1m - 16.824s,FAILED
+delay,,Wait for the OTP timer to end,2018-11-21 10:53:05,2018-11-21 10:54:05,1m - 0.005s,PASSED
+android.otp_verification_screen.tapResend,,Tap RESEND button,2018-11-21 10:54:05,2018-11-21 10:54:22,16.782s,FAILED
+,,,,,,
+Test Cases/android/Login/LOG_12,,,2018-11-21 10:54:22,2018-11-21 10:55:04,42.062s,PASSED
+android.otp_verification_screen.enterOTP,,,2018-11-21 10:54:22,2018-11-21 10:54:53,30.575s,PASSED
+global.wait_for_element.visible,,,2018-11-21 10:54:53,2018-11-21 10:54:53,0.607s,PASSED
+startApplication,,,2018-11-21 10:54:53,2018-11-21 10:55:03,10.099s,PASSED
+global.verify_element.text,,,2018-11-21 10:55:03,2018-11-21 10:55:04,0.558s,PASSED
+global.verify_element.exist,,,2018-11-21 10:55:04,2018-11-21 10:55:04,0.151s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_13,,,2018-11-21 10:55:04,2018-11-21 10:55:14,9.973s,PASSED
+android.login_screen.enterSignInPassword,,Enter valid password in Password text field,2018-11-21 10:55:04,2018-11-21 10:55:06,1.474s,PASSED
+android.login_screen.tapSignIn,,Tap Login button,2018-11-21 10:55:06,2018-11-21 10:55:10,4.509s,PASSED
+android.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-21 10:55:10,2018-11-21 10:55:11,0.563s,PASSED
+global.verify_element.text,,,2018-11-21 10:55:11,2018-11-21 10:55:14,3.145s,PASSED
+closeApplication,,,2018-11-21 10:55:14,2018-11-21 10:55:14,0.219s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_14,,,2018-11-21 10:55:14,2018-11-21 10:55:39,25.153s,PASSED
+startApplication,,,2018-11-21 10:55:14,2018-11-21 10:55:28,13.388s,PASSED
+android.login_screen.enterSignInPassword,,Enter valid password in Password text field,2018-11-21 10:55:28,2018-11-21 10:55:29,1.704s,PASSED
+android.login_screen.tapSignIn,,Tap Login button,2018-11-21 10:55:29,2018-11-21 10:55:34,4.967s,PASSED
+global.verify_element.notExist,,,2018-11-21 10:55:34,2018-11-21 10:55:39,5.009s,PASSED
+,,,,,,
+Test Cases/android/Login/LOG_20,,,2018-11-21 10:55:39,2018-11-21 11:06:22,10m - 42.340s,FAILED
+startApplication,,,2018-11-21 10:55:39,2018-11-21 10:55:55,15.998s,PASSED
+android.initial_screen.tapLogin,,,2018-11-21 10:55:55,2018-11-21 10:55:57,1.452s,PASSED
+android.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-21 10:55:57,2018-11-21 10:55:58,1.577s,PASSED
+android.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-21 10:55:58,2018-11-21 10:56:00,2.023s,PASSED
+android.login_screen.tapLogin,,Tap Login button,2018-11-21 10:56:00,2018-11-21 10:56:05,4.920s,PASSED
+android.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-21 10:56:05,2018-11-21 10:56:05,0.203s,PASSED
+delay,,Do not make any activities for 5 minutes,2018-11-21 10:56:05,2018-11-21 11:06:05,10m - 0.023s,PASSED
+android.navigation_menu.tapTransferMoney,,,2018-11-21 11:06:05,2018-11-21 11:06:22,16.071s,FAILED
+,,,,,,
+Test Cases/android/Send Money Branch/SMB_01,,,2018-11-21 11:06:22,2018-11-21 11:06:58,36.317s,PASSED
+startApplication,,,2018-11-21 11:06:22,2018-11-21 11:06:40,17.987s,PASSED
+android.initial_screen.tapLogin,,,2018-11-21 11:06:40,2018-11-21 11:06:42,2.008s,PASSED
+android.login_screen.enterUsername,,Enter valid username in Username text field,2018-11-21 11:06:42,2018-11-21 11:06:43,1.610s,PASSED
+android.login_screen.enterPassword,,Enter valid password in Password text field,2018-11-21 11:06:43,2018-11-21 11:06:45,2.001s,PASSED
+android.login_screen.tapLogin,,Tap Login button,2018-11-21 11:06:45,2018-11-21 11:06:50,4.503s,PASSED
+android.otp_verification_screen.enterOTP,,Enter valid OTP,2018-11-21 11:06:50,2018-11-21 11:06:51,1.118s,PASSED
+android.navigation_menu.tapTransferMoney,,,2018-11-21 11:06:51,2018-11-21 11:06:55,3.966s,PASSED
+android.transfer_money_screen.tapSendMoney,,,2018-11-21 11:06:55,2018-11-21 11:06:56,1.075s,PASSED
+android.transfer_money_screen.tapBranchTransaction,,,2018-11-21 11:06:56,2018-11-21 11:06:58,1.738s,PASSED
+global.verify_element.exist,,,2018-11-21 11:06:58,2018-11-21 11:06:58,0.147s,PASSED
+,,,,,,
+Test Cases/android/Send Money Branch/SMB_07,,,2018-11-21 11:06:58,2018-11-21 11:06:58,0.055s,ERROR
+android.send_money_screen.tapPersonalInformation,,,2018-11-21 11:06:58,2018-11-21 11:06:58,0.002s,ERROR
+,,,,,,
+Test Cases/android/Send Money Branch/SMB_02,,,2018-11-21 11:06:58,2018-11-21 11:06:58,0.055s,ERROR
+android.send_money_screen.tapPersonalInformation,,Tap Personal Information button,2018-11-21 11:06:58,2018-11-21 11:06:58,0.001s,ERROR
+,,,,,,
+Test Cases/android/Send Money Branch/SMB_03,,,2018-11-21 11:06:58,2018-11-21 11:06:59,1.094s,ERROR
+Statement - randomFirstName = new global.random_data().firstName(),,,2018-11-21 11:06:58,2018-11-21 11:06:59,0.715s,PASSED
+Statement - randomLastName = new global.random_data().lastName(),,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.120s,PASSED
+Statement - randomMobileNumber = new global.random_data().mobileNumber(),,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.117s,PASSED
+Statement - firstName = randomFirstName,,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.000s,PASSED
+Statement - lastName = randomLastName,,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.000s,PASSED
+Statement - mobileNumber = randomMobileNumber,,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.002s,PASSED
+"Statement - receiverName = firstName + ""  "" + lastName",,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.000s,PASSED
+android.send_money_screen.enterFirstName,,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.001s,ERROR
+,,,,,,
+Test Cases/android/Send Money Branch/SMB_04,,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.048s,ERROR
+android.send_money_screen.tapPersonalInformation,,,2018-11-21 11:06:59,2018-11-21 11:06:59,0.001s,ERROR

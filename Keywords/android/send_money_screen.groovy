@@ -8,6 +8,7 @@ import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import com.kms.katalon.core.model.FailureHandling
 
 import io.appium.java_client.AppiumDriver
 import global.wait_for_element
@@ -150,7 +151,11 @@ public class send_money_screen {
 
 	@Keyword
 	def tapClose() {
-		tap(findTestObject('android/Global/x button'))
+		String button = 'android/Global/x button'
+		if(Mobile.verifyElementVisible(findTestObject(button), 5, FailureHandling.OPTIONAL) == false) {
+			button = 'android/Global/Close button'
+		}
+		tap(findTestObject(button))
 	}
 
 	@Keyword

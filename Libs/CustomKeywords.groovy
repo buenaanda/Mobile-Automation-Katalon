@@ -562,6 +562,10 @@ def static "android.initial_screen.tapRegister"() {
     (new android.initial_screen()).tapRegister()
 }
 
+def static "android.navigation_menu.tapTransferMoney"() {
+    (new android.navigation_menu()).tapTransferMoney()
+}
+
 def static "iOS.otp_verification_screen.enterOTP"(
     	String otp	) {
     (new iOS.otp_verification_screen()).enterOTP(
@@ -570,10 +574,6 @@ def static "iOS.otp_verification_screen.enterOTP"(
 
 def static "iOS.otp_verification_screen.tapResend"() {
     (new iOS.otp_verification_screen()).tapResend()
-}
-
-def static "android.navigation_menu.tapTransferMoney"() {
-    (new android.navigation_menu()).tapTransferMoney()
 }
 
 def static "iOS.inactive_screen.tapOK"() {

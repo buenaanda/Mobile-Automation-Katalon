@@ -4,7 +4,7 @@
    <name>Android Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-20T19:34:32</lastRun>
+   <lastRun>2018-11-23T17:11:06</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>15</pageLoadTimeout>
@@ -152,13 +152,13 @@
    <testCaseLink>
       <guid>a1039711-54c7-4281-8583-f045102861d4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/android/Send Money Branch/SMB_05</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>044f241c-43c9-4628-9f17-19e8e6c23890</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/android/Send Money Branch/SMB_06</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
