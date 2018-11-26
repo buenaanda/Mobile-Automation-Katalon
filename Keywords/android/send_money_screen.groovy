@@ -49,13 +49,13 @@ public class send_money_screen {
 
 	@Keyword
 	def enterPhoneNumber(String phoneNumber) {
-		setText(findTestObject(testObjectPath + 'Phone Number field'), phoneNumber)
+		setText(findTestObject(testObjectPath + 'Landline Number field'), phoneNumber)
 	}
 
 	@Keyword
 	def tapCurrentAddress() {
 		(new wait_for_element()).visible(findTestObject(testObjectPath + 'Recipients Address button'))
-		tap(findTestObject(testObjectPath + 'Current Address button'))
+		tap(findTestObject(testObjectPath + 'Recipients Address button'))
 	}
 
 	@Keyword
@@ -71,8 +71,8 @@ public class send_money_screen {
 
 	@Keyword
 	def enterUnitHouseNumberBuildingStreet(String unitHouseNumberBuildingStreet) {
-		setText(findTestObject(testObjectPath + 'UnitHouse NumberBuildingStreet field'), unitHouseNumberBuildingStreet)
-		tap(findTestObject('iOS/Global/Toolbar Done button'))
+		setText(findTestObject(testObjectPath + 'UnitHouse numberBuildingStreet field'), unitHouseNumberBuildingStreet)
+		Mobile.hideKeyboard()
 	}
 
 	@Keyword
@@ -146,13 +146,13 @@ public class send_money_screen {
 	@Keyword
 	def tapSave() {
 		tap(findTestObject('android/Global/Save button'))
-		Mobile.delay(3)
+		Mobile.delay(2)
 	}
 
 	@Keyword
 	def tapClose() {
 		String button = 'android/Global/x button'
-		if(Mobile.verifyElementVisible(findTestObject(button), 5, FailureHandling.OPTIONAL) == false) {
+		if(Mobile.verifyElementVisible(findTestObject(button), 2, FailureHandling.OPTIONAL) == false) {
 			button = 'android/Global/Close button'
 		}
 		tap(findTestObject(button))

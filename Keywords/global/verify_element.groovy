@@ -46,13 +46,13 @@ public class verify_element {
 
 	@Keyword
 	def clickable(TestObject to) {
-		String attribute = Mobile.getAttribute(to, 'clickable', 10)
+		String attribute = Mobile.getAttribute(to, 'clickable', 5)
 		Mobile.verifyEqual(attribute, 'true')
 	}
 
 	@Keyword
 	def notClickable(TestObject to) {
-		String attribute = Mobile.getAttribute(to, 'clickable', 10)
+		String attribute = Mobile.getAttribute(to, 'clickable', 5)
 		Mobile.verifyEqual(attribute, 'false')
 	}
 

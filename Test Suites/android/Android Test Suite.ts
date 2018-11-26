@@ -4,7 +4,7 @@
    <name>Android Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-23T17:11:06</lastRun>
+   <lastRun>2018-11-26T19:40:13</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>15</pageLoadTimeout>
@@ -12,33 +12,33 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>4284b027-577f-4560-b389-93ed77febc85</testSuiteGuid>
    <testCaseLink>
-      <guid>4138944f-cccd-436a-9a9b-8a1cd414668f</guid>
+      <guid>420ac09a-420b-49bc-8f17-6b842793136f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_01</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6a0eeecb-3d11-43e6-a8ae-2e569cfed5f6</guid>
+      <guid>b5d017ce-1fad-4aa1-a48c-3d892408734d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_02</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0b2ea824-4218-454f-9884-8e46379cea77</guid>
+      <guid>d1c447e3-b482-4fed-aa2a-eb48e15a372b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_03</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7879027a-c03a-4e51-b30b-50e6525090f7</guid>
+      <guid>13550d39-f565-4f60-a798-ffda006add61</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_04</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5f337ae4-68e9-4687-ac39-282d40402d9e</guid>
+      <guid>974f7582-0dc4-49f8-8f7a-d6cefc7ba92a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_05</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -48,45 +48,45 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bb564f65-cb6e-4f26-9675-aa9f0676d76c</guid>
+      <guid>60b9603c-bb8c-4d91-ab26-8f34230d7868</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_06</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>31fa7bbd-42a5-47c0-92d8-501edaf6b99a</guid>
+      <guid>308e2f48-d034-4a1b-a1d9-efdac3a6d30f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_07</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>08ba9601-ac19-4735-9c00-83e3d77221f6</guid>
+      <guid>53588d9a-5fa4-4bba-a640-b76cf0391f47</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_08</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c607e087-125b-42cd-88c3-3b944864f7b8</guid>
+      <guid>c5390bf7-8e2a-46bf-a46c-9ca1ce9cf3ce</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_09</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>23c6e116-ef67-4581-9452-be25aca2a5b9</guid>
+      <guid>21b0c293-727f-45da-858a-3544a8c3c1e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_10</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5451a899-1648-4eed-b302-5b90c302df19</guid>
+      <guid>e6074d0e-5e6d-48df-8d74-6deab58ac902</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_11</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>608bb7ec-2207-486d-a520-6fc2ccf3a37c</guid>
+      <guid>c4957d70-ad0a-4799-9854-09da7af2222c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_12</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -96,9 +96,9 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>deb8f5f0-993a-48d0-83a8-ea7d07b8fe97</guid>
+      <guid>eb38e598-77a0-4ce8-8e10-426423ff3b6d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_13</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -108,57 +108,87 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>4ea75da4-a434-464e-b6b9-bf5e5331d54a</guid>
+      <guid>f9309817-68e7-4ac6-9935-2ec2ea36e507</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_14</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e746c6fd-2281-4a2c-aa3f-53bba78392cc</guid>
+      <guid>e463a6bb-249f-42e0-8b80-0f4bd1f76194</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Login/LOG_20</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>412105f9-a2a9-4f0a-aff9-887caefe7ecd</guid>
+      <guid>1ce76bd3-fd5f-4760-9af2-3cf7556ef780</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/android/Send Money Branch/SMB_01</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2f0a25e3-b392-4ecd-a583-6b7a32321c03</guid>
+      <guid>88a74653-c57a-4b20-9f56-aa90bb318a8b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Send Money Branch/SMB_07</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>132426ad-b2b0-405d-a644-f0da4375cb21</guid>
+      <guid>fc1bc6f8-902f-4067-8855-1c68f99ee9ff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Send Money Branch/SMB_02</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e5491005-9f39-45a6-baed-df45ba449e1d</guid>
+      <guid>8cabe0a4-96bd-46ba-82c4-7b93e29983ef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Send Money Branch/SMB_03</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2e431680-aace-4204-a920-7134f5011a77</guid>
+      <guid>90d9675f-ab4a-4b66-a0b1-e9617d7a0b00</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Send Money Branch/SMB_04</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a1039711-54c7-4281-8583-f045102861d4</guid>
+      <guid>4b1737c0-1b24-4ebe-9ab4-a85ed6480b76</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/android/Send Money Branch/SMB_05</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>044f241c-43c9-4628-9f17-19e8e6c23890</guid>
+      <guid>56b84994-04c5-43f5-a15c-7d8be884780a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_06</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a32deff-f97d-4454-a46e-bfbe4f1335be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_08</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0f7dfdb-1d8a-4eda-b810-9628e9722a0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/android/Send Money Branch/SMB_06</testCaseId>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_09</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>811e9146-5054-424c-ae2c-6c79f3811ca6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_17</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9e7c20fd-24a7-4133-b3b8-d17c0efbff53</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_18</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8995bdc6-4151-434d-b07a-44ed370b4d81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/android/Send Money Branch/SMB_19</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

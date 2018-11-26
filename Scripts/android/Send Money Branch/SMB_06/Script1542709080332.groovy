@@ -5,7 +5,7 @@ import internal.GlobalVariable as GlobalVariable
 String firstName = GlobalVariable.randomFirstName
 String middleName = GlobalVariable.randomMiddleName
 String lastName = GlobalVariable.randomLastName
-String mobileNumber = GlobalVariable.randomMobileNumber + " "
+String mobileNumber = GlobalVariable.randomMobileNumber + "\n"
 String firstNameLastName = firstName +"  "+ lastName
 
 CustomKeywords.'android.send_money_screen.tapPersonalInformation'()

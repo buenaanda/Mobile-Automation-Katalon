@@ -19,15 +19,20 @@ public class wait_for_element {
 
 	@Keyword
 	def loaderNotVisible() {
-		String loader
+		String loader = ''
+		int counter = 1
 		if(Mobile.verifyElementVisible(findTestObject('iOS/Global/Loader'), 2, FailureHandling.OPTIONAL) == true) {
 			loader = 'iOS/Global/Loader'
 		} else if (Mobile.verifyElementVisible(findTestObject('android/Global/Loader'), 2, FailureHandling.OPTIONAL) == true) {
-			loader = 'android/Gloabl/Loader'
+			loader = 'android/Global/Loader'
 		}
 		try {
 			while (Mobile.getAttribute(findTestObject(loader), 'visible', 2) == 'true') {
 				Mobile.delay(1)
+				counter = counter + 1
+				if(counter == 40) {
+					break
+				}
 			}
 		} catch(StepFailedException e) {
 		}

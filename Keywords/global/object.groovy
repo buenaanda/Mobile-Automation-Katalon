@@ -13,6 +13,7 @@ import io.appium.java_client.MobileBy
 import io.appium.java_client.MobileElement
 
 import internal.GlobalVariable
+import global.wait_for_element
 
 public class object {
 
@@ -27,15 +28,16 @@ public class object {
 	}
 
 	def select(TestObject to, String value) {
+		tap(to)
+		(new wait_for_element()).loaderNotVisible()
 		String textfieldXpath = "//*[@type = 'XCUIElementTypeTextField' and @value = 'Search here']"
 		String firstResultXpath = String.format("//*[@type='XCUIElementTypeStaticText' and @value='%s']", value)
-		
-		if(Mobile.verifyElementExist(findTestObject("//*[@resource-id = 'com.whitecloak.perahub.dev:id/etSearch']"), 2, FailureHandling.OPTIONAL) == true) {
+		String attribute = Mobile.getAttribute(findTestObject('android/Global/Dropdown Search field'), 'clickable', 2)
+		if(attribute == 'true') {
 			textfieldXpath = "//*[@resource-id = 'com.whitecloak.perahub.dev:id/etSearch']"
 			firstResultXpath = String.format("//*[@resource-id = 'com.whitecloak.perahub.dev:id/text_choices' and @text='%s']", value)
 		}
 		
-		tap(to)
 		MobileElement searchHereField = driver.findElementByXPath(textfieldXpath)
 		searchHereField.sendKeys(value)
 		MobileElement firstResult = driver.findElementByXPath(firstResultXpath)
